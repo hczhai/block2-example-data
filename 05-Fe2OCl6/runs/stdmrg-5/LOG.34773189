@@ -1,0 +1,16 @@
+/home/hczhai/program/anaconda3/envs/python3.7/bin/python3
+Python 3.8.5
+2.1.1
+/central/groups/changroup/members/hczhai/program/pyscf/pyscf/__init__.py
+/central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/stdmrg-5
+/home/hczhai/program/anaconda3/envs/python3.7/lib/python3.8/site-packages/block2.cpython-38-x86_64-linux-gnu.so
+/home/hczhai/program/anaconda3/envs/python3.7/lib/python3.8/site-packages/pyblock2/__init__.py
+SLURM_TASKS_PER_NODE=1
+OMP_NUM_THREADS=
+SLURM_JOBID=34773189
+SLURM_JOB_NAME=fe2o.5.hife
+HOST_NAME = hpc-19-37.cm.cluster
+PWD = /central/groups/changroup/members/hczhai/work/software/05-Fe2OCl6/runs/stdmrg-5
+SLURM_CPUS_PER_TASK=24
+/home/hczhai/program/anaconda3/envs/python3.7/bin/orterun
+SUCCESSFUL TERMINATION

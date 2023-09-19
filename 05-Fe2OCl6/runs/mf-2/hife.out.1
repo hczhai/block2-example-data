@@ -1,0 +1,651 @@
+START  TIME =  05/19/2023 21:03:45
+#INFO: **** input file is /central/groups/changroup/members/hczhai/work/software/05-Fe2OCl6/runs/mf-2/hife.py ****
+
+import time
+from datetime import datetime
+txst = time.perf_counter()
+print("START  TIME = ", datetime.now().strftime("%m/%d/%Y %H:%M:%S"))
+
+from pyscf import gto, scf
+mol = gto.Mole()
+mol.verbose = 4
+mol.atom = '''
+Fe     1.677856070000   0.000522330000   0.064759320000
+Fe    -1.677856070000  -0.000522330000   0.064759320000
+O      0.000000000000   0.000000000000  -0.470990740000
+Cl     1.870027040000  -1.097964370000   1.990916820000
+Cl     2.932449170000  -0.982104880000  -1.474672880000
+Cl     2.371609360000   2.079540910000  -0.504465910000
+Cl    -1.870027040000   1.097964370000   1.990916820000
+Cl    -2.932449170000   0.982104880000  -1.474672880000
+Cl    -2.371609360000  -2.079540910000  -0.504465910000
+
+'''
+mol.basis = "ccpvdz-dk"
+mol.spin = 0
+mol.charge = -2
+mol.max_memory = 82000
+
+mol.build()
+print("NAO   = ", mol.nao)
+print("NELEC = ", mol.nelec)
+dm = None
+
+from pyblock2._pyscf import scf as b2scf
+dm = b2scf.get_metal_init_guess(mol, orb="Fe 3d", atom_idxs=[0, 1], coupling="+-", atomic_spin=5)
+
+
+print("PG = ", mol.groupname)
+
+mf = scf.sfx2c(scf.UHF(mol))
+mf.chkfile = 'mf.chk'
+mf.conv_tol = 1E-12
+mf.max_cycle = 1000
+mf = mf.newton()
+
+mf.kernel(dm0=dm)
+dm = mf.make_rdm1()
+
+import numpy as np
+np.save("mf_occ.npy", mf.mo_occ)
+np.save("mo_coeff.npy", mf.mo_coeff)
+np.save("mo_energy.npy", mf.mo_energy)
+np.save("e_tot.npy", mf.e_tot)
+np.save("mf_dmao.npy", dm)
+
+from pyblock2._pyscf import scf as b2scf
+b2scf.mulliken_pop_dmao(mol, dm)
+
+
+txed = time.perf_counter()
+print("FINISH TIME = ", datetime.now().strftime("%m/%d/%Y %H:%M:%S"))
+print("TOTAL TIME  = %20.3f" % (txed - txst))
+#INFO: ******************** input file end ********************
+
+
+System: uname_result(system='Linux', node='hpc-93-10.cm.cluster', release='3.10.0-1160.25.1.el7.x86_64', version='#1 SMP Wed Apr 28 21:49:45 UTC 2021', machine='x86_64', processor='x86_64')  Threads 24
+Python 3.8.5 (default, Sep  4 2020, 07:30:14) 
+[GCC 7.3.0]
+numpy 1.19.4  scipy 1.4.1
+Date: Fri May 19 21:03:45 2023
+PySCF version 2.1.1
+PySCF path  /central/groups/changroup/members/hczhai/program/pyscf
+GIT ORIG_HEAD 9d5b5bd309d1cc55fbd1a0ec76e26b5b0c7f76af
+GIT HEAD (branch ccsd_t_cas) bce349cd58351d56507ebb3005a119fa94c75308
+
+[ENV] PYSCF_MPIPREFIX orterun --map-by ppr:1:node:pe=24
+[ENV] PYSCF_TMPDIR /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 9
+[INPUT] num. electrons = 164
+[INPUT] charge = -2
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 Fe     1.677856070000   0.000522330000   0.064759320000 AA    3.170688448739   0.000987060647   0.122377378813 Bohr   0.0
+[INPUT]  2 Fe    -1.677856070000  -0.000522330000   0.064759320000 AA   -3.170688448739  -0.000987060647   0.122377378813 Bohr   0.0
+[INPUT]  3 O      0.000000000000   0.000000000000  -0.470990740000 AA    0.000000000000   0.000000000000  -0.890043505806 Bohr   0.0
+[INPUT]  4 Cl     1.870027040000  -1.097964370000   1.990916820000 AA    3.533838951131  -2.074851953831   3.762287526590 Bohr   0.0
+[INPUT]  5 Cl     2.932449170000  -0.982104880000  -1.474672880000 AA    5.541525805508  -1.855909248799  -2.786727866524 Bohr   0.0
+[INPUT]  6 Cl     2.371609360000   2.079540910000  -0.504465910000 AA    4.481692164855   3.929762784729  -0.953302409079 Bohr   0.0
+[INPUT]  7 Cl    -1.870027040000   1.097964370000   1.990916820000 AA   -3.533838951131   2.074851953831   3.762287526590 Bohr   0.0
+[INPUT]  8 Cl    -2.932449170000   0.982104880000  -1.474672880000 AA   -5.541525805508   1.855909248799  -2.786727866524 Bohr   0.0
+[INPUT]  9 Cl    -2.371609360000  -2.079540910000  -0.504465910000 AA   -4.481692164855  -3.929762784729  -0.953302409079 Bohr   0.0
+
+nuclear repulsion = 1804.14069618472
+number of shells = 49
+number of NR pGTOs = 516
+number of NR cGTOs = 208
+basis = ccpvdz-dk
+ecp = {}
+CPU time:         0.53
+NAO   =  208
+NELEC =  (82, 82)
+Initial guess from superposition of atomic densities.
+Spherically averaged atomic HF for {'Cl', 'O', 'Fe'}
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpi1vtmvau
+max_memory 82000 MB (current use 64 MB)
+atom = Fe
+Set gradient conv threshold to 3.16228e-05
+init E= -1256.92561418025
+cycle= 1 E= -1252.27154065659  delta_E= 4.65  |g|=    0  |ddm|= 5.12
+cycle= 2 E= -1252.5244939456  delta_E= -0.253  |g|=    0  |ddm|= 9.91
+cycle= 3 E= -1257.3673655746  delta_E= -4.84  |g|=    0  |ddm|= 8.11
+cycle= 4 E= -1257.37254960653  delta_E= -0.00518  |g|=    0  |ddm|= 0.546
+cycle= 5 E= -1257.37688815125  delta_E= -0.00434  |g|=    0  |ddm|= 0.135
+cycle= 6 E= -1257.37854941671  delta_E= -0.00166  |g|=    0  |ddm|= 0.0943
+cycle= 7 E= -1257.37855339926  delta_E= -3.98e-06  |g|=    0  |ddm|= 0.011
+cycle= 8 E= -1257.37855446745  delta_E= -1.07e-06  |g|=    0  |ddm|= 0.00227
+cycle= 9 E= -1257.37855446856  delta_E= -1.11e-09  |g|=    0  |ddm|= 6.88e-05
+cycle= 10 E= -1257.37855446857  delta_E= -4.32e-12  |g|=    0  |ddm|= 6.13e-06
+Extra cycle  E= -1257.37855446857  delta_E= -9.09e-13  |g|=    0  |ddm|= 1.08e-07
+Atomic HF for atom  Fe  converged. SCF energy = -1257.37855446857
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpft22996c
+max_memory 82000 MB (current use 87 MB)
+atom = O
+Set gradient conv threshold to 3.16228e-05
+init E= -74.2519230269789
+cycle= 1 E= -74.264410576848  delta_E= -0.0125  |g|=    0  |ddm|= 0.119
+cycle= 2 E= -74.264762174806  delta_E= -0.000352  |g|=    0  |ddm|= 0.0426
+cycle= 3 E= -74.2648145779677  delta_E= -5.24e-05  |g|=    0  |ddm|= 0.0101
+cycle= 4 E= -74.2648159267563  delta_E= -1.35e-06  |g|=    0  |ddm|= 0.00268
+cycle= 5 E= -74.2648159267565  delta_E= -1.71e-13  |g|=    0  |ddm|= 5.82e-07
+Extra cycle  E= -74.2648159267565  delta_E=    0  |g|=    0  |ddm|= 5.8e-08
+Atomic HF for atom  O  converged. SCF energy = -74.2648159267565
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpgsdpj9tf
+max_memory 82000 MB (current use 87 MB)
+atom = Cl
+Set gradient conv threshold to 3.16228e-05
+init E= -458.905010113774
+cycle= 1 E= -458.910969908766  delta_E= -0.00596  |g|=    0  |ddm|= 0.0531
+cycle= 2 E= -458.910974390895  delta_E= -4.48e-06  |g|=    0  |ddm|= 0.00543
+cycle= 3 E= -458.910974617591  delta_E= -2.27e-07  |g|=    0  |ddm|= 0.00109
+cycle= 4 E= -458.91097461867  delta_E= -1.08e-09  |g|=    0  |ddm|= 7.01e-05
+cycle= 5 E= -458.91097461867  delta_E= -3.41e-13  |g|=    0  |ddm|= 3.5e-07
+Extra cycle  E= -458.91097461867  delta_E= 1.71e-13  |g|=    0  |ddm|= 7.02e-08
+Atomic HF for atom  Cl  converged. SCF energy = -458.91097461867
+NELEC BEFORE = 81.0 81.0
+ORB = 0 Fe 3d.* IDX = [21 22 23 24 25]
+ORB = 1 Fe 3d.* IDX = [64 65 66 67 68]
+Spherically averaged atomic HF for {'Cl', 'O', 'Fe'}
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpua_nkesd
+max_memory 82000 MB (current use 95 MB)
+atom = Fe
+Set gradient conv threshold to 3.16228e-05
+init E= -1256.92561418025
+cycle= 1 E= -1252.27154065659  delta_E= 4.65  |g|=    0  |ddm|= 5.12
+cycle= 2 E= -1252.5244939456  delta_E= -0.253  |g|=    0  |ddm|= 9.91
+cycle= 3 E= -1257.3673655746  delta_E= -4.84  |g|=    0  |ddm|= 8.11
+cycle= 4 E= -1257.37254960653  delta_E= -0.00518  |g|=    0  |ddm|= 0.546
+cycle= 5 E= -1257.37688815126  delta_E= -0.00434  |g|=    0  |ddm|= 0.135
+cycle= 6 E= -1257.37854941671  delta_E= -0.00166  |g|=    0  |ddm|= 0.0943
+cycle= 7 E= -1257.37855339926  delta_E= -3.98e-06  |g|=    0  |ddm|= 0.011
+cycle= 8 E= -1257.37855446745  delta_E= -1.07e-06  |g|=    0  |ddm|= 0.00227
+cycle= 9 E= -1257.37855446856  delta_E= -1.11e-09  |g|=    0  |ddm|= 6.88e-05
+cycle= 10 E= -1257.37855446857  delta_E= -5.46e-12  |g|=    0  |ddm|= 6.13e-06
+Extra cycle  E= -1257.37855446857  delta_E= -2.27e-13  |g|=    0  |ddm|= 1.08e-07
+Atomic HF for atom  Fe  converged. SCF energy = -1257.37855446857
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpb6io8bim
+max_memory 82000 MB (current use 109 MB)
+atom = O
+Set gradient conv threshold to 3.16228e-05
+init E= -74.2519230269789
+cycle= 1 E= -74.264410576848  delta_E= -0.0125  |g|=    0  |ddm|= 0.119
+cycle= 2 E= -74.264762174806  delta_E= -0.000352  |g|=    0  |ddm|= 0.0426
+cycle= 3 E= -74.2648145779677  delta_E= -5.24e-05  |g|=    0  |ddm|= 0.0101
+cycle= 4 E= -74.2648159267563  delta_E= -1.35e-06  |g|=    0  |ddm|= 0.00268
+cycle= 5 E= -74.2648159267565  delta_E= -1.42e-13  |g|=    0  |ddm|= 5.82e-07
+Extra cycle  E= -74.2648159267565  delta_E= -1.42e-14  |g|=    0  |ddm|= 5.8e-08
+Atomic HF for atom  O  converged. SCF energy = -74.2648159267565
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpj948f_q3
+max_memory 82000 MB (current use 109 MB)
+atom = Cl
+Set gradient conv threshold to 3.16228e-05
+init E= -458.905010113774
+cycle= 1 E= -458.910969908766  delta_E= -0.00596  |g|=    0  |ddm|= 0.0531
+cycle= 2 E= -458.910974390895  delta_E= -4.48e-06  |g|=    0  |ddm|= 0.00543
+cycle= 3 E= -458.910974617591  delta_E= -2.27e-07  |g|=    0  |ddm|= 0.00109
+cycle= 4 E= -458.91097461867  delta_E= -1.08e-09  |g|=    0  |ddm|= 7.01e-05
+cycle= 5 E= -458.91097461867  delta_E= -3.41e-13  |g|=    0  |ddm|= 3.5e-07
+Extra cycle  E= -458.91097461867  delta_E= 2.27e-13  |g|=    0  |ddm|= 7.02e-08
+Atomic HF for atom  Cl  converged. SCF energy = -458.91097461867
+NELEC AFTER  = 81.0 81.0
+PG =  C1
+
+
+
+
+******** <class 'pyscf.x2c.sfx2c1e.sfx2c1e.<locals>.SFX2C1E_SCF'> ********
+method = SFX2C1E_SCF-UHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-12
+SCF conv_tol_grad = None
+SCF max_cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = mf.chk
+max_memory 82000 MB (current use 112 MB)
+number electrons alpha = 82  beta = 82
+
+
+******** <class 'pyscf.x2c.sfx2c1e.SpinFreeX2CHelper'> ********
+approx = 1e
+xuncontract = 1
+******** <class 'pyscf.x2c.sfx2c1e.sfx2c1e.<locals>.SFX2C1E_SCF'> Newton solver flags ********
+SCF tol = 1e-12
+conv_tol_grad = None
+max. SCF cycles = 1000
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = mf.chk
+max_cycle_inner = 12
+max_stepsize = 0.05
+ah_start_tol = 1e+09
+ah_level_shift = 0
+ah_conv_tol = 1e-12
+ah_lindep = 1e-14
+ah_start_cycle = 1
+ah_max_cycle = 40
+ah_grad_trust_region = 2.5
+kf_interval = 4
+kf_trust_region = 5
+canonicalization = True
+max_memory 82000 MB (current use 112 MB)
+Set conv_tol_grad to 1e-06
+  alpha nocc = 82  HOMO = -0.32293663130751  LUMO = 0.0802887872958609
+  beta  nocc = 82  HOMO = -0.322936631322691  LUMO = 0.0802887873094833
+Initial guess E= -5382.36907718475  |g|= 1.86324
+macro= 0  E= -5383.53387698237  delta_E= -1.1648  |g|= 0.345916  4 KF 18 JK
+macro= 1  E= -5383.58721973622  delta_E= -0.0533428  |g|= 0.231101  2 KF 5 JK
+macro= 2  E= -5383.60501349186  delta_E= -0.0177938  |g|= 0.0032192  4 KF 13 JK
+macro= 3  E= -5383.60501392771  delta_E= -4.35854e-07  |g|= 3.893e-06  3 KF 12 JK
+macro= 4  E= -5383.60501392771  delta_E= 0  |g|= 3.35382e-07  1 KF 2 JK
+Canonicalize SCF orbitals
+macro X = 5  E=-5383.60501392771  |g|= 3.35382e-07  total 15 KF 56 JK
+converged SCF energy = -5383.60501392771  <S^2> = 5.0060389  2S+1 = 4.5852105
+Spherically averaged atomic HF for {'Cl', 'O', 'Fe'}
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmptr55ywa3
+max_memory 82000 MB (current use 2035 MB)
+atom = Fe
+Set gradient conv threshold to 3.16228e-05
+init E= -1256.92561418025
+cycle= 1 E= -1252.27154065659  delta_E= 4.65  |g|=    0  |ddm|= 5.12
+cycle= 2 E= -1252.5244939456  delta_E= -0.253  |g|=    0  |ddm|= 9.91
+cycle= 3 E= -1257.3673655746  delta_E= -4.84  |g|=    0  |ddm|= 8.11
+cycle= 4 E= -1257.37254960653  delta_E= -0.00518  |g|=    0  |ddm|= 0.546
+cycle= 5 E= -1257.37688815125  delta_E= -0.00434  |g|=    0  |ddm|= 0.135
+cycle= 6 E= -1257.37854941671  delta_E= -0.00166  |g|=    0  |ddm|= 0.0943
+cycle= 7 E= -1257.37855339926  delta_E= -3.98e-06  |g|=    0  |ddm|= 0.011
+cycle= 8 E= -1257.37855446745  delta_E= -1.07e-06  |g|=    0  |ddm|= 0.00227
+cycle= 9 E= -1257.37855446856  delta_E= -1.11e-09  |g|=    0  |ddm|= 6.88e-05
+cycle= 10 E= -1257.37855446857  delta_E= -4.77e-12  |g|=    0  |ddm|= 6.13e-06
+Extra cycle  E= -1257.37855446857  delta_E= 9.09e-13  |g|=    0  |ddm|= 1.08e-07
+Atomic HF for atom  Fe  converged. SCF energy = -1257.37855446857
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpoif94i9q
+max_memory 82000 MB (current use 2037 MB)
+atom = O
+Set gradient conv threshold to 3.16228e-05
+init E= -74.2519230269789
+cycle= 1 E= -74.264410576848  delta_E= -0.0125  |g|=    0  |ddm|= 0.119
+cycle= 2 E= -74.264762174806  delta_E= -0.000352  |g|=    0  |ddm|= 0.0426
+cycle= 3 E= -74.2648145779678  delta_E= -5.24e-05  |g|=    0  |ddm|= 0.0101
+cycle= 4 E= -74.2648159267563  delta_E= -1.35e-06  |g|=    0  |ddm|= 0.00268
+cycle= 5 E= -74.2648159267565  delta_E= -2.13e-13  |g|=    0  |ddm|= 5.82e-07
+Extra cycle  E= -74.2648159267565  delta_E= 1.42e-14  |g|=    0  |ddm|= 5.8e-08
+Atomic HF for atom  O  converged. SCF energy = -74.2648159267565
+
+
+******** <class 'pyscf.scf.atom_hf.AtomSphAverageRHF'> ********
+method = AtomSphAverageRHF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /central/scratch/hczhai/hife/fe2ocl6-def2-SVP-uks.1/runs/mf-2/tmpcpf07c1d
+max_memory 82000 MB (current use 2037 MB)
+atom = Cl
+Set gradient conv threshold to 3.16228e-05
+init E= -458.905010113774
+cycle= 1 E= -458.910969908766  delta_E= -0.00596  |g|=    0  |ddm|= 0.0531
+cycle= 2 E= -458.910974390895  delta_E= -4.48e-06  |g|=    0  |ddm|= 0.00543
+cycle= 3 E= -458.910974617591  delta_E= -2.27e-07  |g|=    0  |ddm|= 0.00109
+cycle= 4 E= -458.91097461867  delta_E= -1.08e-09  |g|=    0  |ddm|= 7.01e-05
+cycle= 5 E= -458.91097461867  delta_E= -2.27e-13  |g|=    0  |ddm|= 3.5e-07
+Extra cycle  E= -458.91097461867  delta_E= -5.68e-14  |g|=    0  |ddm|= 7.02e-08
+Atomic HF for atom  Cl  converged. SCF energy = -458.91097461867
+ ** Mulliken pop            alpha | beta         magnetism **
+pop of  0 Fe 1s           0.99996 | 0.99996       -0.00000
+pop of  0 Fe 2s           0.99770 | 0.99767        0.00003
+pop of  0 Fe 3s           0.94457 | 0.94479       -0.00022
+pop of  0 Fe 4s           0.14819 | 0.14587        0.00232
+pop of  0 Fe 5s           0.19632 | 0.18737        0.00895
+pop of  0 Fe 6s           0.02988 | 0.02532        0.00457
+pop of  0 Fe 2px          0.99990 | 0.99989        0.00000
+pop of  0 Fe 2py          0.99996 | 0.99995        0.00001
+pop of  0 Fe 2pz          0.99994 | 0.99994        0.00001
+pop of  0 Fe 3px          0.97270 | 0.97323       -0.00053
+pop of  0 Fe 3py          0.98520 | 0.98580       -0.00060
+pop of  0 Fe 3pz          0.98246 | 0.98306       -0.00060
+pop of  0 Fe 4px          0.12988 | 0.13248       -0.00260
+pop of  0 Fe 4py          0.12815 | 0.13096       -0.00281
+pop of  0 Fe 4pz          0.12854 | 0.13092       -0.00238
+pop of  0 Fe 5px          0.17019 | 0.13824        0.03195
+pop of  0 Fe 5py          0.19716 | 0.18002        0.01713
+pop of  0 Fe 5pz          0.20179 | 0.18339        0.01840
+pop of  0 Fe 6px          0.04987 | 0.04084        0.00903
+pop of  0 Fe 6py          0.01413 | 0.01198        0.00216
+pop of  0 Fe 6pz          0.01914 | 0.01603        0.00312
+pop of  0 Fe 3dxy         0.89956 | 0.12168        0.77788
+pop of  0 Fe 3dyz         0.90609 | 0.10954        0.79655
+pop of  0 Fe 3dz^2        0.90221 | 0.11626        0.78595
+pop of  0 Fe 3dxz         0.89757 | 0.13106        0.76651
+pop of  0 Fe 3dx2-y2      0.89709 | 0.14056        0.75653
+pop of  0 Fe 4dxy         0.22772 | 0.10541        0.12231
+pop of  0 Fe 4dyz         0.24864 | 0.13907        0.10957
+pop of  0 Fe 4dz^2        0.23915 | 0.12602        0.11313
+pop of  0 Fe 4dxz         0.23665 | 0.11849        0.11816
+pop of  0 Fe 4dx2-y2      0.22278 | 0.11932        0.10346
+pop of  0 Fe 5dxy         0.02721 | 0.00963        0.01758
+pop of  0 Fe 5dyz         0.03175 | 0.01395        0.01780
+pop of  0 Fe 5dz^2        0.03088 | 0.01288        0.01800
+pop of  0 Fe 5dxz         0.03594 | 0.01580        0.02014
+pop of  0 Fe 5dx2-y2      0.04438 | 0.02196        0.02242
+pop of  0 Fe 4f-3         0.00199 | 0.00207       -0.00007
+pop of  0 Fe 4f-2         0.00169 | 0.00160        0.00009
+pop of  0 Fe 4f-1         0.00143 | 0.00153       -0.00011
+pop of  0 Fe 4f 0         0.00160 | 0.00168       -0.00008
+pop of  0 Fe 4f 1         0.00210 | 0.00215       -0.00005
+pop of  0 Fe 4f 2         0.00303 | 0.00292        0.00010
+pop of  0 Fe 4f 3         0.00291 | 0.00294       -0.00003
+pop of  1 Fe 1s           0.99996 | 0.99996        0.00000
+pop of  1 Fe 2s           0.99767 | 0.99770       -0.00003
+pop of  1 Fe 3s           0.94479 | 0.94457        0.00022
+pop of  1 Fe 4s           0.14587 | 0.14819       -0.00232
+pop of  1 Fe 5s           0.18737 | 0.19632       -0.00895
+pop of  1 Fe 6s           0.02532 | 0.02988       -0.00457
+pop of  1 Fe 2px          0.99989 | 0.99990       -0.00000
+pop of  1 Fe 2py          0.99995 | 0.99996       -0.00001
+pop of  1 Fe 2pz          0.99994 | 0.99994       -0.00001
+pop of  1 Fe 3px          0.97323 | 0.97270        0.00053
+pop of  1 Fe 3py          0.98580 | 0.98520        0.00060
+pop of  1 Fe 3pz          0.98306 | 0.98246        0.00060
+pop of  1 Fe 4px          0.13248 | 0.12988        0.00260
+pop of  1 Fe 4py          0.13096 | 0.12815        0.00281
+pop of  1 Fe 4pz          0.13092 | 0.12854        0.00238
+pop of  1 Fe 5px          0.13824 | 0.17019       -0.03195
+pop of  1 Fe 5py          0.18002 | 0.19716       -0.01713
+pop of  1 Fe 5pz          0.18339 | 0.20179       -0.01840
+pop of  1 Fe 6px          0.04084 | 0.04987       -0.00903
+pop of  1 Fe 6py          0.01198 | 0.01413       -0.00216
+pop of  1 Fe 6pz          0.01603 | 0.01914       -0.00312
+pop of  1 Fe 3dxy         0.12168 | 0.89956       -0.77788
+pop of  1 Fe 3dyz         0.10954 | 0.90609       -0.79655
+pop of  1 Fe 3dz^2        0.11626 | 0.90221       -0.78595
+pop of  1 Fe 3dxz         0.13106 | 0.89757       -0.76651
+pop of  1 Fe 3dx2-y2      0.14056 | 0.89709       -0.75653
+pop of  1 Fe 4dxy         0.10541 | 0.22772       -0.12231
+pop of  1 Fe 4dyz         0.13907 | 0.24864       -0.10957
+pop of  1 Fe 4dz^2        0.12602 | 0.23915       -0.11313
+pop of  1 Fe 4dxz         0.11849 | 0.23665       -0.11816
+pop of  1 Fe 4dx2-y2      0.11932 | 0.22278       -0.10346
+pop of  1 Fe 5dxy         0.00963 | 0.02721       -0.01758
+pop of  1 Fe 5dyz         0.01395 | 0.03175       -0.01780
+pop of  1 Fe 5dz^2        0.01288 | 0.03088       -0.01800
+pop of  1 Fe 5dxz         0.01580 | 0.03594       -0.02014
+pop of  1 Fe 5dx2-y2      0.02196 | 0.04438       -0.02242
+pop of  1 Fe 4f-3         0.00207 | 0.00199        0.00007
+pop of  1 Fe 4f-2         0.00160 | 0.00169       -0.00009
+pop of  1 Fe 4f-1         0.00153 | 0.00143        0.00011
+pop of  1 Fe 4f 0         0.00168 | 0.00160        0.00008
+pop of  1 Fe 4f 1         0.00215 | 0.00210        0.00005
+pop of  1 Fe 4f 2         0.00292 | 0.00303       -0.00010
+pop of  1 Fe 4f 3         0.00294 | 0.00291        0.00003
+pop of  2 O 1s            0.99357 | 0.99357       -0.00000
+pop of  2 O 2s            0.66042 | 0.66042        0.00000
+pop of  2 O 3s            0.01677 | 0.01677        0.00000
+pop of  2 O 2px           0.66798 | 0.66798       -0.00000
+pop of  2 O 2py           0.81060 | 0.81060        0.00000
+pop of  2 O 2pz           0.79172 | 0.79172        0.00000
+pop of  2 O 3px           0.03875 | 0.03875       -0.00000
+pop of  2 O 3py           0.00353 | 0.00353       -0.00000
+pop of  2 O 3pz           0.00682 | 0.00682        0.00000
+pop of  2 O 3dxy          0.00077 | 0.00077       -0.00000
+pop of  2 O 3dyz          0.00026 | 0.00026        0.00000
+pop of  2 O 3dz^2         0.00091 | 0.00091        0.00000
+pop of  2 O 3dxz          0.00131 | 0.00131       -0.00000
+pop of  2 O 3dx2-y2       0.00219 | 0.00219        0.00000
+pop of  3 Cl 1s           0.99970 | 0.99970        0.00000
+pop of  3 Cl 2s           0.98261 | 0.98259        0.00002
+pop of  3 Cl 3s           0.76505 | 0.76380        0.00125
+pop of  3 Cl 4s           0.00873 | 0.00710        0.00163
+pop of  3 Cl 2px          0.99969 | 0.99969       -0.00000
+pop of  3 Cl 2py          0.99960 | 0.99960       -0.00000
+pop of  3 Cl 2pz          0.99932 | 0.99932       -0.00000
+pop of  3 Cl 3px          0.90385 | 0.88802        0.01583
+pop of  3 Cl 3py          0.87805 | 0.86283        0.01522
+pop of  3 Cl 3pz          0.83492 | 0.81518        0.01974
+pop of  3 Cl 4px          0.00256 | 0.00108        0.00148
+pop of  3 Cl 4py          0.00509 | 0.00398        0.00111
+pop of  3 Cl 4pz          0.01219 | 0.01169        0.00050
+pop of  3 Cl 3dxy         0.00032 | 0.00016        0.00016
+pop of  3 Cl 3dyz         0.00235 | 0.00186        0.00049
+pop of  3 Cl 3dz^2        0.00201 | 0.00142        0.00059
+pop of  3 Cl 3dxz         0.00083 | 0.00040        0.00042
+pop of  3 Cl 3dx2-y2      0.00042 | 0.00032        0.00010
+pop of  4 Cl 1s           0.99969 | 0.99969        0.00000
+pop of  4 Cl 2s           0.98257 | 0.98257        0.00000
+pop of  4 Cl 3s           0.77063 | 0.76904        0.00159
+pop of  4 Cl 4s           0.00990 | 0.00776        0.00214
+pop of  4 Cl 2px          0.99955 | 0.99955       -0.00000
+pop of  4 Cl 2py          0.99960 | 0.99960       -0.00000
+pop of  4 Cl 2pz          0.99946 | 0.99946       -0.00000
+pop of  4 Cl 3px          0.88133 | 0.85737        0.02396
+pop of  4 Cl 3py          0.89802 | 0.87828        0.01974
+pop of  4 Cl 3pz          0.85788 | 0.83676        0.02113
+pop of  4 Cl 4px          0.00639 | 0.00542        0.00097
+pop of  4 Cl 4py          0.00724 | 0.00616        0.00108
+pop of  4 Cl 4pz          0.00918 | 0.00818        0.00100
+pop of  4 Cl 3dxy         0.00092 | 0.00064        0.00028
+pop of  4 Cl 3dyz         0.00138 | 0.00108        0.00030
+pop of  4 Cl 3dz^2        0.00098 | 0.00065        0.00033
+pop of  4 Cl 3dxz         0.00193 | 0.00160        0.00034
+pop of  4 Cl 3dx2-y2      0.00055 | 0.00035        0.00020
+pop of  5 Cl 1s           0.99971 | 0.99971        0.00000
+pop of  5 Cl 2s           0.98355 | 0.98355        0.00000
+pop of  5 Cl 3s           0.77566 | 0.77436        0.00130
+pop of  5 Cl 4s           0.00923 | 0.00710        0.00213
+pop of  5 Cl 2px          0.99967 | 0.99968       -0.00000
+pop of  5 Cl 2py          0.99928 | 0.99928       -0.00000
+pop of  5 Cl 2pz          0.99972 | 0.99972       -0.00000
+pop of  5 Cl 3px          0.90642 | 0.89214        0.01427
+pop of  5 Cl 3py          0.83099 | 0.80589        0.02509
+pop of  5 Cl 3pz          0.90288 | 0.88845        0.01443
+pop of  5 Cl 4px          0.00332 | 0.00236        0.00096
+pop of  5 Cl 4py          0.01500 | 0.01402        0.00098
+pop of  5 Cl 4pz          0.00266 | 0.00160        0.00107
+pop of  5 Cl 3dxy         0.00120 | 0.00082        0.00037
+pop of  5 Cl 3dyz         0.00120 | 0.00099        0.00021
+pop of  5 Cl 3dz^2        0.00067 | 0.00047        0.00019
+pop of  5 Cl 3dxz         0.00022 | 0.00015        0.00008
+pop of  5 Cl 3dx2-y2      0.00172 | 0.00143        0.00029
+pop of  6 Cl 1s           0.99970 | 0.99970       -0.00000
+pop of  6 Cl 2s           0.98259 | 0.98261       -0.00002
+pop of  6 Cl 3s           0.76380 | 0.76505       -0.00125
+pop of  6 Cl 4s           0.00710 | 0.00873       -0.00163
+pop of  6 Cl 2px          0.99969 | 0.99969        0.00000
+pop of  6 Cl 2py          0.99960 | 0.99960        0.00000
+pop of  6 Cl 2pz          0.99932 | 0.99932        0.00000
+pop of  6 Cl 3px          0.88802 | 0.90385       -0.01583
+pop of  6 Cl 3py          0.86283 | 0.87805       -0.01522
+pop of  6 Cl 3pz          0.81518 | 0.83492       -0.01974
+pop of  6 Cl 4px          0.00108 | 0.00256       -0.00148
+pop of  6 Cl 4py          0.00398 | 0.00509       -0.00111
+pop of  6 Cl 4pz          0.01169 | 0.01219       -0.00050
+pop of  6 Cl 3dxy         0.00016 | 0.00032       -0.00016
+pop of  6 Cl 3dyz         0.00186 | 0.00235       -0.00049
+pop of  6 Cl 3dz^2        0.00142 | 0.00201       -0.00059
+pop of  6 Cl 3dxz         0.00040 | 0.00083       -0.00042
+pop of  6 Cl 3dx2-y2      0.00032 | 0.00042       -0.00010
+pop of  7 Cl 1s           0.99969 | 0.99969       -0.00000
+pop of  7 Cl 2s           0.98257 | 0.98257       -0.00000
+pop of  7 Cl 3s           0.76904 | 0.77063       -0.00159
+pop of  7 Cl 4s           0.00776 | 0.00990       -0.00214
+pop of  7 Cl 2px          0.99955 | 0.99955        0.00000
+pop of  7 Cl 2py          0.99960 | 0.99960        0.00000
+pop of  7 Cl 2pz          0.99946 | 0.99946        0.00000
+pop of  7 Cl 3px          0.85737 | 0.88133       -0.02396
+pop of  7 Cl 3py          0.87828 | 0.89802       -0.01974
+pop of  7 Cl 3pz          0.83676 | 0.85788       -0.02113
+pop of  7 Cl 4px          0.00542 | 0.00639       -0.00097
+pop of  7 Cl 4py          0.00616 | 0.00724       -0.00108
+pop of  7 Cl 4pz          0.00818 | 0.00918       -0.00100
+pop of  7 Cl 3dxy         0.00064 | 0.00092       -0.00028
+pop of  7 Cl 3dyz         0.00108 | 0.00138       -0.00030
+pop of  7 Cl 3dz^2        0.00065 | 0.00098       -0.00033
+pop of  7 Cl 3dxz         0.00160 | 0.00193       -0.00034
+pop of  7 Cl 3dx2-y2      0.00035 | 0.00055       -0.00020
+pop of  8 Cl 1s           0.99971 | 0.99971       -0.00000
+pop of  8 Cl 2s           0.98355 | 0.98355       -0.00000
+pop of  8 Cl 3s           0.77436 | 0.77566       -0.00130
+pop of  8 Cl 4s           0.00710 | 0.00923       -0.00213
+pop of  8 Cl 2px          0.99968 | 0.99967        0.00000
+pop of  8 Cl 2py          0.99928 | 0.99928        0.00000
+pop of  8 Cl 2pz          0.99972 | 0.99972        0.00000
+pop of  8 Cl 3px          0.89214 | 0.90642       -0.01427
+pop of  8 Cl 3py          0.80589 | 0.83099       -0.02509
+pop of  8 Cl 3pz          0.88845 | 0.90288       -0.01443
+pop of  8 Cl 4px          0.00236 | 0.00332       -0.00096
+pop of  8 Cl 4py          0.01402 | 0.01500       -0.00098
+pop of  8 Cl 4pz          0.00160 | 0.00266       -0.00107
+pop of  8 Cl 3dxy         0.00082 | 0.00120       -0.00037
+pop of  8 Cl 3dyz         0.00099 | 0.00120       -0.00021
+pop of  8 Cl 3dz^2        0.00047 | 0.00067       -0.00019
+pop of  8 Cl 3dxz         0.00015 | 0.00022       -0.00008
+pop of  8 Cl 3dx2-y2      0.00143 | 0.00172       -0.00029
+In total                 82.00000 | 82.00000      -0.00000
+ ** Mulliken atomic charges    ( Nelec_alpha | Nelec_beta )    magnetism **
+charge of    0Fe =     -1.68218  (    16.15798     11.52420 )      4.63378
+charge of    1Fe =     -1.68218  (    11.52420     16.15798 )     -4.63378
+charge of    2 O =      0.00883  (     3.99559      3.99559 )      0.00000
+charge of    3Cl =      0.26399  (     8.39727      8.33874 )      0.05853
+charge of    4Cl =      0.21862  (     8.42722      8.35417 )      0.07305
+charge of    5Cl =      0.19516  (     8.43310      8.37173 )      0.06137
+charge of    6Cl =      0.26399  (     8.33874      8.39727 )     -0.05853
+charge of    7Cl =      0.21862  (     8.35417      8.42722 )     -0.07305
+charge of    8Cl =      0.19516  (     8.37173      8.43310 )     -0.06137
+FINISH TIME =  05/19/2023 21:03:59
+TOTAL TIME  =               13.851

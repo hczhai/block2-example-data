@@ -1,0 +1,769 @@
+symmetrize error =  0.0
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBIP | Cutoff = 1.00e-12
+ Site =     0 /    76 .. Mmpo =    13 DW = 0.00e+00 NNZ =       13 SPT = 0.0000 Tmvc = 0.249 T = 0.738
+ Site =     1 /    76 .. Mmpo =    46 DW = 0.00e+00 NNZ =       54 SPT = 0.9097 Tmvc = 0.447 T = 1.290
+ Site =     2 /    76 .. Mmpo =   113 DW = 0.00e+00 NNZ =      148 SPT = 0.9715 Tmvc = 0.463 T = 1.470
+ Site =     3 /    76 .. Mmpo =   224 DW = 0.00e+00 NNZ =     4852 SPT = 0.8083 Tmvc = 0.454 T = 1.531
+ Site =     4 /    76 .. Mmpo =   264 DW = 0.00e+00 NNZ =    12955 SPT = 0.7809 Tmvc = 0.498 T = 1.698
+ Site =     5 /    76 .. Mmpo =   310 DW = 0.00e+00 NNZ =    12441 SPT = 0.8480 Tmvc = 0.643 T = 2.026
+ Site =     6 /    76 .. Mmpo =   364 DW = 0.00e+00 NNZ =    17189 SPT = 0.8477 Tmvc = 0.672 T = 2.238
+ Site =     7 /    76 .. Mmpo =   426 DW = 0.00e+00 NNZ =    22627 SPT = 0.8541 Tmvc = 0.756 T = 2.514
+ Site =     8 /    76 .. Mmpo =   496 DW = 0.00e+00 NNZ =    28719 SPT = 0.8641 Tmvc = 0.817 T = 2.741
+ Site =     9 /    76 .. Mmpo =   574 DW = 0.00e+00 NNZ =    35429 SPT = 0.8756 Tmvc = 1.319 T = 3.843
+ Site =    10 /    76 .. Mmpo =   660 DW = 0.00e+00 NNZ =    42721 SPT = 0.8872 Tmvc = 1.018 T = 3.723
+ Site =    11 /    76 .. Mmpo =   754 DW = 0.00e+00 NNZ =    50559 SPT = 0.8984 Tmvc = 1.052 T = 3.647
+ Site =    12 /    76 .. Mmpo =   856 DW = 0.00e+00 NNZ =    58907 SPT = 0.9087 Tmvc = 1.543 T = 4.483
+ Site =    13 /    76 .. Mmpo =   966 DW = 0.00e+00 NNZ =    67729 SPT = 0.9181 Tmvc = 1.236 T = 4.593
+ Site =    14 /    76 .. Mmpo =  1084 DW = 0.00e+00 NNZ =    76989 SPT = 0.9265 Tmvc = 1.421 T = 4.561
+ Site =    15 /    76 .. Mmpo =  1210 DW = 0.00e+00 NNZ =    86651 SPT = 0.9339 Tmvc = 1.700 T = 5.280
+ Site =    16 /    76 .. Mmpo =  1344 DW = 0.00e+00 NNZ =    96679 SPT = 0.9406 Tmvc = 1.806 T = 5.911
+ Site =    17 /    76 .. Mmpo =  1486 DW = 0.00e+00 NNZ =   107037 SPT = 0.9464 Tmvc = 1.832 T = 5.441
+ Site =    18 /    76 .. Mmpo =  1636 DW = 0.00e+00 NNZ =   117689 SPT = 0.9516 Tmvc = 1.988 T = 5.822
+ Site =    19 /    76 .. Mmpo =  1794 DW = 0.00e+00 NNZ =   128599 SPT = 0.9562 Tmvc = 2.139 T = 6.359
+ Site =    20 /    76 .. Mmpo =  1960 DW = 0.00e+00 NNZ =   139731 SPT = 0.9603 Tmvc = 2.171 T = 6.649
+ Site =    21 /    76 .. Mmpo =  2134 DW = 0.00e+00 NNZ =   151049 SPT = 0.9639 Tmvc = 2.566 T = 7.506
+ Site =    22 /    76 .. Mmpo =  2316 DW = 0.00e+00 NNZ =   162517 SPT = 0.9671 Tmvc = 2.460 T = 7.006
+ Site =    23 /    76 .. Mmpo =  2506 DW = 0.00e+00 NNZ =   174099 SPT = 0.9700 Tmvc = 2.641 T = 7.323
+ Site =    24 /    76 .. Mmpo =  2704 DW = 0.00e+00 NNZ =   185757 SPT = 0.9726 Tmvc = 2.750 T = 7.317
+ Site =    25 /    76 .. Mmpo =  2910 DW = 0.00e+00 NNZ =   197461 SPT = 0.9749 Tmvc = 3.094 T = 8.012
+ Site =    26 /    76 .. Mmpo =  3124 DW = 0.00e+00 NNZ =   209169 SPT = 0.9770 Tmvc = 3.171 T = 7.917
+ Site =    27 /    76 .. Mmpo =  3346 DW = 0.00e+00 NNZ =   220847 SPT = 0.9789 Tmvc = 3.294 T = 8.105
+ Site =    28 /    76 .. Mmpo =  3576 DW = 0.00e+00 NNZ =   232459 SPT = 0.9806 Tmvc = 3.589 T = 9.192
+ Site =    29 /    76 .. Mmpo =  3814 DW = 0.00e+00 NNZ =   243969 SPT = 0.9821 Tmvc = 3.784 T = 8.775
+ Site =    30 /    76 .. Mmpo =  4060 DW = 0.00e+00 NNZ =   255341 SPT = 0.9835 Tmvc = 3.876 T = 8.864
+ Site =    31 /    76 .. Mmpo =  4314 DW = 0.00e+00 NNZ =   266539 SPT = 0.9848 Tmvc = 4.197 T = 9.301
+ Site =    32 /    76 .. Mmpo =  4576 DW = 0.00e+00 NNZ =   277525 SPT = 0.9859 Tmvc = 4.430 T = 9.541
+ Site =    33 /    76 .. Mmpo =  4846 DW = 0.00e+00 NNZ =   288269 SPT = 0.9870 Tmvc = 5.083 T = 10.647
+ Site =    34 /    76 .. Mmpo =  5124 DW = 0.00e+00 NNZ =   298729 SPT = 0.9880 Tmvc = 5.617 T = 10.957
+ Site =    35 /    76 .. Mmpo =  5410 DW = 0.00e+00 NNZ =   308869 SPT = 0.9889 Tmvc = 5.836 T = 11.181
+ Site =    36 /    76 .. Mmpo =  5704 DW = 0.00e+00 NNZ =   318659 SPT = 0.9897 Tmvc = 6.653 T = 12.189
+ Site =    37 /    76 .. Mmpo =  6006 DW = 0.00e+00 NNZ =   328057 SPT = 0.9904 Tmvc = 7.015 T = 12.656
+ Site =    38 /    76 .. Mmpo =  5704 DW = 0.00e+00 NNZ =  6581863 SPT = 0.8079 Tmvc = 9.506 T = 23.648
+ Site =    39 /    76 .. Mmpo =  5410 DW = 0.00e+00 NNZ =   318657 SPT = 0.9897 Tmvc = 2.523 T = 6.131
+ Site =    40 /    76 .. Mmpo =  5124 DW = 0.00e+00 NNZ =   308871 SPT = 0.9889 Tmvc = 2.795 T = 6.642
+ Site =    41 /    76 .. Mmpo =  4846 DW = 0.00e+00 NNZ =   298729 SPT = 0.9880 Tmvc = 2.396 T = 5.769
+ Site =    42 /    76 .. Mmpo =  4576 DW = 0.00e+00 NNZ =   288267 SPT = 0.9870 Tmvc = 2.543 T = 5.889
+ Site =    43 /    76 .. Mmpo =  4314 DW = 0.00e+00 NNZ =   277527 SPT = 0.9859 Tmvc = 2.372 T = 5.516
+ Site =    44 /    76 .. Mmpo =  4060 DW = 0.00e+00 NNZ =   266539 SPT = 0.9848 Tmvc = 2.241 T = 5.520
+ Site =    45 /    76 .. Mmpo =  3814 DW = 0.00e+00 NNZ =   255341 SPT = 0.9835 Tmvc = 2.614 T = 5.977
+ Site =    46 /    76 .. Mmpo =  3576 DW = 0.00e+00 NNZ =   243969 SPT = 0.9821 Tmvc = 1.926 T = 4.541
+ Site =    47 /    76 .. Mmpo =  3346 DW = 0.00e+00 NNZ =   232459 SPT = 0.9806 Tmvc = 1.977 T = 4.393
+ Site =    48 /    76 .. Mmpo =  3124 DW = 0.00e+00 NNZ =   220847 SPT = 0.9789 Tmvc = 1.683 T = 3.711
+ Site =    49 /    76 .. Mmpo =  2910 DW = 0.00e+00 NNZ =   209169 SPT = 0.9770 Tmvc = 1.598 T = 3.477
+ Site =    50 /    76 .. Mmpo =  2704 DW = 0.00e+00 NNZ =   197461 SPT = 0.9749 Tmvc = 1.487 T = 3.197
+ Site =    51 /    76 .. Mmpo =  2506 DW = 0.00e+00 NNZ =   185759 SPT = 0.9726 Tmvc = 1.387 T = 2.931
+ Site =    52 /    76 .. Mmpo =  2316 DW = 0.00e+00 NNZ =   174099 SPT = 0.9700 Tmvc = 1.132 T = 2.471
+ Site =    53 /    76 .. Mmpo =  2134 DW = 0.00e+00 NNZ =   162517 SPT = 0.9671 Tmvc = 0.998 T = 2.213
+ Site =    54 /    76 .. Mmpo =  1960 DW = 0.00e+00 NNZ =   151049 SPT = 0.9639 Tmvc = 0.901 T = 1.987
+ Site =    55 /    76 .. Mmpo =  1794 DW = 0.00e+00 NNZ =   139731 SPT = 0.9603 Tmvc = 1.000 T = 2.153
+ Site =    56 /    76 .. Mmpo =  1636 DW = 0.00e+00 NNZ =   128599 SPT = 0.9562 Tmvc = 0.778 T = 1.673
+ Site =    57 /    76 .. Mmpo =  1486 DW = 0.00e+00 NNZ =   117689 SPT = 0.9516 Tmvc = 0.597 T = 1.339
+ Site =    58 /    76 .. Mmpo =  1344 DW = 0.00e+00 NNZ =   107037 SPT = 0.9464 Tmvc = 0.504 T = 1.137
+ Site =    59 /    76 .. Mmpo =  1210 DW = 0.00e+00 NNZ =    96679 SPT = 0.9406 Tmvc = 0.420 T = 0.960
+ Site =    60 /    76 .. Mmpo =  1084 DW = 0.00e+00 NNZ =    86651 SPT = 0.9339 Tmvc = 0.344 T = 0.805
+ Site =    61 /    76 .. Mmpo =   966 DW = 0.00e+00 NNZ =    76989 SPT = 0.9265 Tmvc = 0.274 T = 0.670
+ Site =    62 /    76 .. Mmpo =   856 DW = 0.00e+00 NNZ =    67729 SPT = 0.9181 Tmvc = 0.237 T = 0.570
+ Site =    63 /    76 .. Mmpo =   754 DW = 0.00e+00 NNZ =    58907 SPT = 0.9087 Tmvc = 0.175 T = 0.435
+ Site =    64 /    76 .. Mmpo =   660 DW = 0.00e+00 NNZ =    50559 SPT = 0.8984 Tmvc = 0.142 T = 0.369
+ Site =    65 /    76 .. Mmpo =   574 DW = 0.00e+00 NNZ =    42721 SPT = 0.8872 Tmvc = 0.101 T = 0.275
+ Site =    66 /    76 .. Mmpo =   496 DW = 0.00e+00 NNZ =    35429 SPT = 0.8756 Tmvc = 0.073 T = 0.204
+ Site =    67 /    76 .. Mmpo =   426 DW = 0.00e+00 NNZ =    28719 SPT = 0.8641 Tmvc = 0.053 T = 0.143
+ Site =    68 /    76 .. Mmpo =   364 DW = 0.00e+00 NNZ =    22627 SPT = 0.8541 Tmvc = 0.035 T = 0.104
+ Site =    69 /    76 .. Mmpo =   310 DW = 0.00e+00 NNZ =    17189 SPT = 0.8477 Tmvc = 0.021 T = 0.071
+ Site =    70 /    76 .. Mmpo =   264 DW = 0.00e+00 NNZ =    12441 SPT = 0.8480 Tmvc = 0.014 T = 0.049
+ Site =    71 /    76 .. Mmpo =   226 DW = 0.00e+00 NNZ =     8419 SPT = 0.8589 Tmvc = 0.009 T = 0.032
+ Site =    72 /    76 .. Mmpo =   116 DW = 0.00e+00 NNZ =     9174 SPT = 0.6501 Tmvc = 0.005 T = 0.025
+ Site =    73 /    76 .. Mmpo =    48 DW = 0.00e+00 NNZ =      150 SPT = 0.9731 Tmvc = 0.000 T = 0.001
+ Site =    74 /    76 .. Mmpo =    14 DW = 0.00e+00 NNZ =       55 SPT = 0.9182 Tmvc = 0.000 T = 0.000
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 NNZ =       14 SPT = 0.0000 Tmvc = 0.000 T = 0.000
+Ttotal =    338.075 Tmvc-total = 139.141 MPO bond dimension =  6006 MaxDW = 0.00e+00
+NNZ =     16707664 SIZE =    570912727 SPT = 0.9707
+
+Rank =     0 Ttotal =    338.452 MPO method = FastBipartite bond dimension =    6006 NNZ =     16707664 SIZE =    570912727 SPT = 0.9707
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+Rank =     0 Ttotal =      5.186 MPO method = Conventional bond dimension =    8818 NNZ =     13726966 SIZE =   1217091040 SPT = 0.9887
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-05 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.320 T = 0.795
+ Site =     1 /    76 .. Mmpo =    34 DW = 2.56e-05 Error = 5.06e-03 NNZ =      137 SPT = 0.7122 Tsvd = 0.020 T = 0.831
+ Site =     2 /    76 .. Mmpo =    50 DW = 7.21e-05 Error = 8.49e-03 NNZ =      476 SPT = 0.7200 Tsvd = 0.507 T = 1.639
+ Site =     3 /    76 .. Mmpo =    73 DW = 8.91e-05 Error = 9.44e-03 NNZ =      934 SPT = 0.7441 Tsvd = 0.659 T = 1.899
+ Site =     4 /    76 .. Mmpo =    89 DW = 1.15e-04 Error = 1.07e-02 NNZ =     1612 SPT = 0.7519 Tsvd = 1.535 T = 2.917
+ Site =     5 /    76 .. Mmpo =    98 DW = 2.18e-04 Error = 1.48e-02 NNZ =     2192 SPT = 0.7487 Tsvd = 1.990 T = 3.625
+ Site =     6 /    76 .. Mmpo =   117 DW = 1.81e-04 Error = 1.35e-02 NNZ =     2647 SPT = 0.7691 Tsvd = 1.786 T = 3.712
+ Site =     7 /    76 .. Mmpo =   130 DW = 2.49e-04 Error = 1.58e-02 NNZ =     3816 SPT = 0.7491 Tsvd = 1.893 T = 3.732
+ Site =     8 /    76 .. Mmpo =   143 DW = 2.23e-04 Error = 1.49e-02 NNZ =     4867 SPT = 0.7382 Tsvd = 2.119 T = 4.125
+ Site =     9 /    76 .. Mmpo =   152 DW = 2.19e-04 Error = 1.48e-02 NNZ =     5618 SPT = 0.7415 Tsvd = 2.237 T = 4.467
+ Site =    10 /    76 .. Mmpo =   167 DW = 2.34e-04 Error = 1.53e-02 NNZ =     6681 SPT = 0.7368 Tsvd = 2.945 T = 5.640
+ Site =    11 /    76 .. Mmpo =   184 DW = 2.07e-04 Error = 1.44e-02 NNZ =     7877 SPT = 0.7437 Tsvd = 2.376 T = 4.954
+ Site =    12 /    76 .. Mmpo =   202 DW = 2.42e-04 Error = 1.56e-02 NNZ =     9593 SPT = 0.7419 Tsvd = 3.514 T = 5.958
+ Site =    13 /    76 .. Mmpo =   216 DW = 2.88e-04 Error = 1.70e-02 NNZ =    10888 SPT = 0.7505 Tsvd = 2.926 T = 5.522
+ Site =    14 /    76 .. Mmpo =   224 DW = 2.98e-04 Error = 1.73e-02 NNZ =    12021 SPT = 0.7516 Tsvd = 3.666 T = 6.251
+ Site =    15 /    76 .. Mmpo =   235 DW = 2.98e-04 Error = 1.73e-02 NNZ =    13142 SPT = 0.7503 Tsvd = 3.145 T = 5.720
+ Site =    16 /    76 .. Mmpo =   246 DW = 2.91e-04 Error = 1.71e-02 NNZ =    14756 SPT = 0.7448 Tsvd = 4.200 T = 6.888
+ Site =    17 /    76 .. Mmpo =   260 DW = 2.09e-04 Error = 1.45e-02 NNZ =    15879 SPT = 0.7517 Tsvd = 3.553 T = 6.034
+ Site =    18 /    76 .. Mmpo =   271 DW = 2.69e-04 Error = 1.64e-02 NNZ =    17351 SPT = 0.7537 Tsvd = 5.297 T = 8.034
+ Site =    19 /    76 .. Mmpo =   267 DW = 3.42e-04 Error = 1.85e-02 NNZ =    17949 SPT = 0.7519 Tsvd = 4.194 T = 6.890
+ Site =    20 /    76 .. Mmpo =   270 DW = 3.54e-04 Error = 1.88e-02 NNZ =    17827 SPT = 0.7527 Tsvd = 3.160 T = 5.894
+ Site =    21 /    76 .. Mmpo =   281 DW = 3.40e-04 Error = 1.84e-02 NNZ =    19247 SPT = 0.7463 Tsvd = 4.054 T = 6.718
+ Site =    22 /    76 .. Mmpo =   295 DW = 2.75e-04 Error = 1.66e-02 NNZ =    20450 SPT = 0.7533 Tsvd = 4.829 T = 7.721
+ Site =    23 /    76 .. Mmpo =   294 DW = 2.94e-04 Error = 1.72e-02 NNZ =    21149 SPT = 0.7562 Tsvd = 4.422 T = 7.264
+ Site =    24 /    76 .. Mmpo =   288 DW = 3.15e-04 Error = 1.78e-02 NNZ =    20814 SPT = 0.7542 Tsvd = 5.494 T = 8.666
+ Site =    25 /    76 .. Mmpo =   293 DW = 3.26e-04 Error = 1.81e-02 NNZ =    21182 SPT = 0.7490 Tsvd = 4.502 T = 7.309
+ Site =    26 /    76 .. Mmpo =   308 DW = 2.60e-04 Error = 1.61e-02 NNZ =    22518 SPT = 0.7505 Tsvd = 5.316 T = 8.691
+ Site =    27 /    76 .. Mmpo =   312 DW = 2.76e-04 Error = 1.66e-02 NNZ =    23699 SPT = 0.7534 Tsvd = 5.394 T = 8.093
+ Site =    28 /    76 .. Mmpo =   320 DW = 3.01e-04 Error = 1.74e-02 NNZ =    24357 SPT = 0.7560 Tsvd = 4.540 T = 7.389
+ Site =    29 /    76 .. Mmpo =   315 DW = 2.44e-04 Error = 1.56e-02 NNZ =    24553 SPT = 0.7564 Tsvd = 4.031 T = 7.305
+ Site =    30 /    76 .. Mmpo =   311 DW = 3.20e-04 Error = 1.79e-02 NNZ =    23830 SPT = 0.7567 Tsvd = 3.997 T = 6.951
+ Site =    31 /    76 .. Mmpo =   312 DW = 2.64e-04 Error = 1.63e-02 NNZ =    23757 SPT = 0.7552 Tsvd = 5.086 T = 7.995
+ Site =    32 /    76 .. Mmpo =   321 DW = 1.10e-04 Error = 1.05e-02 NNZ =    24248 SPT = 0.7579 Tsvd = 4.242 T = 6.794
+ Site =    33 /    76 .. Mmpo =   324 DW = 2.41e-04 Error = 1.55e-02 NNZ =    25240 SPT = 0.7573 Tsvd = 6.396 T = 8.886
+ Site =    34 /    76 .. Mmpo =   331 DW = 2.18e-04 Error = 1.48e-02 NNZ =    26147 SPT = 0.7562 Tsvd = 5.170 T = 7.551
+ Site =    35 /    76 .. Mmpo =   352 DW = 5.61e-04 Error = 2.37e-02 NNZ =    28450 SPT = 0.7558 Tsvd = 6.141 T = 8.293
+ Site =    36 /    76 .. Mmpo =   354 DW = 5.07e-04 Error = 2.25e-02 NNZ =    29559 SPT = 0.7628 Tsvd = 5.775 T = 7.689
+ Site =    37 /    76 .. Mmpo =   363 DW = 3.85e-04 Error = 1.96e-02 NNZ =    30518 SPT = 0.7625 Tsvd = 6.630 T = 8.361
+ Site =    38 /    76 .. Mmpo =   345 DW = 3.96e-04 Error = 1.99e-02 NNZ =    29637 SPT = 0.7633 Tsvd = 6.088 T = 7.794
+ Site =    39 /    76 .. Mmpo =   348 DW = 2.53e-04 Error = 1.59e-02 NNZ =    28662 SPT = 0.7613 Tsvd = 6.030 T = 7.766
+ Site =    40 /    76 .. Mmpo =   341 DW = 2.18e-04 Error = 1.48e-02 NNZ =    28292 SPT = 0.7616 Tsvd = 6.078 T = 7.596
+ Site =    41 /    76 .. Mmpo =   336 DW = 1.92e-04 Error = 1.39e-02 NNZ =    27691 SPT = 0.7583 Tsvd = 5.955 T = 7.716
+ Site =    42 /    76 .. Mmpo =   336 DW = 1.85e-04 Error = 1.36e-02 NNZ =    27157 SPT = 0.7595 Tsvd = 5.505 T = 6.904
+ Site =    43 /    76 .. Mmpo =   336 DW = 2.12e-04 Error = 1.46e-02 NNZ =    26956 SPT = 0.7612 Tsvd = 5.911 T = 7.175
+ Site =    44 /    76 .. Mmpo =   335 DW = 2.48e-04 Error = 1.57e-02 NNZ =    27083 SPT = 0.7594 Tsvd = 4.862 T = 6.043
+ Site =    45 /    76 .. Mmpo =   337 DW = 2.72e-04 Error = 1.65e-02 NNZ =    27039 SPT = 0.7605 Tsvd = 4.538 T = 5.707
+ Site =    46 /    76 .. Mmpo =   335 DW = 2.56e-04 Error = 1.60e-02 NNZ =    27207 SPT = 0.7590 Tsvd = 5.979 T = 6.935
+ Site =    47 /    76 .. Mmpo =   326 DW = 2.70e-04 Error = 1.64e-02 NNZ =    26641 SPT = 0.7561 Tsvd = 4.732 T = 5.648
+ Site =    48 /    76 .. Mmpo =   320 DW = 3.21e-04 Error = 1.79e-02 NNZ =    25847 SPT = 0.7522 Tsvd = 5.426 T = 6.209
+ Site =    49 /    76 .. Mmpo =   318 DW = 3.14e-04 Error = 1.77e-02 NNZ =    25187 SPT = 0.7525 Tsvd = 4.443 T = 5.271
+ Site =    50 /    76 .. Mmpo =   315 DW = 2.82e-04 Error = 1.68e-02 NNZ =    25141 SPT = 0.7490 Tsvd = 4.753 T = 5.421
+ Site =    51 /    76 .. Mmpo =   308 DW = 2.95e-04 Error = 1.72e-02 NNZ =    24288 SPT = 0.7497 Tsvd = 4.514 T = 5.129
+ Site =    52 /    76 .. Mmpo =   299 DW = 2.53e-04 Error = 1.59e-02 NNZ =    23023 SPT = 0.7500 Tsvd = 4.561 T = 5.180
+ Site =    53 /    76 .. Mmpo =   293 DW = 3.16e-04 Error = 1.78e-02 NNZ =    22327 SPT = 0.7451 Tsvd = 5.254 T = 5.838
+ Site =    54 /    76 .. Mmpo =   291 DW = 3.16e-04 Error = 1.78e-02 NNZ =    21522 SPT = 0.7476 Tsvd = 4.675 T = 5.287
+ Site =    55 /    76 .. Mmpo =   283 DW = 2.49e-04 Error = 1.58e-02 NNZ =    20848 SPT = 0.7468 Tsvd = 4.328 T = 4.855
+ Site =    56 /    76 .. Mmpo =   274 DW = 2.24e-04 Error = 1.50e-02 NNZ =    19683 SPT = 0.7462 Tsvd = 5.722 T = 6.165
+ Site =    57 /    76 .. Mmpo =   266 DW = 2.26e-04 Error = 1.50e-02 NNZ =    18498 SPT = 0.7462 Tsvd = 3.413 T = 3.858
+ Site =    58 /    76 .. Mmpo =   257 DW = 2.90e-04 Error = 1.70e-02 NNZ =    17705 SPT = 0.7410 Tsvd = 4.054 T = 4.358
+ Site =    59 /    76 .. Mmpo =   254 DW = 3.03e-04 Error = 1.74e-02 NNZ =    16592 SPT = 0.7458 Tsvd = 4.030 T = 4.312
+ Site =    60 /    76 .. Mmpo =   251 DW = 2.20e-04 Error = 1.48e-02 NNZ =    16101 SPT = 0.7475 Tsvd = 3.702 T = 4.040
+ Site =    61 /    76 .. Mmpo =   238 DW = 3.27e-04 Error = 1.81e-02 NNZ =    15140 SPT = 0.7466 Tsvd = 3.813 T = 4.079
+ Site =    62 /    76 .. Mmpo =   224 DW = 2.53e-04 Error = 1.59e-02 NNZ =    13531 SPT = 0.7462 Tsvd = 3.327 T = 3.594
+ Site =    63 /    76 .. Mmpo =   222 DW = 2.94e-04 Error = 1.71e-02 NNZ =    12532 SPT = 0.7480 Tsvd = 3.225 T = 3.445
+ Site =    64 /    76 .. Mmpo =   215 DW = 2.71e-04 Error = 1.65e-02 NNZ =    11873 SPT = 0.7512 Tsvd = 3.051 T = 3.254
+ Site =    65 /    76 .. Mmpo =   201 DW = 1.92e-04 Error = 1.39e-02 NNZ =    10677 SPT = 0.7529 Tsvd = 2.519 T = 2.679
+ Site =    66 /    76 .. Mmpo =   180 DW = 2.63e-04 Error = 1.62e-02 NNZ =     9036 SPT = 0.7502 Tsvd = 2.100 T = 2.246
+ Site =    67 /    76 .. Mmpo =   152 DW = 2.63e-04 Error = 1.62e-02 NNZ =     6869 SPT = 0.7489 Tsvd = 1.784 T = 1.880
+ Site =    68 /    76 .. Mmpo =   131 DW = 2.38e-04 Error = 1.54e-02 NNZ =     5012 SPT = 0.7483 Tsvd = 0.895 T = 0.937
+ Site =    69 /    76 .. Mmpo =   109 DW = 2.09e-04 Error = 1.45e-02 NNZ =     3642 SPT = 0.7449 Tsvd = 0.675 T = 0.693
+ Site =    70 /    76 .. Mmpo =    86 DW = 1.37e-04 Error = 1.17e-02 NNZ =     2488 SPT = 0.7346 Tsvd = 0.043 T = 0.055
+ Site =    71 /    76 .. Mmpo =    67 DW = 1.05e-04 Error = 1.03e-02 NNZ =     1622 SPT = 0.7185 Tsvd = 0.036 T = 0.045
+ Site =    72 /    76 .. Mmpo =    54 DW = 5.31e-05 Error = 7.29e-03 NNZ =     1009 SPT = 0.7211 Tsvd = 0.000 T = 0.005
+ Site =    73 /    76 .. Mmpo =    32 DW = 2.85e-05 Error = 5.34e-03 NNZ =      454 SPT = 0.7373 Tsvd = 0.000 T = 0.003
+ Site =    74 /    76 .. Mmpo =    14 DW = 1.70e-21 Error = 4.12e-11 NNZ =      117 SPT = 0.7388 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 2.84e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    385.325 Tsvd-total = 274.079 MPO bond dimension =   363 MaxDW = 5.61e-04 Total error = 1.36e-01
+NNZ =      1223138 SIZE =      4962918 SPT = 0.7535
+
+Rank =     0 Ttotal =    385.675 MPO method = FastBlockedSVD bond dimension =     363 NNZ =      1223138 SIZE =      4962918 SPT = 0.7535
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-06 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.417 T = 1.095
+ Site =     1 /    76 .. Mmpo =    42 DW = 3.41e-36 Error = 4.57e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.628 T = 1.751
+ Site =     2 /    76 .. Mmpo =    73 DW = 1.96e-06 Error = 1.40e-03 NNZ =      784 SPT = 0.7443 Tsvd = 0.735 T = 2.130
+ Site =     3 /    76 .. Mmpo =   105 DW = 7.15e-06 Error = 2.67e-03 NNZ =     1793 SPT = 0.7661 Tsvd = 2.075 T = 3.913
+ Site =     4 /    76 .. Mmpo =   132 DW = 1.44e-05 Error = 3.79e-03 NNZ =     3166 SPT = 0.7716 Tsvd = 2.331 T = 4.491
+ Site =     5 /    76 .. Mmpo =   170 DW = 1.07e-05 Error = 3.27e-03 NNZ =     4784 SPT = 0.7868 Tsvd = 3.477 T = 5.598
+ Site =     6 /    76 .. Mmpo =   203 DW = 1.84e-05 Error = 4.29e-03 NNZ =     7130 SPT = 0.7934 Tsvd = 2.236 T = 4.689
+ Site =     7 /    76 .. Mmpo =   236 DW = 2.72e-05 Error = 5.21e-03 NNZ =    10678 SPT = 0.7771 Tsvd = 3.869 T = 6.445
+ Site =     8 /    76 .. Mmpo =   267 DW = 2.88e-05 Error = 5.37e-03 NNZ =    14352 SPT = 0.7722 Tsvd = 3.032 T = 6.068
+ Site =     9 /    76 .. Mmpo =   273 DW = 4.35e-05 Error = 6.59e-03 NNZ =    17045 SPT = 0.7662 Tsvd = 4.461 T = 7.703
+ Site =    10 /    76 .. Mmpo =   293 DW = 3.89e-05 Error = 6.23e-03 NNZ =    18895 SPT = 0.7638 Tsvd = 5.106 T = 8.108
+ Site =    11 /    76 .. Mmpo =   312 DW = 3.74e-05 Error = 6.11e-03 NNZ =    21376 SPT = 0.7662 Tsvd = 5.780 T = 10.509
+ Site =    12 /    76 .. Mmpo =   342 DW = 3.60e-05 Error = 6.00e-03 NNZ =    24558 SPT = 0.7698 Tsvd = 5.827 T = 8.951
+ Site =    13 /    76 .. Mmpo =   365 DW = 4.57e-05 Error = 6.76e-03 NNZ =    28474 SPT = 0.7719 Tsvd = 4.760 T = 8.257
+ Site =    14 /    76 .. Mmpo =   388 DW = 4.30e-05 Error = 6.56e-03 NNZ =    31400 SPT = 0.7783 Tsvd = 5.971 T = 9.730
+ Site =    15 /    76 .. Mmpo =   412 DW = 4.62e-05 Error = 6.80e-03 NNZ =    35548 SPT = 0.7776 Tsvd = 6.156 T = 10.277
+ Site =    16 /    76 .. Mmpo =   427 DW = 4.72e-05 Error = 6.87e-03 NNZ =    39524 SPT = 0.7753 Tsvd = 6.170 T = 9.909
+ Site =    17 /    76 .. Mmpo =   454 DW = 3.53e-05 Error = 5.94e-03 NNZ =    43200 SPT = 0.7772 Tsvd = 6.054 T = 10.193
+ Site =    18 /    76 .. Mmpo =   479 DW = 4.46e-05 Error = 6.68e-03 NNZ =    48382 SPT = 0.7775 Tsvd = 6.840 T = 10.194
+ Site =    19 /    76 .. Mmpo =   499 DW = 4.61e-05 Error = 6.79e-03 NNZ =    52640 SPT = 0.7798 Tsvd = 6.881 T = 12.914
+ Site =    20 /    76 .. Mmpo =   512 DW = 5.25e-05 Error = 7.24e-03 NNZ =    55696 SPT = 0.7820 Tsvd = 7.555 T = 11.024
+ Site =    21 /    76 .. Mmpo =   542 DW = 4.84e-05 Error = 6.96e-03 NNZ =    60473 SPT = 0.7821 Tsvd = 7.504 T = 10.961
+ Site =    22 /    76 .. Mmpo =   558 DW = 5.07e-05 Error = 7.12e-03 NNZ =    65428 SPT = 0.7837 Tsvd = 7.522 T = 10.802
+ Site =    23 /    76 .. Mmpo =   553 DW = 4.97e-05 Error = 7.05e-03 NNZ =    66450 SPT = 0.7847 Tsvd = 8.477 T = 11.957
+ Site =    24 /    76 .. Mmpo =   552 DW = 4.81e-05 Error = 6.93e-03 NNZ =    66136 SPT = 0.7833 Tsvd = 7.465 T = 12.925
+ Site =    25 /    76 .. Mmpo =   554 DW = 5.18e-05 Error = 7.20e-03 NNZ =    66562 SPT = 0.7823 Tsvd = 7.832 T = 11.215
+ Site =    26 /    76 .. Mmpo =   576 DW = 3.93e-05 Error = 6.27e-03 NNZ =    68941 SPT = 0.7840 Tsvd = 7.237 T = 10.121
+ Site =    27 /    76 .. Mmpo =   575 DW = 4.84e-05 Error = 6.96e-03 NNZ =    71226 SPT = 0.7849 Tsvd = 7.835 T = 10.892
+ Site =    28 /    76 .. Mmpo =   577 DW = 4.65e-05 Error = 6.82e-03 NNZ =    70477 SPT = 0.7876 Tsvd = 7.541 T = 10.279
+ Site =    29 /    76 .. Mmpo =   561 DW = 4.16e-05 Error = 6.45e-03 NNZ =    68726 SPT = 0.7877 Tsvd = 7.822 T = 10.719
+ Site =    30 /    76 .. Mmpo =   560 DW = 4.76e-05 Error = 6.90e-03 NNZ =    66309 SPT = 0.7889 Tsvd = 7.000 T = 12.129
+ Site =    31 /    76 .. Mmpo =   553 DW = 4.78e-05 Error = 6.91e-03 NNZ =    66275 SPT = 0.7860 Tsvd = 7.367 T = 9.809
+ Site =    32 /    76 .. Mmpo =   540 DW = 3.75e-05 Error = 6.13e-03 NNZ =    63607 SPT = 0.7870 Tsvd = 8.291 T = 10.770
+ Site =    33 /    76 .. Mmpo =   533 DW = 4.67e-05 Error = 6.84e-03 NNZ =    62015 SPT = 0.7845 Tsvd = 7.478 T = 9.959
+ Site =    34 /    76 .. Mmpo =   546 DW = 4.49e-05 Error = 6.70e-03 NNZ =    62232 SPT = 0.7862 Tsvd = 7.333 T = 11.386
+ Site =    35 /    76 .. Mmpo =   594 DW = 6.67e-05 Error = 8.17e-03 NNZ =    68545 SPT = 0.7887 Tsvd = 8.131 T = 10.378
+ Site =    36 /    76 .. Mmpo =   609 DW = 7.74e-05 Error = 8.80e-03 NNZ =    75584 SPT = 0.7911 Tsvd = 8.157 T = 10.250
+ Site =    37 /    76 .. Mmpo =   591 DW = 8.22e-05 Error = 9.07e-03 NNZ =    75628 SPT = 0.7899 Tsvd = 8.536 T = 10.752
+ Site =    38 /    76 .. Mmpo =   544 DW = 7.81e-05 Error = 8.84e-03 NNZ =    68296 SPT = 0.7876 Tsvd = 8.508 T = 10.361
+ Site =    39 /    76 .. Mmpo =   559 DW = 4.29e-05 Error = 6.55e-03 NNZ =    64124 SPT = 0.7891 Tsvd = 7.509 T = 9.377
+ Site =    40 /    76 .. Mmpo =   561 DW = 3.08e-05 Error = 5.55e-03 NNZ =    65567 SPT = 0.7909 Tsvd = 7.589 T = 9.583
+ Site =    41 /    76 .. Mmpo =   548 DW = 4.44e-05 Error = 6.66e-03 NNZ =    64905 SPT = 0.7889 Tsvd = 7.994 T = 9.587
+ Site =    42 /    76 .. Mmpo =   557 DW = 3.10e-05 Error = 5.57e-03 NNZ =    64588 SPT = 0.7884 Tsvd = 8.391 T = 10.038
+ Site =    43 /    76 .. Mmpo =   571 DW = 3.85e-05 Error = 6.21e-03 NNZ =    67413 SPT = 0.7880 Tsvd = 7.413 T = 9.540
+ Site =    44 /    76 .. Mmpo =   584 DW = 3.75e-05 Error = 6.13e-03 NNZ =    70412 SPT = 0.7888 Tsvd = 8.571 T = 10.035
+ Site =    45 /    76 .. Mmpo =   599 DW = 4.58e-05 Error = 6.77e-03 NNZ =    73663 SPT = 0.7894 Tsvd = 7.537 T = 9.313
+ Site =    46 /    76 .. Mmpo =   588 DW = 5.40e-05 Error = 7.35e-03 NNZ =    74605 SPT = 0.7882 Tsvd = 8.578 T = 9.930
+ Site =    47 /    76 .. Mmpo =   594 DW = 4.38e-05 Error = 6.62e-03 NNZ =    73928 SPT = 0.7883 Tsvd = 7.760 T = 9.197
+ Site =    48 /    76 .. Mmpo =   591 DW = 5.52e-05 Error = 7.43e-03 NNZ =    75006 SPT = 0.7863 Tsvd = 7.817 T = 8.948
+ Site =    49 /    76 .. Mmpo =   604 DW = 4.87e-05 Error = 6.98e-03 NNZ =    76803 SPT = 0.7848 Tsvd = 7.712 T = 8.835
+ Site =    50 /    76 .. Mmpo =   593 DW = 5.45e-05 Error = 7.38e-03 NNZ =    76805 SPT = 0.7856 Tsvd = 7.421 T = 8.359
+ Site =    51 /    76 .. Mmpo =   575 DW = 5.96e-05 Error = 7.72e-03 NNZ =    73364 SPT = 0.7848 Tsvd = 8.980 T = 9.985
+ Site =    52 /    76 .. Mmpo =   561 DW = 5.49e-05 Error = 7.41e-03 NNZ =    70814 SPT = 0.7805 Tsvd = 7.513 T = 8.475
+ Site =    53 /    76 .. Mmpo =   551 DW = 5.68e-05 Error = 7.54e-03 NNZ =    68109 SPT = 0.7797 Tsvd = 8.136 T = 8.956
+ Site =    54 /    76 .. Mmpo =   552 DW = 5.79e-05 Error = 7.61e-03 NNZ =    67715 SPT = 0.7774 Tsvd = 7.344 T = 8.138
+ Site =    55 /    76 .. Mmpo =   533 DW = 5.41e-05 Error = 7.36e-03 NNZ =    64611 SPT = 0.7804 Tsvd = 7.783 T = 8.606
+ Site =    56 /    76 .. Mmpo =   515 DW = 4.73e-05 Error = 6.88e-03 NNZ =    60025 SPT = 0.7813 Tsvd = 7.150 T = 7.897
+ Site =    57 /    76 .. Mmpo =   490 DW = 4.92e-05 Error = 7.01e-03 NNZ =    56129 SPT = 0.7776 Tsvd = 7.020 T = 7.670
+ Site =    58 /    76 .. Mmpo =   482 DW = 4.30e-05 Error = 6.56e-03 NNZ =    53032 SPT = 0.7755 Tsvd = 7.229 T = 7.921
+ Site =    59 /    76 .. Mmpo =   474 DW = 5.70e-05 Error = 7.55e-03 NNZ =    51712 SPT = 0.7737 Tsvd = 6.522 T = 7.131
+ Site =    60 /    76 .. Mmpo =   445 DW = 5.27e-05 Error = 7.26e-03 NNZ =    47908 SPT = 0.7729 Tsvd = 7.297 T = 7.745
+ Site =    61 /    76 .. Mmpo =   424 DW = 4.84e-05 Error = 6.96e-03 NNZ =    42399 SPT = 0.7753 Tsvd = 5.830 T = 6.266
+ Site =    62 /    76 .. Mmpo =   394 DW = 4.20e-05 Error = 6.48e-03 NNZ =    37693 SPT = 0.7744 Tsvd = 5.743 T = 6.059
+ Site =    63 /    76 .. Mmpo =   380 DW = 4.74e-05 Error = 6.88e-03 NNZ =    34290 SPT = 0.7710 Tsvd = 5.476 T = 5.803
+ Site =    64 /    76 .. Mmpo =   350 DW = 3.70e-05 Error = 6.08e-03 NNZ =    30221 SPT = 0.7728 Tsvd = 4.488 T = 4.744
+ Site =    65 /    76 .. Mmpo =   314 DW = 3.14e-05 Error = 5.61e-03 NNZ =    25168 SPT = 0.7710 Tsvd = 4.157 T = 4.393
+ Site =    66 /    76 .. Mmpo =   286 DW = 3.23e-05 Error = 5.68e-03 NNZ =    21001 SPT = 0.7661 Tsvd = 3.446 T = 3.670
+ Site =    67 /    76 .. Mmpo =   255 DW = 2.23e-05 Error = 4.73e-03 NNZ =    17340 SPT = 0.7622 Tsvd = 3.169 T = 3.324
+ Site =    68 /    76 .. Mmpo =   221 DW = 2.62e-05 Error = 5.12e-03 NNZ =    13562 SPT = 0.7593 Tsvd = 1.395 T = 1.535
+ Site =    69 /    76 .. Mmpo =   185 DW = 1.65e-05 Error = 4.06e-03 NNZ =     9767 SPT = 0.7611 Tsvd = 0.585 T = 0.635
+ Site =    70 /    76 .. Mmpo =   144 DW = 1.59e-05 Error = 3.99e-03 NNZ =     6323 SPT = 0.7627 Tsvd = 0.069 T = 0.087
+ Site =    71 /    76 .. Mmpo =   108 DW = 6.59e-06 Error = 2.57e-03 NNZ =     3771 SPT = 0.7575 Tsvd = 0.037 T = 0.047
+ Site =    72 /    76 .. Mmpo =    71 DW = 1.70e-06 Error = 1.30e-03 NNZ =     1828 SPT = 0.7616 Tsvd = 0.052 T = 0.057
+ Site =    73 /    76 .. Mmpo =    38 DW = 8.70e-08 Error = 2.95e-04 NNZ =      618 SPT = 0.7709 Tsvd = 0.000 T = 0.002
+ Site =    74 /    76 .. Mmpo =    14 DW = 8.19e-35 Error = 3.03e-14 NNZ =      133 SPT = 0.7500 Tsvd = 0.000 T = 0.002
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 7.11e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    581.498 Tsvd-total = 434.108 MPO bond dimension =   609 MaxDW = 8.22e-05 Total error = 5.45e-02
+NNZ =      3377880 SIZE =     15560517 SPT = 0.7829
+
+Rank =     0 Ttotal =    582.102 MPO method = FastBlockedSVD bond dimension =     609 NNZ =      3377880 SIZE =     15560517 SPT = 0.7829
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-07 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.184 T = 0.874
+ Site =     1 /    76 .. Mmpo =    42 DW = 3.41e-36 Error = 5.13e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.021 T = 1.348
+ Site =     2 /    76 .. Mmpo =    78 DW = 4.58e-07 Error = 6.76e-04 NNZ =      805 SPT = 0.7543 Tsvd = 1.127 T = 3.105
+ Site =     3 /    76 .. Mmpo =   126 DW = 4.12e-07 Error = 6.42e-04 NNZ =     2409 SPT = 0.7549 Tsvd = 2.380 T = 4.590
+ Site =     4 /    76 .. Mmpo =   167 DW = 9.68e-07 Error = 9.84e-04 NNZ =     4561 SPT = 0.7832 Tsvd = 3.400 T = 6.030
+ Site =     5 /    76 .. Mmpo =   218 DW = 8.73e-07 Error = 9.34e-04 NNZ =     7758 SPT = 0.7869 Tsvd = 1.516 T = 4.520
+ Site =     6 /    76 .. Mmpo =   270 DW = 1.45e-06 Error = 1.21e-03 NNZ =    12192 SPT = 0.7929 Tsvd = 1.732 T = 5.107
+ Site =     7 /    76 .. Mmpo =   317 DW = 2.30e-06 Error = 1.52e-03 NNZ =    18383 SPT = 0.7852 Tsvd = 0.776 T = 5.020
+ Site =     8 /    76 .. Mmpo =   369 DW = 2.37e-06 Error = 1.54e-03 NNZ =    25851 SPT = 0.7790 Tsvd = 0.280 T = 3.914
+ Site =     9 /    76 .. Mmpo =   413 DW = 3.01e-06 Error = 1.74e-03 NNZ =    33401 SPT = 0.7808 Tsvd = 0.344 T = 4.676
+ Site =    10 /    76 .. Mmpo =   470 DW = 2.82e-06 Error = 1.68e-03 NNZ =    41141 SPT = 0.7881 Tsvd = 0.141 T = 4.476
+ Site =    11 /    76 .. Mmpo =   517 DW = 3.62e-06 Error = 1.90e-03 NNZ =    50088 SPT = 0.7939 Tsvd = 1.450 T = 5.392
+ Site =    12 /    76 .. Mmpo =   559 DW = 4.70e-06 Error = 2.17e-03 NNZ =    59054 SPT = 0.7957 Tsvd = 2.247 T = 7.087
+ Site =    13 /    76 .. Mmpo =   611 DW = 4.37e-06 Error = 2.09e-03 NNZ =    68126 SPT = 0.8005 Tsvd = 0.254 T = 4.850
+ Site =    14 /    76 .. Mmpo =   639 DW = 5.57e-06 Error = 2.36e-03 NNZ =    78012 SPT = 0.8002 Tsvd = 1.982 T = 7.133
+ Site =    15 /    76 .. Mmpo =   671 DW = 5.42e-06 Error = 2.33e-03 NNZ =    84711 SPT = 0.8024 Tsvd = 1.941 T = 6.903
+ Site =    16 /    76 .. Mmpo =   695 DW = 5.73e-06 Error = 2.39e-03 NNZ =    92384 SPT = 0.8019 Tsvd = 0.972 T = 6.503
+ Site =    17 /    76 .. Mmpo =   745 DW = 3.91e-06 Error = 1.98e-03 NNZ =   100349 SPT = 0.8062 Tsvd = 0.390 T = 5.239
+ Site =    18 /    76 .. Mmpo =   790 DW = 5.02e-06 Error = 2.24e-03 NNZ =   113323 SPT = 0.8075 Tsvd = 0.383 T = 7.735
+ Site =    19 /    76 .. Mmpo =   839 DW = 4.85e-06 Error = 2.20e-03 NNZ =   126783 SPT = 0.8087 Tsvd = 9.299 T = 14.660
+ Site =    20 /    76 .. Mmpo =   875 DW = 5.67e-06 Error = 2.38e-03 NNZ =   140679 SPT = 0.8084 Tsvd = 9.409 T = 14.780
+ Site =    21 /    76 .. Mmpo =   908 DW = 6.26e-06 Error = 2.50e-03 NNZ =   153082 SPT = 0.8073 Tsvd = 0.294 T = 6.120
+ Site =    22 /    76 .. Mmpo =   935 DW = 6.47e-06 Error = 2.54e-03 NNZ =   164290 SPT = 0.8065 Tsvd = 0.264 T = 5.455
+ Site =    23 /    76 .. Mmpo =   941 DW = 6.71e-06 Error = 2.59e-03 NNZ =   170295 SPT = 0.8064 Tsvd = 0.269 T = 5.041
+ Site =    24 /    76 .. Mmpo =   929 DW = 7.65e-06 Error = 2.77e-03 NNZ =   169692 SPT = 0.8059 Tsvd = 0.457 T = 5.429
+ Site =    25 /    76 .. Mmpo =   940 DW = 7.12e-06 Error = 2.67e-03 NNZ =   169076 SPT = 0.8064 Tsvd = 0.292 T = 5.443
+ Site =    26 /    76 .. Mmpo =   947 DW = 7.59e-06 Error = 2.75e-03 NNZ =   171024 SPT = 0.8079 Tsvd = 1.738 T = 6.419
+ Site =    27 /    76 .. Mmpo =   944 DW = 7.17e-06 Error = 2.68e-03 NNZ =   172298 SPT = 0.8073 Tsvd = 0.437 T = 5.446
+ Site =    28 /    76 .. Mmpo =   929 DW = 8.48e-06 Error = 2.91e-03 NNZ =   168468 SPT = 0.8079 Tsvd = 0.214 T = 4.655
+ Site =    29 /    76 .. Mmpo =   906 DW = 6.86e-06 Error = 2.62e-03 NNZ =   161879 SPT = 0.8077 Tsvd = 1.036 T = 5.143
+ Site =    30 /    76 .. Mmpo =   897 DW = 7.38e-06 Error = 2.72e-03 NNZ =   156773 SPT = 0.8071 Tsvd = 0.228 T = 4.695
+ Site =    31 /    76 .. Mmpo =   902 DW = 8.37e-06 Error = 2.89e-03 NNZ =   155652 SPT = 0.8076 Tsvd = 10.235 T = 14.252
+ Site =    32 /    76 .. Mmpo =   904 DW = 6.14e-06 Error = 2.48e-03 NNZ =   155764 SPT = 0.8090 Tsvd = 2.889 T = 6.863
+ Site =    33 /    76 .. Mmpo =   911 DW = 8.26e-06 Error = 2.87e-03 NNZ =   158800 SPT = 0.8072 Tsvd = 0.380 T = 4.137
+ Site =    34 /    76 .. Mmpo =   938 DW = 7.75e-06 Error = 2.78e-03 NNZ =   161949 SPT = 0.8105 Tsvd = 0.915 T = 4.544
+ Site =    35 /    76 .. Mmpo =   981 DW = 1.02e-05 Error = 3.20e-03 NNZ =   176690 SPT = 0.8080 Tsvd = 0.186 T = 3.077
+ Site =    36 /    76 .. Mmpo =  1007 DW = 1.05e-05 Error = 3.24e-03 NNZ =   188543 SPT = 0.8091 Tsvd = 0.824 T = 3.894
+ Site =    37 /    76 .. Mmpo =  1008 DW = 1.10e-05 Error = 3.32e-03 NNZ =   193330 SPT = 0.8095 Tsvd = 0.695 T = 3.592
+ Site =    38 /    76 .. Mmpo =   973 DW = 1.28e-05 Error = 3.58e-03 NNZ =   188365 SPT = 0.8079 Tsvd = 0.369 T = 3.558
+ Site =    39 /    76 .. Mmpo =   990 DW = 8.41e-06 Error = 2.90e-03 NNZ =   181628 SPT = 0.8114 Tsvd = 0.325 T = 3.644
+ Site =    40 /    76 .. Mmpo =   960 DW = 6.54e-06 Error = 2.56e-03 NNZ =   178323 SPT = 0.8124 Tsvd = 0.207 T = 2.809
+ Site =    41 /    76 .. Mmpo =   934 DW = 8.06e-06 Error = 2.84e-03 NNZ =   170167 SPT = 0.8102 Tsvd = 3.206 T = 5.620
+ Site =    42 /    76 .. Mmpo =   928 DW = 6.56e-06 Error = 2.56e-03 NNZ =   164179 SPT = 0.8106 Tsvd = 0.789 T = 3.308
+ Site =    43 /    76 .. Mmpo =   927 DW = 7.61e-06 Error = 2.76e-03 NNZ =   165163 SPT = 0.8080 Tsvd = 0.343 T = 2.772
+ Site =    44 /    76 .. Mmpo =   957 DW = 6.58e-06 Error = 2.57e-03 NNZ =   169903 SPT = 0.8085 Tsvd = 0.338 T = 2.250
+ Site =    45 /    76 .. Mmpo =   973 DW = 7.63e-06 Error = 2.76e-03 NNZ =   177476 SPT = 0.8094 Tsvd = 0.763 T = 2.508
+ Site =    46 /    76 .. Mmpo =   980 DW = 6.75e-06 Error = 2.60e-03 NNZ =   181787 SPT = 0.8094 Tsvd = 0.524 T = 2.196
+ Site =    47 /    76 .. Mmpo =   996 DW = 6.72e-06 Error = 2.59e-03 NNZ =   186026 SPT = 0.8094 Tsvd = 0.536 T = 2.057
+ Site =    48 /    76 .. Mmpo =  1002 DW = 7.74e-06 Error = 2.78e-03 NNZ =   191133 SPT = 0.8085 Tsvd = 0.526 T = 1.943
+ Site =    49 /    76 .. Mmpo =  1019 DW = 7.08e-06 Error = 2.66e-03 NNZ =   196937 SPT = 0.8071 Tsvd = 2.763 T = 4.121
+ Site =    50 /    76 .. Mmpo =  1008 DW = 8.13e-06 Error = 2.85e-03 NNZ =   197193 SPT = 0.8080 Tsvd = 0.390 T = 1.732
+ Site =    51 /    76 .. Mmpo =   999 DW = 7.89e-06 Error = 2.81e-03 NNZ =   193564 SPT = 0.8078 Tsvd = 0.486 T = 2.126
+ Site =    52 /    76 .. Mmpo =   979 DW = 7.98e-06 Error = 2.82e-03 NNZ =   189214 SPT = 0.8065 Tsvd = 0.647 T = 1.994
+ Site =    53 /    76 .. Mmpo =   959 DW = 8.16e-06 Error = 2.86e-03 NNZ =   182746 SPT = 0.8054 Tsvd = 0.239 T = 1.331
+ Site =    54 /    76 .. Mmpo =   941 DW = 8.01e-06 Error = 2.83e-03 NNZ =   177104 SPT = 0.8037 Tsvd = 0.301 T = 1.224
+ Site =    55 /    76 .. Mmpo =   910 DW = 7.23e-06 Error = 2.69e-03 NNZ =   168183 SPT = 0.8036 Tsvd = 0.243 T = 1.000
+ Site =    56 /    76 .. Mmpo =   866 DW = 6.56e-06 Error = 2.56e-03 NNZ =   156374 SPT = 0.8016 Tsvd = 0.435 T = 1.266
+ Site =    57 /    76 .. Mmpo =   820 DW = 6.57e-06 Error = 2.56e-03 NNZ =   141774 SPT = 0.8004 Tsvd = 1.863 T = 2.630
+ Site =    58 /    76 .. Mmpo =   780 DW = 6.40e-06 Error = 2.53e-03 NNZ =   130811 SPT = 0.7955 Tsvd = 0.595 T = 1.156
+ Site =    59 /    76 .. Mmpo =   761 DW = 6.07e-06 Error = 2.46e-03 NNZ =   122517 SPT = 0.7936 Tsvd = 7.736 T = 8.490
+ Site =    60 /    76 .. Mmpo =   712 DW = 6.56e-06 Error = 2.56e-03 NNZ =   112764 SPT = 0.7919 Tsvd = 5.512 T = 6.146
+ Site =    61 /    76 .. Mmpo =   668 DW = 5.17e-06 Error = 2.27e-03 NNZ =    99967 SPT = 0.7898 Tsvd = 1.479 T = 1.951
+ Site =    62 /    76 .. Mmpo =   617 DW = 4.41e-06 Error = 2.10e-03 NNZ =    86813 SPT = 0.7894 Tsvd = 0.146 T = 0.565
+ Site =    63 /    76 .. Mmpo =   568 DW = 4.95e-06 Error = 2.23e-03 NNZ =    74870 SPT = 0.7864 Tsvd = 4.781 T = 5.281
+ Site =    64 /    76 .. Mmpo =   516 DW = 3.36e-06 Error = 1.83e-03 NNZ =    61708 SPT = 0.7895 Tsvd = 4.360 T = 4.765
+ Site =    65 /    76 .. Mmpo =   456 DW = 2.59e-06 Error = 1.61e-03 NNZ =    50170 SPT = 0.7868 Tsvd = 0.471 T = 0.664
+ Site =    66 /    76 .. Mmpo =   405 DW = 2.44e-06 Error = 1.56e-03 NNZ =    41024 SPT = 0.7779 Tsvd = 0.600 T = 0.811
+ Site =    67 /    76 .. Mmpo =   343 DW = 2.09e-06 Error = 1.44e-03 NNZ =    30967 SPT = 0.7771 Tsvd = 0.571 T = 0.758
+ Site =    68 /    76 .. Mmpo =   291 DW = 1.38e-06 Error = 1.17e-03 NNZ =    23029 SPT = 0.7693 Tsvd = 0.383 T = 0.530
+ Site =    69 /    76 .. Mmpo =   239 DW = 5.95e-07 Error = 7.71e-04 NNZ =    16243 SPT = 0.7665 Tsvd = 0.161 T = 0.269
+ Site =    70 /    76 .. Mmpo =   178 DW = 4.26e-07 Error = 6.53e-04 NNZ =     9965 SPT = 0.7658 Tsvd = 0.026 T = 0.064
+ Site =    71 /    76 .. Mmpo =   126 DW = 1.17e-07 Error = 3.43e-04 NNZ =     5197 SPT = 0.7683 Tsvd = 0.147 T = 0.165
+ Site =    72 /    76 .. Mmpo =    76 DW = 7.28e-08 Error = 2.70e-04 NNZ =     2367 SPT = 0.7528 Tsvd = 0.000 T = 0.008
+ Site =    73 /    76 .. Mmpo =    38 DW = 1.59e-07 Error = 3.99e-04 NNZ =      711 SPT = 0.7538 Tsvd = 0.000 T = 0.003
+ Site =    74 /    76 .. Mmpo =    14 DW = 7.73e-35 Error = 2.96e-14 NNZ =      136 SPT = 0.7444 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 4.83e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    299.864 Tsvd-total = 103.839 MPO bond dimension =  1019 MaxDW = 1.28e-05 Total error = 1.99e-02
+NNZ =      8334306 SIZE =     42758886 SPT = 0.8051
+
+Rank =     0 Ttotal =    300.402 MPO method = FastBlockedSVD bond dimension =    1019 NNZ =      8334306 SIZE =     42758886 SPT = 0.8051
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-08 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.007 T = 0.816
+ Site =     1 /    76 .. Mmpo =    42 DW = 3.41e-36 Error = 4.80e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.015 T = 1.635
+ Site =     2 /    76 .. Mmpo =    84 DW = 2.97e-08 Error = 1.72e-04 NNZ =      943 SPT = 0.7327 Tsvd = 0.052 T = 2.140
+ Site =     3 /    76 .. Mmpo =   136 DW = 4.61e-08 Error = 2.15e-04 NNZ =     3003 SPT = 0.7371 Tsvd = 1.196 T = 3.705
+ Site =     4 /    76 .. Mmpo =   190 DW = 4.47e-08 Error = 2.11e-04 NNZ =     6379 SPT = 0.7531 Tsvd = 1.598 T = 4.880
+ Site =     5 /    76 .. Mmpo =   244 DW = 6.87e-08 Error = 2.62e-04 NNZ =    10489 SPT = 0.7737 Tsvd = 0.378 T = 4.085
+ Site =     6 /    76 .. Mmpo =   304 DW = 7.35e-08 Error = 2.71e-04 NNZ =    15937 SPT = 0.7851 Tsvd = 0.869 T = 4.567
+ Site =     7 /    76 .. Mmpo =   381 DW = 9.01e-08 Error = 3.00e-04 NNZ =    25250 SPT = 0.7820 Tsvd = 0.370 T = 4.950
+ Site =     8 /    76 .. Mmpo =   451 DW = 1.69e-07 Error = 4.11e-04 NNZ =    36633 SPT = 0.7868 Tsvd = 0.916 T = 5.330
+ Site =     9 /    76 .. Mmpo =   521 DW = 1.79e-07 Error = 4.23e-04 NNZ =    49652 SPT = 0.7887 Tsvd = 0.203 T = 4.546
+ Site =    10 /    76 .. Mmpo =   594 DW = 2.22e-07 Error = 4.71e-04 NNZ =    63635 SPT = 0.7944 Tsvd = 0.156 T = 5.294
+ Site =    11 /    76 .. Mmpo =   676 DW = 2.06e-07 Error = 4.54e-04 NNZ =    80018 SPT = 0.8007 Tsvd = 0.166 T = 5.429
+ Site =    12 /    76 .. Mmpo =   752 DW = 3.01e-07 Error = 5.48e-04 NNZ =    98533 SPT = 0.8062 Tsvd = 1.051 T = 6.888
+ Site =    13 /    76 .. Mmpo =   838 DW = 2.64e-07 Error = 5.14e-04 NNZ =   118052 SPT = 0.8127 Tsvd = 0.274 T = 5.347
+ Site =    14 /    76 .. Mmpo =   918 DW = 3.30e-07 Error = 5.74e-04 NNZ =   142410 SPT = 0.8149 Tsvd = 0.387 T = 5.898
+ Site =    15 /    76 .. Mmpo =   975 DW = 5.20e-07 Error = 7.21e-04 NNZ =   162108 SPT = 0.8189 Tsvd = 0.239 T = 6.505
+ Site =    16 /    76 .. Mmpo =  1032 DW = 5.51e-07 Error = 7.42e-04 NNZ =   183088 SPT = 0.8180 Tsvd = 0.312 T = 6.129
+ Site =    17 /    76 .. Mmpo =  1100 DW = 4.48e-07 Error = 6.69e-04 NNZ =   204502 SPT = 0.8199 Tsvd = 0.228 T = 6.373
+ Site =    18 /    76 .. Mmpo =  1168 DW = 5.48e-07 Error = 7.40e-04 NNZ =   230648 SPT = 0.8205 Tsvd = 0.305 T = 5.781
+ Site =    19 /    76 .. Mmpo =  1232 DW = 5.52e-07 Error = 7.43e-04 NNZ =   259061 SPT = 0.8200 Tsvd = 0.517 T = 6.424
+ Site =    20 /    76 .. Mmpo =  1282 DW = 6.66e-07 Error = 8.16e-04 NNZ =   284221 SPT = 0.8200 Tsvd = 0.299 T = 6.445
+ Site =    21 /    76 .. Mmpo =  1335 DW = 7.36e-07 Error = 8.58e-04 NNZ =   307098 SPT = 0.8206 Tsvd = 0.579 T = 6.850
+ Site =    22 /    76 .. Mmpo =  1391 DW = 7.17e-07 Error = 8.47e-04 NNZ =   331525 SPT = 0.8215 Tsvd = 0.274 T = 6.740
+ Site =    23 /    76 .. Mmpo =  1429 DW = 7.73e-07 Error = 8.79e-04 NNZ =   356480 SPT = 0.8207 Tsvd = 1.043 T = 7.091
+ Site =    24 /    76 .. Mmpo =  1444 DW = 8.77e-07 Error = 9.36e-04 NNZ =   372597 SPT = 0.8194 Tsvd = 0.988 T = 7.022
+ Site =    25 /    76 .. Mmpo =  1466 DW = 9.04e-07 Error = 9.51e-04 NNZ =   381205 SPT = 0.8199 Tsvd = 0.354 T = 6.281
+ Site =    26 /    76 .. Mmpo =  1496 DW = 9.41e-07 Error = 9.70e-04 NNZ =   392710 SPT = 0.8209 Tsvd = 0.340 T = 5.729
+ Site =    27 /    76 .. Mmpo =  1495 DW = 1.09e-06 Error = 1.04e-03 NNZ =   403614 SPT = 0.8195 Tsvd = 0.284 T = 5.345
+ Site =    28 /    76 .. Mmpo =  1500 DW = 1.10e-06 Error = 1.05e-03 NNZ =   405973 SPT = 0.8190 Tsvd = 0.280 T = 5.243
+ Site =    29 /    76 .. Mmpo =  1470 DW = 1.11e-06 Error = 1.05e-03 NNZ =   399459 SPT = 0.8188 Tsvd = 0.631 T = 5.783
+ Site =    30 /    76 .. Mmpo =  1461 DW = 1.11e-06 Error = 1.05e-03 NNZ =   389949 SPT = 0.8184 Tsvd = 1.793 T = 6.366
+ Site =    31 /    76 .. Mmpo =  1480 DW = 1.08e-06 Error = 1.04e-03 NNZ =   393004 SPT = 0.8182 Tsvd = 0.370 T = 5.352
+ Site =    32 /    76 .. Mmpo =  1499 DW = 1.03e-06 Error = 1.01e-03 NNZ =   400328 SPT = 0.8196 Tsvd = 0.413 T = 4.423
+ Site =    33 /    76 .. Mmpo =  1525 DW = 1.07e-06 Error = 1.03e-03 NNZ =   418614 SPT = 0.8169 Tsvd = 0.264 T = 4.201
+ Site =    34 /    76 .. Mmpo =  1572 DW = 1.09e-06 Error = 1.04e-03 NNZ =   434267 SPT = 0.8189 Tsvd = 0.233 T = 4.049
+ Site =    35 /    76 .. Mmpo =  1609 DW = 1.33e-06 Error = 1.15e-03 NNZ =   465409 SPT = 0.8160 Tsvd = 0.323 T = 4.504
+ Site =    36 /    76 .. Mmpo =  1632 DW = 1.33e-06 Error = 1.16e-03 NNZ =   481005 SPT = 0.8168 Tsvd = 2.345 T = 6.264
+ Site =    37 /    76 .. Mmpo =  1635 DW = 1.44e-06 Error = 1.20e-03 NNZ =   489024 SPT = 0.8167 Tsvd = 0.371 T = 4.007
+ Site =    38 /    76 .. Mmpo =  1639 DW = 1.43e-06 Error = 1.20e-03 NNZ =   494614 SPT = 0.8154 Tsvd = 0.274 T = 3.830
+ Site =    39 /    76 .. Mmpo =  1664 DW = 1.25e-06 Error = 1.12e-03 NNZ =   492184 SPT = 0.8195 Tsvd = 0.240 T = 3.391
+ Site =    40 /    76 .. Mmpo =  1618 DW = 1.07e-06 Error = 1.04e-03 NNZ =   482297 SPT = 0.8209 Tsvd = 1.273 T = 4.154
+ Site =    41 /    76 .. Mmpo =  1579 DW = 1.26e-06 Error = 1.12e-03 NNZ =   463357 SPT = 0.8186 Tsvd = 0.408 T = 3.306
+ Site =    42 /    76 .. Mmpo =  1561 DW = 1.03e-06 Error = 1.02e-03 NNZ =   443942 SPT = 0.8199 Tsvd = 0.258 T = 3.125
+ Site =    43 /    76 .. Mmpo =  1553 DW = 1.14e-06 Error = 1.07e-03 NNZ =   441349 SPT = 0.8179 Tsvd = 0.221 T = 2.685
+ Site =    44 /    76 .. Mmpo =  1583 DW = 1.00e-06 Error = 1.00e-03 NNZ =   446912 SPT = 0.8182 Tsvd = 3.562 T = 5.755
+ Site =    45 /    76 .. Mmpo =  1599 DW = 1.02e-06 Error = 1.01e-03 NNZ =   456937 SPT = 0.8195 Tsvd = 1.939 T = 4.349
+ Site =    46 /    76 .. Mmpo =  1573 DW = 1.11e-06 Error = 1.05e-03 NNZ =   454060 SPT = 0.8195 Tsvd = 0.244 T = 2.396
+ Site =    47 /    76 .. Mmpo =  1576 DW = 9.69e-07 Error = 9.85e-04 NNZ =   445852 SPT = 0.8202 Tsvd = 5.677 T = 7.726
+ Site =    48 /    76 .. Mmpo =  1571 DW = 9.91e-07 Error = 9.96e-04 NNZ =   447079 SPT = 0.8194 Tsvd = 2.897 T = 4.750
+ Site =    49 /    76 .. Mmpo =  1561 DW = 1.04e-06 Error = 1.02e-03 NNZ =   445213 SPT = 0.8185 Tsvd = 4.131 T = 6.065
+ Site =    50 /    76 .. Mmpo =  1531 DW = 1.01e-06 Error = 1.01e-03 NNZ =   435318 SPT = 0.8179 Tsvd = 2.549 T = 4.486
+ Site =    51 /    76 .. Mmpo =  1507 DW = 9.26e-07 Error = 9.63e-04 NNZ =   421062 SPT = 0.8175 Tsvd = 20.396 T = 22.297
+ Site =    52 /    76 .. Mmpo =  1469 DW = 9.04e-07 Error = 9.51e-04 NNZ =   403786 SPT = 0.8176 Tsvd = 8.206 T = 9.736
+ Site =    53 /    76 .. Mmpo =  1427 DW = 9.09e-07 Error = 9.53e-04 NNZ =   382836 SPT = 0.8174 Tsvd = 11.165 T = 12.619
+ Site =    54 /    76 .. Mmpo =  1377 DW = 8.29e-07 Error = 9.11e-04 NNZ =   359698 SPT = 0.8169 Tsvd = 3.668 T = 5.018
+ Site =    55 /    76 .. Mmpo =  1310 DW = 7.62e-07 Error = 8.73e-04 NNZ =   332528 SPT = 0.8157 Tsvd = 1.476 T = 2.937
+ Site =    56 /    76 .. Mmpo =  1224 DW = 7.47e-07 Error = 8.64e-04 NNZ =   297155 SPT = 0.8147 Tsvd = 0.945 T = 2.182
+ Site =    57 /    76 .. Mmpo =  1153 DW = 6.47e-07 Error = 8.04e-04 NNZ =   264605 SPT = 0.8125 Tsvd = 18.654 T = 19.834
+ Site =    58 /    76 .. Mmpo =  1086 DW = 5.82e-07 Error = 7.63e-04 NNZ =   237433 SPT = 0.8104 Tsvd = 18.442 T = 19.457
+ Site =    59 /    76 .. Mmpo =  1033 DW = 5.51e-07 Error = 7.42e-04 NNZ =   217781 SPT = 0.8059 Tsvd = 16.622 T = 17.577
+ Site =    60 /    76 .. Mmpo =   972 DW = 3.93e-07 Error = 6.27e-04 NNZ =   196312 SPT = 0.8045 Tsvd = 10.281 T = 11.148
+ Site =    61 /    76 .. Mmpo =   894 DW = 3.04e-07 Error = 5.52e-04 NNZ =   172138 SPT = 0.8019 Tsvd = 11.605 T = 12.451
+ Site =    62 /    76 .. Mmpo =   815 DW = 2.56e-07 Error = 5.06e-04 NNZ =   145331 SPT = 0.8005 Tsvd = 7.517 T = 8.123
+ Site =    63 /    76 .. Mmpo =   735 DW = 1.98e-07 Error = 4.45e-04 NNZ =   122451 SPT = 0.7956 Tsvd = 7.115 T = 7.647
+ Site =    64 /    76 .. Mmpo =   643 DW = 1.40e-07 Error = 3.74e-04 NNZ =    97082 SPT = 0.7946 Tsvd = 5.837 T = 6.375
+ Site =    65 /    76 .. Mmpo =   549 DW = 1.39e-07 Error = 3.72e-04 NNZ =    74301 SPT = 0.7895 Tsvd = 3.102 T = 3.442
+ Site =    66 /    76 .. Mmpo =   476 DW = 9.01e-08 Error = 3.00e-04 NNZ =    56780 SPT = 0.7827 Tsvd = 2.168 T = 2.468
+ Site =    67 /    76 .. Mmpo =   400 DW = 4.47e-08 Error = 2.11e-04 NNZ =    42102 SPT = 0.7789 Tsvd = 1.267 T = 1.479
+ Site =    68 /    76 .. Mmpo =   326 DW = 4.24e-08 Error = 2.06e-04 NNZ =    29496 SPT = 0.7738 Tsvd = 1.139 T = 1.307
+ Site =    69 /    76 .. Mmpo =   256 DW = 6.15e-08 Error = 2.48e-04 NNZ =    19796 SPT = 0.7628 Tsvd = 1.393 T = 1.534
+ Site =    70 /    76 .. Mmpo =   190 DW = 6.67e-08 Error = 2.58e-04 NNZ =    12011 SPT = 0.7531 Tsvd = 0.848 T = 0.907
+ Site =    71 /    76 .. Mmpo =   134 DW = 2.39e-08 Error = 1.54e-04 NNZ =     6348 SPT = 0.7507 Tsvd = 0.068 T = 0.089
+ Site =    72 /    76 .. Mmpo =    80 DW = 2.47e-08 Error = 1.57e-04 NNZ =     2813 SPT = 0.7376 Tsvd = 0.209 T = 0.220
+ Site =    73 /    76 .. Mmpo =    42 DW = 1.52e-34 Error = 9.00e-14 NNZ =      846 SPT = 0.7482 Tsvd = 0.000 T = 0.003
+ Site =    74 /    76 .. Mmpo =    14 DW = 2.66e-35 Error = 5.70e-14 NNZ =      162 SPT = 0.7245 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 3.35e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    423.282 Tsvd-total = 196.219 MPO bond dimension =  1664 MaxDW = 1.44e-06 Total error = 6.78e-03
+NNZ =     18640983 SIZE =    101692836 SPT = 0.8167
+
+Rank =     0 Ttotal =    423.978 MPO method = FastBlockedSVD bond dimension =    1664 NNZ =     18640983 SIZE =    101692836 SPT = 0.8167
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-09 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.451 T = 1.605
+ Site =     1 /    76 .. Mmpo =    42 DW = 3.41e-36 Error = 4.80e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.649 T = 2.625
+ Site =     2 /    76 .. Mmpo =    92 DW = 1.83e-36 Error = 4.56e-15 NNZ =     1127 SPT = 0.7083 Tsvd = 0.536 T = 2.660
+ Site =     3 /    76 .. Mmpo =   148 DW = 5.57e-09 Error = 7.46e-05 NNZ =     3819 SPT = 0.7195 Tsvd = 0.102 T = 2.635
+ Site =     4 /    76 .. Mmpo =   204 DW = 6.62e-09 Error = 8.14e-05 NNZ =     7949 SPT = 0.7367 Tsvd = 0.719 T = 3.897
+ Site =     5 /    76 .. Mmpo =   264 DW = 5.20e-09 Error = 7.21e-05 NNZ =    13379 SPT = 0.7516 Tsvd = 2.064 T = 5.919
+ Site =     6 /    76 .. Mmpo =   326 DW = 6.61e-09 Error = 8.13e-05 NNZ =    19875 SPT = 0.7691 Tsvd = 3.544 T = 7.288
+ Site =     7 /    76 .. Mmpo =   404 DW = 7.61e-09 Error = 8.72e-05 NNZ =    29900 SPT = 0.7730 Tsvd = 4.716 T = 8.933
+ Site =     8 /    76 .. Mmpo =   488 DW = 6.17e-09 Error = 7.86e-05 NNZ =    43185 SPT = 0.7810 Tsvd = 6.544 T = 11.810
+ Site =     9 /    76 .. Mmpo =   576 DW = 6.50e-09 Error = 8.06e-05 NNZ =    59540 SPT = 0.7882 Tsvd = 1.823 T = 6.469
+ Site =    10 /    76 .. Mmpo =   671 DW = 4.51e-09 Error = 6.71e-05 NNZ =    79150 SPT = 0.7952 Tsvd = 0.381 T = 6.332
+ Site =    11 /    76 .. Mmpo =   771 DW = 2.06e-09 Error = 4.53e-05 NNZ =   102045 SPT = 0.8028 Tsvd = 3.431 T = 8.861
+ Site =    12 /    76 .. Mmpo =   864 DW = 8.61e-09 Error = 9.28e-05 NNZ =   125616 SPT = 0.8114 Tsvd = 3.105 T = 9.649
+ Site =    13 /    76 .. Mmpo =   962 DW = 1.32e-08 Error = 1.15e-04 NNZ =   151781 SPT = 0.8174 Tsvd = 5.070 T = 11.092
+ Site =    14 /    76 .. Mmpo =  1068 DW = 1.27e-08 Error = 1.13e-04 NNZ =   183895 SPT = 0.8210 Tsvd = 9.038 T = 15.908
+ Site =    15 /    76 .. Mmpo =  1169 DW = 1.91e-08 Error = 1.38e-04 NNZ =   220249 SPT = 0.8236 Tsvd = 0.487 T = 7.775
+ Site =    16 /    76 .. Mmpo =  1283 DW = 1.73e-08 Error = 1.31e-04 NNZ =   262656 SPT = 0.8249 Tsvd = 0.230 T = 6.993
+ Site =    17 /    76 .. Mmpo =  1400 DW = 2.10e-08 Error = 1.45e-04 NNZ =   310911 SPT = 0.8269 Tsvd = 0.259 T = 7.384
+ Site =    18 /    76 .. Mmpo =  1516 DW = 2.99e-08 Error = 1.73e-04 NNZ =   364098 SPT = 0.8284 Tsvd = 0.274 T = 6.880
+ Site =    19 /    76 .. Mmpo =  1624 DW = 3.62e-08 Error = 1.90e-04 NNZ =   421079 SPT = 0.8290 Tsvd = 2.952 T = 10.742
+ Site =    20 /    76 .. Mmpo =  1718 DW = 5.26e-08 Error = 2.29e-04 NNZ =   476144 SPT = 0.8293 Tsvd = 0.297 T = 7.070
+ Site =    21 /    76 .. Mmpo =  1825 DW = 5.15e-08 Error = 2.27e-04 NNZ =   533973 SPT = 0.8297 Tsvd = 3.516 T = 11.349
+ Site =    22 /    76 .. Mmpo =  1924 DW = 6.23e-08 Error = 2.50e-04 NNZ =   595500 SPT = 0.8304 Tsvd = 0.326 T = 7.400
+ Site =    23 /    76 .. Mmpo =  2003 DW = 7.60e-08 Error = 2.76e-04 NNZ =   655938 SPT = 0.8298 Tsvd = 34.994 T = 42.373
+ Site =    24 /    76 .. Mmpo =  2043 DW = 9.96e-08 Error = 3.16e-04 NNZ =   704403 SPT = 0.8279 Tsvd = 14.155 T = 22.145
+ Site =    25 /    76 .. Mmpo =  2099 DW = 9.53e-08 Error = 3.09e-04 NNZ =   737677 SPT = 0.8280 Tsvd = 19.888 T = 28.441
+ Site =    26 /    76 .. Mmpo =  2171 DW = 9.14e-08 Error = 3.02e-04 NNZ =   782392 SPT = 0.8283 Tsvd = 24.587 T = 31.833
+ Site =    27 /    76 .. Mmpo =  2210 DW = 1.14e-07 Error = 3.37e-04 NNZ =   829859 SPT = 0.8270 Tsvd = 1.225 T = 8.111
+ Site =    28 /    76 .. Mmpo =  2267 DW = 1.07e-07 Error = 3.27e-04 NNZ =   865876 SPT = 0.8272 Tsvd = 6.143 T = 13.589
+ Site =    29 /    76 .. Mmpo =  2263 DW = 1.30e-07 Error = 3.61e-04 NNZ =   888608 SPT = 0.8268 Tsvd = 0.427 T = 7.680
+ Site =    30 /    76 .. Mmpo =  2267 DW = 1.37e-07 Error = 3.71e-04 NNZ =   892644 SPT = 0.8260 Tsvd = 0.389 T = 6.709
+ Site =    31 /    76 .. Mmpo =  2296 DW = 1.33e-07 Error = 3.64e-04 NNZ =   907237 SPT = 0.8257 Tsvd = 32.436 T = 39.333
+ Site =    32 /    76 .. Mmpo =  2340 DW = 1.21e-07 Error = 3.48e-04 NNZ =   926273 SPT = 0.8276 Tsvd = 9.653 T = 20.795
+ Site =    33 /    76 .. Mmpo =  2357 DW = 1.39e-07 Error = 3.73e-04 NNZ =   965007 SPT = 0.8250 Tsvd = 2.413 T = 10.170
+ Site =    34 /    76 .. Mmpo =  2426 DW = 1.23e-07 Error = 3.51e-04 NNZ =   994012 SPT = 0.8262 Tsvd = 4.404 T = 10.298
+ Site =    35 /    76 .. Mmpo =  2444 DW = 1.56e-07 Error = 3.95e-04 NNZ =  1045908 SPT = 0.8236 Tsvd = 0.568 T = 7.211
+ Site =    36 /    76 .. Mmpo =  2462 DW = 1.58e-07 Error = 3.98e-04 NNZ =  1059313 SPT = 0.8240 Tsvd = 5.281 T = 10.774
+ Site =    37 /    76 .. Mmpo =  2475 DW = 1.57e-07 Error = 3.96e-04 NNZ =  1074032 SPT = 0.8237 Tsvd = 3.841 T = 10.407
+ Site =    38 /    76 .. Mmpo =  2487 DW = 1.61e-07 Error = 4.02e-04 NNZ =  1091120 SPT = 0.8227 Tsvd = 0.729 T = 6.176
+ Site =    39 /    76 .. Mmpo =  2527 DW = 1.44e-07 Error = 3.79e-04 NNZ =  1090589 SPT = 0.8265 Tsvd = 21.227 T = 26.709
+ Site =    40 /    76 .. Mmpo =  2483 DW = 1.44e-07 Error = 3.79e-04 NNZ =  1082238 SPT = 0.8275 Tsvd = 14.644 T = 19.828
+ Site =    41 /    76 .. Mmpo =  2429 DW = 1.52e-07 Error = 3.90e-04 NNZ =  1053457 SPT = 0.8253 Tsvd = 23.377 T = 27.836
+ Site =    42 /    76 .. Mmpo =  2386 DW = 1.43e-07 Error = 3.79e-04 NNZ =  1004491 SPT = 0.8267 Tsvd = 2.746 T = 6.622
+ Site =    43 /    76 .. Mmpo =  2374 DW = 1.38e-07 Error = 3.71e-04 NNZ =   988947 SPT = 0.8254 Tsvd = 4.702 T = 8.039
+ Site =    44 /    76 .. Mmpo =  2376 DW = 1.34e-07 Error = 3.66e-04 NNZ =   979659 SPT = 0.8263 Tsvd = 0.512 T = 3.633
+ Site =    45 /    76 .. Mmpo =  2360 DW = 1.27e-07 Error = 3.56e-04 NNZ =   970581 SPT = 0.8269 Tsvd = 0.378 T = 3.757
+ Site =    46 /    76 .. Mmpo =  2311 DW = 1.28e-07 Error = 3.58e-04 NNZ =   946872 SPT = 0.8264 Tsvd = 8.737 T = 11.816
+ Site =    47 /    76 .. Mmpo =  2277 DW = 1.13e-07 Error = 3.37e-04 NNZ =   912058 SPT = 0.8267 Tsvd = 2.363 T = 5.440
+ Site =    48 /    76 .. Mmpo =  2219 DW = 1.13e-07 Error = 3.36e-04 NNZ =   879004 SPT = 0.8260 Tsvd = 6.843 T = 9.427
+ Site =    49 /    76 .. Mmpo =  2168 DW = 1.10e-07 Error = 3.32e-04 NNZ =   838587 SPT = 0.8257 Tsvd = 10.460 T = 14.078
+ Site =    50 /    76 .. Mmpo =  2096 DW = 9.81e-08 Error = 3.13e-04 NNZ =   790547 SPT = 0.8260 Tsvd = 0.736 T = 3.364
+ Site =    51 /    76 .. Mmpo =  2017 DW = 8.72e-08 Error = 2.95e-04 NNZ =   740465 SPT = 0.8249 Tsvd = 0.495 T = 2.701
+ Site =    52 /    76 .. Mmpo =  1923 DW = 8.30e-08 Error = 2.88e-04 NNZ =   681627 SPT = 0.8243 Tsvd = 9.500 T = 11.831
+ Site =    53 /    76 .. Mmpo =  1836 DW = 7.34e-08 Error = 2.71e-04 NNZ =   621834 SPT = 0.8239 Tsvd = 10.326 T = 12.710
+ Site =    54 /    76 .. Mmpo =  1749 DW = 6.40e-08 Error = 2.53e-04 NNZ =   567404 SPT = 0.8233 Tsvd = 0.659 T = 2.461
+ Site =    55 /    76 .. Mmpo =  1638 DW = 5.53e-08 Error = 2.35e-04 NNZ =   509823 SPT = 0.8220 Tsvd = 12.266 T = 14.041
+ Site =    56 /    76 .. Mmpo =  1527 DW = 4.23e-08 Error = 2.06e-04 NNZ =   446916 SPT = 0.8213 Tsvd = 7.907 T = 9.469
+ Site =    57 /    76 .. Mmpo =  1416 DW = 3.48e-08 Error = 1.87e-04 NNZ =   389162 SPT = 0.8200 Tsvd = 2.202 T = 3.441
+ Site =    58 /    76 .. Mmpo =  1299 DW = 3.24e-08 Error = 1.80e-04 NNZ =   333316 SPT = 0.8188 Tsvd = 0.492 T = 1.612
+ Site =    59 /    76 .. Mmpo =  1207 DW = 1.57e-08 Error = 1.25e-04 NNZ =   289018 SPT = 0.8157 Tsvd = 0.920 T = 1.966
+ Site =    60 /    76 .. Mmpo =  1095 DW = 1.07e-08 Error = 1.04e-04 NNZ =   244773 SPT = 0.8148 Tsvd = 1.262 T = 2.091
+ Site =    61 /    76 .. Mmpo =   980 DW = 7.80e-09 Error = 8.83e-05 NNZ =   201803 SPT = 0.8119 Tsvd = 3.818 T = 4.630
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 1.26e-13 NNZ =   166499 SPT = 0.8074 Tsvd = 1.121 T = 1.867
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 1.76e-14 NNZ =   135093 SPT = 0.8031 Tsvd = 9.026 T = 9.862
+ Site =    64 /    76 .. Mmpo =   680 DW = 9.50e-10 Error = 3.08e-05 NNZ =   106896 SPT = 0.7979 Tsvd = 2.453 T = 3.036
+ Site =    65 /    76 .. Mmpo =   588 DW = 2.38e-09 Error = 4.88e-05 NNZ =    83911 SPT = 0.7901 Tsvd = 3.633 T = 4.056
+ Site =    66 /    76 .. Mmpo =   500 DW = 5.05e-09 Error = 7.11e-05 NNZ =    64827 SPT = 0.7795 Tsvd = 0.357 T = 0.644
+ Site =    67 /    76 .. Mmpo =   418 DW = 5.96e-09 Error = 7.72e-05 NNZ =    47909 SPT = 0.7708 Tsvd = 1.247 T = 1.492
+ Site =    68 /    76 .. Mmpo =   344 DW = 3.93e-09 Error = 6.27e-05 NNZ =    34222 SPT = 0.7620 Tsvd = 1.322 T = 1.460
+ Site =    69 /    76 .. Mmpo =   274 DW = 4.70e-09 Error = 6.85e-05 NNZ =    23611 SPT = 0.7495 Tsvd = 0.049 T = 0.134
+ Site =    70 /    76 .. Mmpo =   206 DW = 4.94e-09 Error = 7.03e-05 NNZ =    14803 SPT = 0.7377 Tsvd = 0.008 T = 0.060
+ Site =    71 /    76 .. Mmpo =   142 DW = 3.53e-09 Error = 5.94e-05 NNZ =     7910 SPT = 0.7296 Tsvd = 0.006 T = 0.028
+ Site =    72 /    76 .. Mmpo =    88 DW = 1.54e-09 Error = 3.92e-05 NNZ =     3397 SPT = 0.7282 Tsvd = 0.005 T = 0.014
+ Site =    73 /    76 .. Mmpo =    42 DW = 1.34e-34 Error = 2.87e-14 NNZ =     1028 SPT = 0.7219 Tsvd = 0.000 T = 0.003
+ Site =    74 /    76 .. Mmpo =    14 DW = 2.25e-34 Error = 3.05e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 6.25e-17 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    677.479 Tsvd-total = 377.448 MPO bond dimension =  2527 MaxDW = 1.61e-07 Total error = 2.11e-03
+NNZ =     35679805 SIZE =    203581458 SPT = 0.8247
+
+Rank =     0 Ttotal =    678.179 MPO method = FastBlockedSVD bond dimension =    2527 NNZ =     35679805 SIZE =    203581458 SPT = 0.8247
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-10 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.007 T = 0.856
+ Site =     1 /    76 .. Mmpo =    42 DW = 3.41e-36 Error = 4.80e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.017 T = 1.719
+ Site =     2 /    76 .. Mmpo =    92 DW = 2.44e-36 Error = 5.08e-15 NNZ =     1127 SPT = 0.7083 Tsvd = 0.680 T = 3.019
+ Site =     3 /    76 .. Mmpo =   158 DW = 3.84e-10 Error = 1.96e-05 NNZ =     4339 SPT = 0.7015 Tsvd = 1.676 T = 4.466
+ Site =     4 /    76 .. Mmpo =   220 DW = 5.29e-10 Error = 2.30e-05 NNZ =     9769 SPT = 0.7190 Tsvd = 1.939 T = 4.916
+ Site =     5 /    76 .. Mmpo =   280 DW = 5.50e-10 Error = 2.35e-05 NNZ =    16129 SPT = 0.7382 Tsvd = 3.113 T = 8.075
+ Site =     6 /    76 .. Mmpo =   342 DW = 6.87e-10 Error = 2.62e-05 NNZ =    23311 SPT = 0.7566 Tsvd = 2.695 T = 6.268
+ Site =     7 /    76 .. Mmpo =   420 DW = 7.39e-10 Error = 2.72e-05 NNZ =    34111 SPT = 0.7625 Tsvd = 5.439 T = 10.045
+ Site =     8 /    76 .. Mmpo =   504 DW = 3.39e-10 Error = 1.84e-05 NNZ =    48321 SPT = 0.7717 Tsvd = 5.981 T = 10.536
+ Site =     9 /    76 .. Mmpo =   592 DW = 5.77e-11 Error = 7.60e-06 NNZ =    65043 SPT = 0.7820 Tsvd = 6.020 T = 11.328
+ Site =    10 /    76 .. Mmpo =   680 DW = 1.46e-10 Error = 1.21e-05 NNZ =    82488 SPT = 0.7951 Tsvd = 3.513 T = 9.091
+ Site =    11 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 2.38e-14 NNZ =   103962 SPT = 0.8035 Tsvd = 8.613 T = 14.006
+ Site =    12 /    76 .. Mmpo =   882 DW = 0.00e+00 Error = 4.32e-14 NNZ =   129469 SPT = 0.8113 Tsvd = 1.806 T = 7.129
+ Site =    13 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 4.45e-14 NNZ =   160320 SPT = 0.8171 Tsvd = 3.862 T = 9.955
+ Site =    14 /    76 .. Mmpo =  1114 DW = 4.03e-29 Error = 4.85e-14 NNZ =   197133 SPT = 0.8220 Tsvd = 2.492 T = 8.820
+ Site =    15 /    76 .. Mmpo =  1240 DW = 1.47e-10 Error = 1.21e-05 NNZ =   243267 SPT = 0.8239 Tsvd = 10.444 T = 16.533
+ Site =    16 /    76 .. Mmpo =  1373 DW = 2.48e-10 Error = 1.58e-05 NNZ =   295702 SPT = 0.8263 Tsvd = 0.922 T = 8.063
+ Site =    17 /    76 .. Mmpo =  1515 DW = 1.76e-10 Error = 1.33e-05 NNZ =   353508 SPT = 0.8301 Tsvd = 0.254 T = 6.609
+ Site =    18 /    76 .. Mmpo =  1662 DW = 4.60e-10 Error = 2.15e-05 NNZ =   424201 SPT = 0.8315 Tsvd = 2.631 T = 9.584
+ Site =    19 /    76 .. Mmpo =  1809 DW = 1.10e-09 Error = 3.32e-05 NNZ =   501530 SPT = 0.8332 Tsvd = 0.304 T = 6.543
+ Site =    20 /    76 .. Mmpo =  1960 DW = 1.46e-09 Error = 3.82e-05 NNZ =   588992 SPT = 0.8339 Tsvd = 0.330 T = 8.270
+ Site =    21 /    76 .. Mmpo =  2111 DW = 2.16e-09 Error = 4.64e-05 NNZ =   685184 SPT = 0.8344 Tsvd = 8.547 T = 15.548
+ Site =    22 /    76 .. Mmpo =  2275 DW = 1.64e-09 Error = 4.05e-05 NNZ =   792296 SPT = 0.8350 Tsvd = 0.382 T = 8.090
+ Site =    23 /    76 .. Mmpo =  2433 DW = 2.77e-09 Error = 5.27e-05 NNZ =   913762 SPT = 0.8349 Tsvd = 0.426 T = 8.634
+ Site =    24 /    76 .. Mmpo =  2568 DW = 4.75e-09 Error = 6.89e-05 NNZ =  1044216 SPT = 0.8329 Tsvd = 10.225 T = 17.970
+ Site =    25 /    76 .. Mmpo =  2693 DW = 6.34e-09 Error = 7.96e-05 NNZ =  1157201 SPT = 0.8327 Tsvd = 1.843 T = 10.212
+ Site =    26 /    76 .. Mmpo =  2838 DW = 5.64e-09 Error = 7.51e-05 NNZ =  1275881 SPT = 0.8331 Tsvd = 0.712 T = 8.770
+ Site =    27 /    76 .. Mmpo =  2945 DW = 8.77e-09 Error = 9.37e-05 NNZ =  1412929 SPT = 0.8309 Tsvd = 11.251 T = 19.794
+ Site =    28 /    76 .. Mmpo =  3057 DW = 8.74e-09 Error = 9.35e-05 NNZ =  1520656 SPT = 0.8311 Tsvd = 0.585 T = 8.851
+ Site =    29 /    76 .. Mmpo =  3115 DW = 1.17e-08 Error = 1.08e-04 NNZ =  1625769 SPT = 0.8293 Tsvd = 0.645 T = 9.206
+ Site =    30 /    76 .. Mmpo =  3169 DW = 1.25e-08 Error = 1.12e-04 NNZ =  1689836 SPT = 0.8288 Tsvd = 0.630 T = 8.686
+ Site =    31 /    76 .. Mmpo =  3221 DW = 1.34e-08 Error = 1.16e-04 NNZ =  1749301 SPT = 0.8286 Tsvd = 0.690 T = 8.752
+ Site =    32 /    76 .. Mmpo =  3290 DW = 1.28e-08 Error = 1.13e-04 NNZ =  1798184 SPT = 0.8303 Tsvd = 1.318 T = 9.569
+ Site =    33 /    76 .. Mmpo =  3314 DW = 1.50e-08 Error = 1.22e-04 NNZ =  1876442 SPT = 0.8279 Tsvd = 0.752 T = 9.197
+ Site =    34 /    76 .. Mmpo =  3390 DW = 1.33e-08 Error = 1.15e-04 NNZ =  1914581 SPT = 0.8296 Tsvd = 1.543 T = 9.543
+ Site =    35 /    76 .. Mmpo =  3414 DW = 1.57e-08 Error = 1.25e-04 NNZ =  2003455 SPT = 0.8269 Tsvd = 0.783 T = 8.107
+ Site =    36 /    76 .. Mmpo =  3434 DW = 1.61e-08 Error = 1.27e-04 NNZ =  2030753 SPT = 0.8268 Tsvd = 1.244 T = 9.632
+ Site =    37 /    76 .. Mmpo =  3438 DW = 1.69e-08 Error = 1.30e-04 NNZ =  2042822 SPT = 0.8270 Tsvd = 0.793 T = 8.018
+ Site =    38 /    76 .. Mmpo =  3447 DW = 1.64e-08 Error = 1.28e-04 NNZ =  2058345 SPT = 0.8263 Tsvd = 0.861 T = 8.036
+ Site =    39 /    76 .. Mmpo =  3467 DW = 1.57e-08 Error = 1.25e-04 NNZ =  2043991 SPT = 0.8290 Tsvd = 1.272 T = 8.870
+ Site =    40 /    76 .. Mmpo =  3424 DW = 1.56e-08 Error = 1.25e-04 NNZ =  2020987 SPT = 0.8298 Tsvd = 3.287 T = 10.224
+ Site =    41 /    76 .. Mmpo =  3334 DW = 1.62e-08 Error = 1.27e-04 NNZ =  1961206 SPT = 0.8282 Tsvd = 0.949 T = 7.517
+ Site =    42 /    76 .. Mmpo =  3275 DW = 1.50e-08 Error = 1.22e-04 NNZ =  1865995 SPT = 0.8291 Tsvd = 3.139 T = 9.859
+ Site =    43 /    76 .. Mmpo =  3219 DW = 1.53e-08 Error = 1.24e-04 NNZ =  1812363 SPT = 0.8281 Tsvd = 32.738 T = 38.954
+ Site =    44 /    76 .. Mmpo =  3186 DW = 1.34e-08 Error = 1.16e-04 NNZ =  1752976 SPT = 0.8291 Tsvd = 6.107 T = 12.214
+ Site =    45 /    76 .. Mmpo =  3109 DW = 1.24e-08 Error = 1.11e-04 NNZ =  1682593 SPT = 0.8301 Tsvd = 3.064 T = 8.153
+ Site =    46 /    76 .. Mmpo =  2999 DW = 1.17e-08 Error = 1.08e-04 NNZ =  1583661 SPT = 0.8302 Tsvd = 2.040 T = 6.553
+ Site =    47 /    76 .. Mmpo =  2895 DW = 1.06e-08 Error = 1.03e-04 NNZ =  1472140 SPT = 0.8304 Tsvd = 1.405 T = 6.306
+ Site =    48 /    76 .. Mmpo =  2775 DW = 9.18e-09 Error = 9.58e-05 NNZ =  1364732 SPT = 0.8301 Tsvd = 0.566 T = 4.611
+ Site =    49 /    76 .. Mmpo =  2655 DW = 8.72e-09 Error = 9.34e-05 NNZ =  1259002 SPT = 0.8291 Tsvd = 0.828 T = 4.795
+ Site =    50 /    76 .. Mmpo =  2525 DW = 6.97e-09 Error = 8.35e-05 NNZ =  1146896 SPT = 0.8289 Tsvd = 8.274 T = 11.974
+ Site =    51 /    76 .. Mmpo =  2387 DW = 5.61e-09 Error = 7.49e-05 NNZ =  1032836 SPT = 0.8286 Tsvd = 24.112 T = 27.867
+ Site =    52 /    76 .. Mmpo =  2244 DW = 4.55e-09 Error = 6.75e-05 NNZ =   920172 SPT = 0.8282 Tsvd = 19.993 T = 23.002
+ Site =    53 /    76 .. Mmpo =  2104 DW = 3.61e-09 Error = 6.00e-05 NNZ =   811632 SPT = 0.8281 Tsvd = 17.586 T = 20.484
+ Site =    54 /    76 .. Mmpo =  1958 DW = 2.33e-09 Error = 4.82e-05 NNZ =   709705 SPT = 0.8277 Tsvd = 17.688 T = 20.238
+ Site =    55 /    76 .. Mmpo =  1810 DW = 1.32e-09 Error = 3.63e-05 NNZ =   612715 SPT = 0.8271 Tsvd = 9.479 T = 11.720
+ Site =    56 /    76 .. Mmpo =  1661 DW = 7.52e-10 Error = 2.74e-05 NNZ =   520883 SPT = 0.8267 Tsvd = 16.828 T = 19.442
+ Site =    57 /    76 .. Mmpo =  1512 DW = 6.80e-10 Error = 2.61e-05 NNZ =   438996 SPT = 0.8252 Tsvd = 25.235 T = 27.082
+ Site =    58 /    76 .. Mmpo =  1376 DW = 1.88e-10 Error = 1.37e-05 NNZ =   367184 SPT = 0.8235 Tsvd = 11.235 T = 12.760
+ Site =    59 /    76 .. Mmpo =  1242 DW = 0.00e+00 Error = 3.75e-14 NNZ =   306098 SPT = 0.8209 Tsvd = 14.143 T = 16.120
+ Site =    60 /    76 .. Mmpo =  1114 DW = 0.00e+00 Error = 3.94e-14 NNZ =   251600 SPT = 0.8182 Tsvd = 6.345 T = 7.672
+ Site =    61 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 1.17e-13 NNZ =   206169 SPT = 0.8138 Tsvd = 10.804 T = 11.803
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 8.13e-14 NNZ =   167762 SPT = 0.8086 Tsvd = 8.740 T = 9.743
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 3.17e-14 NNZ =   135221 SPT = 0.8029 Tsvd = 5.828 T = 6.587
+ Site =    64 /    76 .. Mmpo =   682 DW = 3.20e-29 Error = 1.02e-13 NNZ =   107426 SPT = 0.7975 Tsvd = 7.472 T = 8.056
+ Site =    65 /    76 .. Mmpo =   594 DW = 0.00e+00 Error = 3.52e-14 NNZ =    85466 SPT = 0.7890 Tsvd = 5.252 T = 5.990
+ Site =    66 /    76 .. Mmpo =   512 DW = 1.37e-10 Error = 1.17e-05 NNZ =    67606 SPT = 0.7777 Tsvd = 4.459 T = 4.913
+ Site =    67 /    76 .. Mmpo =   434 DW = 3.18e-10 Error = 1.78e-05 NNZ =    52152 SPT = 0.7653 Tsvd = 3.624 T = 3.944
+ Site =    68 /    76 .. Mmpo =   362 DW = 3.48e-10 Error = 1.86e-05 NNZ =    38787 SPT = 0.7531 Tsvd = 2.247 T = 2.451
+ Site =    69 /    76 .. Mmpo =   290 DW = 4.66e-10 Error = 2.16e-05 NNZ =    27551 SPT = 0.7376 Tsvd = 1.822 T = 1.982
+ Site =    70 /    76 .. Mmpo =   220 DW = 4.15e-10 Error = 2.04e-05 NNZ =    17523 SPT = 0.7253 Tsvd = 1.259 T = 1.367
+ Site =    71 /    76 .. Mmpo =   152 DW = 4.06e-10 Error = 2.01e-05 NNZ =     9520 SPT = 0.7153 Tsvd = 1.005 T = 1.050
+ Site =    72 /    76 .. Mmpo =    92 DW = 8.25e-35 Error = 8.57e-14 NNZ =     4029 SPT = 0.7119 Tsvd = 0.373 T = 0.390
+ Site =    73 /    76 .. Mmpo =    42 DW = 1.89e-34 Error = 2.90e-14 NNZ =     1129 SPT = 0.7078 Tsvd = 0.000 T = 0.004
+ Site =    74 /    76 .. Mmpo =    14 DW = 4.33e-35 Error = 2.98e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 3.04e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    727.143 Tsvd-total = 385.161 MPO bond dimension =  3467 MaxDW = 1.69e-08 Total error = 6.03e-04
+NNZ =     57733397 SIZE =    336573073 SPT = 0.8285
+
+Rank =     0 Ttotal =    727.688 MPO method = FastBlockedSVD bond dimension =    3467 NNZ =     57733397 SIZE =    336573073 SPT = 0.8285
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-11 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.009 T = 0.909
+ Site =     1 /    76 .. Mmpo =    42 DW = 3.41e-36 Error = 4.80e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.014 T = 1.799
+ Site =     2 /    76 .. Mmpo =    92 DW = 2.77e-36 Error = 5.01e-15 NNZ =     1127 SPT = 0.7083 Tsvd = 0.529 T = 2.763
+ Site =     3 /    76 .. Mmpo =   168 DW = 4.87e-12 Error = 2.21e-06 NNZ =     4859 SPT = 0.6856 Tsvd = 2.128 T = 5.434
+ Site =     4 /    76 .. Mmpo =   236 DW = 4.30e-11 Error = 6.56e-06 NNZ =    11759 SPT = 0.7034 Tsvd = 2.338 T = 5.546
+ Site =     5 /    76 .. Mmpo =   296 DW = 6.51e-11 Error = 8.07e-06 NNZ =    19141 SPT = 0.7260 Tsvd = 3.168 T = 7.298
+ Site =     6 /    76 .. Mmpo =   360 DW = 6.44e-11 Error = 8.03e-06 NNZ =    27347 SPT = 0.7434 Tsvd = 2.369 T = 6.231
+ Site =     7 /    76 .. Mmpo =   436 DW = 2.45e-11 Error = 4.95e-06 NNZ =    38705 SPT = 0.7534 Tsvd = 5.481 T = 10.436
+ Site =     8 /    76 .. Mmpo =   512 DW = 1.16e-11 Error = 3.41e-06 NNZ =    51528 SPT = 0.7692 Tsvd = 5.692 T = 10.690
+ Site =     9 /    76 .. Mmpo =   594 DW = 4.66e-29 Error = 3.79e-14 NNZ =    66273 SPT = 0.7821 Tsvd = 5.750 T = 11.301
+ Site =    10 /    76 .. Mmpo =   682 DW = 0.00e+00 Error = 4.03e-14 NNZ =    83734 SPT = 0.7933 Tsvd = 5.939 T = 11.357
+ Site =    11 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 2.79e-14 NNZ =   104745 SPT = 0.8026 Tsvd = 6.121 T = 11.538
+ Site =    12 /    76 .. Mmpo =   882 DW = 0.00e+00 Error = 4.26e-14 NNZ =   130636 SPT = 0.8096 Tsvd = 7.858 T = 13.598
+ Site =    13 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 3.68e-14 NNZ =   162404 SPT = 0.8148 Tsvd = 3.879 T = 10.609
+ Site =    14 /    76 .. Mmpo =  1114 DW = 4.03e-29 Error = 7.14e-14 NNZ =   200354 SPT = 0.8191 Tsvd = 10.775 T = 17.188
+ Site =    15 /    76 .. Mmpo =  1242 DW = 3.84e-29 Error = 6.47e-14 NNZ =   246626 SPT = 0.8217 Tsvd = 12.667 T = 19.576
+ Site =    16 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 1.95e-14 NNZ =   299222 SPT = 0.8252 Tsvd = 1.258 T = 9.043
+ Site =    17 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 3.56e-14 NNZ =   357455 SPT = 0.8296 Tsvd = 21.804 T = 28.840
+ Site =    18 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 7.50e-14 NNZ =   430099 SPT = 0.8312 Tsvd = 10.952 T = 17.859
+ Site =    19 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 7.27e-14 NNZ =   513610 SPT = 0.8327 Tsvd = 27.884 T = 36.132
+ Site =    20 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 3.12e-14 NNZ =   607622 SPT = 0.8345 Tsvd = 10.002 T = 17.546
+ Site =    21 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 2.94e-14 NNZ =   715749 SPT = 0.8359 Tsvd = 18.247 T = 27.379
+ Site =    22 /    76 .. Mmpo =  2361 DW = 9.07e-12 Error = 3.01e-06 NNZ =   841028 SPT = 0.8364 Tsvd = 0.570 T = 9.028
+ Site =    23 /    76 .. Mmpo =  2553 DW = 0.00e+00 Error = 7.77e-14 NNZ =   986928 SPT = 0.8363 Tsvd = 0.430 T = 8.193
+ Site =    24 /    76 .. Mmpo =  2749 DW = 3.50e-11 Error = 5.92e-06 NNZ =  1161004 SPT = 0.8346 Tsvd = 26.880 T = 36.783
+ Site =    25 /    76 .. Mmpo =  2951 DW = 5.34e-11 Error = 7.31e-06 NNZ =  1341709 SPT = 0.8346 Tsvd = 0.540 T = 9.069
+ Site =    26 /    76 .. Mmpo =  3151 DW = 1.35e-10 Error = 1.16e-05 NNZ =  1530993 SPT = 0.8354 Tsvd = 0.625 T = 9.843
+ Site =    27 /    76 .. Mmpo =  3346 DW = 2.35e-10 Error = 1.53e-05 NNZ =  1759383 SPT = 0.8331 Tsvd = 0.906 T = 10.301
+ Site =    28 /    76 .. Mmpo =  3548 DW = 2.48e-10 Error = 1.57e-05 NNZ =  1981082 SPT = 0.8331 Tsvd = 0.753 T = 10.069
+ Site =    29 /    76 .. Mmpo =  3719 DW = 5.35e-10 Error = 2.31e-05 NNZ =  2224538 SPT = 0.8314 Tsvd = 0.807 T = 9.983
+ Site =    30 /    76 .. Mmpo =  3872 DW = 7.04e-10 Error = 2.65e-05 NNZ =  2444358 SPT = 0.8303 Tsvd = 1.124 T = 11.702
+ Site =    31 /    76 .. Mmpo =  3999 DW = 9.26e-10 Error = 3.04e-05 NNZ =  2634620 SPT = 0.8299 Tsvd = 0.908 T = 11.102
+ Site =    32 /    76 .. Mmpo =  4138 DW = 8.96e-10 Error = 2.99e-05 NNZ =  2792710 SPT = 0.8312 Tsvd = 1.021 T = 12.257
+ Site =    33 /    76 .. Mmpo =  4202 DW = 1.35e-09 Error = 3.67e-05 NNZ =  2975533 SPT = 0.8289 Tsvd = 0.998 T = 12.038
+ Site =    34 /    76 .. Mmpo =  4301 DW = 1.22e-09 Error = 3.49e-05 NNZ =  3066561 SPT = 0.8303 Tsvd = 1.111 T = 12.149
+ Site =    35 /    76 .. Mmpo =  4351 DW = 1.43e-09 Error = 3.79e-05 NNZ =  3223240 SPT = 0.8278 Tsvd = 16.824 T = 28.028
+ Site =    36 /    76 .. Mmpo =  4371 DW = 1.57e-09 Error = 3.97e-05 NNZ =  3267943 SPT = 0.8282 Tsvd = 64.391 T = 75.437
+ Site =    37 /    76 .. Mmpo =  4382 DW = 1.56e-09 Error = 3.95e-05 NNZ =  3297981 SPT = 0.8278 Tsvd = 1.164 T = 9.793
+ Site =    38 /    76 .. Mmpo =  4376 DW = 1.53e-09 Error = 3.92e-05 NNZ =  3312659 SPT = 0.8272 Tsvd = 1.215 T = 10.418
+ Site =    39 /    76 .. Mmpo =  4352 DW = 1.51e-09 Error = 3.88e-05 NNZ =  3248906 SPT = 0.8294 Tsvd = 1.235 T = 9.768
+ Site =    40 /    76 .. Mmpo =  4269 DW = 1.49e-09 Error = 3.86e-05 NNZ =  3155690 SPT = 0.8301 Tsvd = 1.142 T = 9.125
+ Site =    41 /    76 .. Mmpo =  4141 DW = 1.36e-09 Error = 3.69e-05 NNZ =  3025989 SPT = 0.8288 Tsvd = 1.053 T = 8.844
+ Site =    42 /    76 .. Mmpo =  4022 DW = 1.27e-09 Error = 3.56e-05 NNZ =  2831093 SPT = 0.8300 Tsvd = 1.081 T = 8.662
+ Site =    43 /    76 .. Mmpo =  3909 DW = 1.15e-09 Error = 3.40e-05 NNZ =  2688210 SPT = 0.8290 Tsvd = 25.808 T = 33.794
+ Site =    44 /    76 .. Mmpo =  3785 DW = 1.00e-09 Error = 3.16e-05 NNZ =  2512932 SPT = 0.8302 Tsvd = 1.047 T = 7.365
+ Site =    45 /    76 .. Mmpo =  3635 DW = 7.98e-10 Error = 2.82e-05 NNZ =  2317098 SPT = 0.8316 Tsvd = 1.250 T = 7.208
+ Site =    46 /    76 .. Mmpo =  3464 DW = 6.23e-10 Error = 2.50e-05 NNZ =  2118218 SPT = 0.8318 Tsvd = 25.294 T = 32.053
+ Site =    47 /    76 .. Mmpo =  3298 DW = 4.37e-10 Error = 2.09e-05 NNZ =  1918677 SPT = 0.8321 Tsvd = 12.773 T = 17.890
+ Site =    48 /    76 .. Mmpo =  3114 DW = 3.33e-10 Error = 1.82e-05 NNZ =  1727454 SPT = 0.8318 Tsvd = 24.785 T = 30.442
+ Site =    49 /    76 .. Mmpo =  2927 DW = 2.02e-10 Error = 1.42e-05 NNZ =  1536633 SPT = 0.8314 Tsvd = 13.650 T = 18.595
+ Site =    50 /    76 .. Mmpo =  2730 DW = 1.54e-10 Error = 1.24e-05 NNZ =  1347354 SPT = 0.8314 Tsvd = 4.535 T = 8.985
+ Site =    51 /    76 .. Mmpo =  2546 DW = 5.45e-11 Error = 7.38e-06 NNZ =  1174620 SPT = 0.8310 Tsvd = 31.921 T = 36.233
+ Site =    52 /    76 .. Mmpo =  2359 DW = 2.47e-11 Error = 4.97e-06 NNZ =  1017833 SPT = 0.8305 Tsvd = 4.698 T = 8.193
+ Site =    53 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 5.33e-14 NNZ =   876725 SPT = 0.8294 Tsvd = 21.140 T = 24.834
+ Site =    54 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 6.37e-14 NNZ =   748167 SPT = 0.8284 Tsvd = 20.575 T = 24.233
+ Site =    55 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 3.97e-14 NNZ =   634009 SPT = 0.8273 Tsvd = 23.527 T = 26.928
+ Site =    56 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 5.11e-14 NNZ =   534942 SPT = 0.8258 Tsvd = 25.100 T = 28.343
+ Site =    57 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 7.12e-14 NNZ =   448741 SPT = 0.8239 Tsvd = 19.253 T = 22.144
+ Site =    58 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 4.05e-14 NNZ =   373878 SPT = 0.8217 Tsvd = 18.644 T = 20.609
+ Site =    59 /    76 .. Mmpo =  1242 DW = 0.00e+00 Error = 8.74e-14 NNZ =   310899 SPT = 0.8183 Tsvd = 22.511 T = 24.234
+ Site =    60 /    76 .. Mmpo =  1114 DW = 0.00e+00 Error = 3.71e-14 NNZ =   255416 SPT = 0.8154 Tsvd = 10.911 T = 12.137
+ Site =    61 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 3.11e-14 NNZ =   209182 SPT = 0.8111 Tsvd = 8.155 T = 9.506
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 1.26e-13 NNZ =   169299 SPT = 0.8069 Tsvd = 4.179 T = 4.951
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 6.50e-14 NNZ =   136508 SPT = 0.8011 Tsvd = 7.404 T = 8.076
+ Site =    64 /    76 .. Mmpo =   682 DW = 3.20e-29 Error = 8.50e-14 NNZ =   108655 SPT = 0.7952 Tsvd = 4.997 T = 5.571
+ Site =    65 /    76 .. Mmpo =   594 DW = 0.00e+00 Error = 6.43e-14 NNZ =    86296 SPT = 0.7870 Tsvd = 5.503 T = 6.057
+ Site =    66 /    76 .. Mmpo =   514 DW = 0.00e+00 Error = 9.07e-14 NNZ =    68549 SPT = 0.7755 Tsvd = 4.750 T = 5.204
+ Site =    67 /    76 .. Mmpo =   442 DW = 0.00e+00 Error = 5.74e-14 NNZ =    53820 SPT = 0.7631 Tsvd = 3.654 T = 3.996
+ Site =    68 /    76 .. Mmpo =   374 DW = 1.95e-11 Error = 4.41e-06 NNZ =    41811 SPT = 0.7471 Tsvd = 2.377 T = 2.595
+ Site =    69 /    76 .. Mmpo =   304 DW = 4.88e-11 Error = 6.99e-06 NNZ =    30760 SPT = 0.7295 Tsvd = 1.919 T = 2.092
+ Site =    70 /    76 .. Mmpo =   230 DW = 5.56e-11 Error = 7.46e-06 NNZ =    20076 SPT = 0.7129 Tsvd = 1.130 T = 1.259
+ Site =    71 /    76 .. Mmpo =   162 DW = 3.01e-11 Error = 5.48e-06 NNZ =    10973 SPT = 0.7055 Tsvd = 1.347 T = 1.396
+ Site =    72 /    76 .. Mmpo =    92 DW = 5.64e-34 Error = 5.77e-14 NNZ =     4552 SPT = 0.6946 Tsvd = 0.046 T = 0.065
+ Site =    73 /    76 .. Mmpo =    42 DW = 1.41e-33 Error = 1.21e-15 NNZ =     1127 SPT = 0.7083 Tsvd = 0.000 T = 0.005
+ Site =    74 /    76 .. Mmpo =    14 DW = 1.20e-34 Error = 3.87e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 3.55e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =   1040.661 Tsvd-total = 642.522 MPO bond dimension =  4382 MaxDW = 1.57e-09 Total error = 1.52e-04
+NNZ =     78660715 SIZE =    461635501 SPT = 0.8296
+
+Rank =     0 Ttotal =   1041.185 MPO method = FastBlockedSVD bond dimension =    4382 NNZ =     78660715 SIZE =    461635501 SPT = 0.8296
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-12 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 3.13e-37 Error = 1.07e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.316 T = 1.338
+ Site =     1 /    76 .. Mmpo =    42 DW = 3.41e-36 Error = 4.80e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.037 T = 1.745
+ Site =     2 /    76 .. Mmpo =    92 DW = 2.77e-36 Error = 5.01e-15 NNZ =     1127 SPT = 0.7083 Tsvd = 0.685 T = 3.268
+ Site =     3 /    76 .. Mmpo =   170 DW = 2.94e-35 Error = 3.65e-14 NNZ =     4963 SPT = 0.6827 Tsvd = 1.648 T = 4.298
+ Site =     4 /    76 .. Mmpo =   246 DW = 5.88e-12 Error = 2.42e-06 NNZ =    12837 SPT = 0.6930 Tsvd = 3.025 T = 5.875
+ Site =     5 /    76 .. Mmpo =   312 DW = 3.17e-12 Error = 1.78e-06 NNZ =    22015 SPT = 0.7132 Tsvd = 2.553 T = 5.846
+ Site =     6 /    76 .. Mmpo =   374 DW = 2.15e-12 Error = 1.47e-06 NNZ =    30938 SPT = 0.7349 Tsvd = 2.615 T = 6.747
+ Site =     7 /    76 .. Mmpo =   442 DW = 0.00e+00 Error = 2.92e-14 NNZ =    41075 SPT = 0.7515 Tsvd = 3.865 T = 7.894
+ Site =     8 /    76 .. Mmpo =   514 DW = 0.00e+00 Error = 1.70e-14 NNZ =    52756 SPT = 0.7678 Tsvd = 5.411 T = 9.874
+ Site =     9 /    76 .. Mmpo =   594 DW = 4.66e-29 Error = 3.78e-14 NNZ =    67004 SPT = 0.7805 Tsvd = 5.854 T = 10.503
+ Site =    10 /    76 .. Mmpo =   682 DW = 0.00e+00 Error = 4.10e-14 NNZ =    84452 SPT = 0.7915 Tsvd = 6.097 T = 11.439
+ Site =    11 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 2.81e-14 NNZ =   105990 SPT = 0.8002 Tsvd = 6.257 T = 11.597
+ Site =    12 /    76 .. Mmpo =   882 DW = 0.00e+00 Error = 4.59e-14 NNZ =   132370 SPT = 0.8071 Tsvd = 7.435 T = 12.729
+ Site =    13 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 4.47e-14 NNZ =   164421 SPT = 0.8125 Tsvd = 9.865 T = 15.682
+ Site =    14 /    76 .. Mmpo =  1114 DW = 4.03e-29 Error = 4.32e-14 NNZ =   203184 SPT = 0.8165 Tsvd = 2.296 T = 7.784
+ Site =    15 /    76 .. Mmpo =  1242 DW = 3.84e-29 Error = 6.47e-14 NNZ =   250772 SPT = 0.8188 Tsvd = 14.050 T = 20.291
+ Site =    16 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 1.96e-14 NNZ =   304294 SPT = 0.8222 Tsvd = 2.164 T = 7.903
+ Site =    17 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 4.43e-14 NNZ =   361971 SPT = 0.8274 Tsvd = 3.089 T = 8.689
+ Site =    18 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 7.54e-14 NNZ =   435707 SPT = 0.8290 Tsvd = 25.459 T = 31.828
+ Site =    19 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 7.40e-14 NNZ =   520059 SPT = 0.8306 Tsvd = 5.704 T = 12.049
+ Site =    20 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 2.02e-14 NNZ =   616087 SPT = 0.8322 Tsvd = 32.914 T = 39.658
+ Site =    21 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 2.82e-14 NNZ =   727045 SPT = 0.8333 Tsvd = 40.506 T = 48.243
+ Site =    22 /    76 .. Mmpo =  2362 DW = 0.00e+00 Error = 4.10e-14 NNZ =   853952 SPT = 0.8340 Tsvd = 2.919 T = 9.834
+ Site =    23 /    76 .. Mmpo =  2554 DW = 0.00e+00 Error = 8.40e-14 NNZ =  1001870 SPT = 0.8339 Tsvd = 4.527 T = 14.858
+ Site =    24 /    76 .. Mmpo =  2754 DW = 0.00e+00 Error = 7.89e-14 NNZ =  1180549 SPT = 0.8322 Tsvd = 0.686 T = 7.622
+ Site =    25 /    76 .. Mmpo =  2962 DW = 0.00e+00 Error = 6.13e-14 NNZ =  1367917 SPT = 0.8323 Tsvd = 0.544 T = 7.229
+ Site =    26 /    76 .. Mmpo =  3178 DW = 0.00e+00 Error = 3.51e-14 NNZ =  1567602 SPT = 0.8335 Tsvd = 0.604 T = 8.430
+ Site =    27 /    76 .. Mmpo =  3402 DW = 0.00e+00 Error = 4.17e-14 NNZ =  1820695 SPT = 0.8316 Tsvd = 0.754 T = 9.298
+ Site =    28 /    76 .. Mmpo =  3633 DW = 9.92e-13 Error = 9.96e-07 NNZ =  2074614 SPT = 0.8321 Tsvd = 0.798 T = 8.872
+ Site =    29 /    76 .. Mmpo =  3872 DW = 9.49e-13 Error = 9.74e-07 NNZ =  2385381 SPT = 0.8304 Tsvd = 0.868 T = 9.374
+ Site =    30 /    76 .. Mmpo =  4114 DW = 5.08e-12 Error = 2.25e-06 NNZ =  2715659 SPT = 0.8295 Tsvd = 0.975 T = 9.764
+ Site =    31 /    76 .. Mmpo =  4352 DW = 1.43e-11 Error = 3.78e-06 NNZ =  3057945 SPT = 0.8292 Tsvd = 69.163 T = 80.838
+ Site =    32 /    76 .. Mmpo =  4582 DW = 2.70e-11 Error = 5.20e-06 NNZ =  3372529 SPT = 0.8309 Tsvd = 162.679 T = 173.580
+ Site =    33 /    76 .. Mmpo =  4778 DW = 5.42e-11 Error = 7.36e-06 NNZ =  3756909 SPT = 0.8284 Tsvd = 2.550 T = 14.876
+ Site =    34 /    76 .. Mmpo =  4945 DW = 7.94e-11 Error = 8.91e-06 NNZ =  4012535 SPT = 0.8302 Tsvd = 113.384 T = 125.599
+ Site =    35 /    76 .. Mmpo =  5059 DW = 1.08e-10 Error = 1.04e-05 NNZ =  4313283 SPT = 0.8276 Tsvd = 1.829 T = 14.607
+ Site =    36 /    76 .. Mmpo =  5116 DW = 1.32e-10 Error = 1.15e-05 NNZ =  4453795 SPT = 0.8279 Tsvd = 1.836 T = 14.127
+ Site =    37 /    76 .. Mmpo =  5131 DW = 1.32e-10 Error = 1.15e-05 NNZ =  4521025 SPT = 0.8278 Tsvd = 1.628 T = 15.055
+ Site =    38 /    76 .. Mmpo =  5097 DW = 1.27e-10 Error = 1.13e-05 NNZ =  4509911 SPT = 0.8276 Tsvd = 175.192 T = 190.052
+ Site =    39 /    76 .. Mmpo =  5010 DW = 1.21e-10 Error = 1.10e-05 NNZ =  4342234 SPT = 0.8300 Tsvd = 217.652 T = 231.526
+ Site =    40 /    76 .. Mmpo =  4876 DW = 1.00e-10 Error = 1.00e-05 NNZ =  4142970 SPT = 0.8304 Tsvd = 31.573 T = 44.177
+ Site =    41 /    76 .. Mmpo =  4682 DW = 8.49e-11 Error = 9.22e-06 NNZ =  3900063 SPT = 0.8292 Tsvd = 1.912 T = 12.408
+ Site =    42 /    76 .. Mmpo =  4502 DW = 5.81e-11 Error = 7.62e-06 NNZ =  3575589 SPT = 0.8304 Tsvd = 34.329 T = 45.040
+ Site =    43 /    76 .. Mmpo =  4306 DW = 3.47e-11 Error = 5.89e-06 NNZ =  3295089 SPT = 0.8300 Tsvd = 99.085 T = 108.503
+ Site =    44 /    76 .. Mmpo =  4093 DW = 1.53e-11 Error = 3.91e-06 NNZ =  2974756 SPT = 0.8312 Tsvd = 105.375 T = 114.810
+ Site =    45 /    76 .. Mmpo =  3862 DW = 7.67e-12 Error = 2.77e-06 NNZ =  2652389 SPT = 0.8322 Tsvd = 36.607 T = 46.678
+ Site =    46 /    76 .. Mmpo =  3630 DW = 1.49e-12 Error = 1.22e-06 NNZ =  2350441 SPT = 0.8323 Tsvd = 0.990 T = 8.831
+ Site =    47 /    76 .. Mmpo =  3400 DW = 1.60e-12 Error = 1.26e-06 NNZ =  2059883 SPT = 0.8331 Tsvd = 1.072 T = 10.816
+ Site =    48 /    76 .. Mmpo =  3178 DW = 0.00e+00 Error = 6.53e-14 NNZ =  1804813 SPT = 0.8330 Tsvd = 2.726 T = 8.749
+ Site =    49 /    76 .. Mmpo =  2962 DW = 0.00e+00 Error = 3.56e-14 NNZ =  1579056 SPT = 0.8323 Tsvd = 20.050 T = 26.558
+ Site =    50 /    76 .. Mmpo =  2754 DW = 0.00e+00 Error = 2.58e-14 NNZ =  1370495 SPT = 0.8320 Tsvd = 11.009 T = 16.236
+ Site =    51 /    76 .. Mmpo =  2554 DW = 0.00e+00 Error = 6.47e-14 NNZ =  1186513 SPT = 0.8313 Tsvd = 45.558 T = 50.346
+ Site =    52 /    76 .. Mmpo =  2362 DW = 0.00e+00 Error = 3.61e-14 NNZ =  1022964 SPT = 0.8304 Tsvd = 15.625 T = 20.858
+ Site =    53 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 7.20e-14 NNZ =   875953 SPT = 0.8297 Tsvd = 5.301 T = 8.773
+ Site =    54 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 3.96e-14 NNZ =   747459 SPT = 0.8286 Tsvd = 6.113 T = 8.886
+ Site =    55 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 3.79e-14 NNZ =   636186 SPT = 0.8267 Tsvd = 10.854 T = 14.576
+ Site =    56 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 9.19e-14 NNZ =   536807 SPT = 0.8252 Tsvd = 0.408 T = 3.388
+ Site =    57 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 8.64e-14 NNZ =   450910 SPT = 0.8230 Tsvd = 1.288 T = 3.252
+ Site =    58 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 3.05e-14 NNZ =   373898 SPT = 0.8217 Tsvd = 1.869 T = 3.477
+ Site =    59 /    76 .. Mmpo =  1242 DW = 0.00e+00 Error = 3.73e-14 NNZ =   311774 SPT = 0.8178 Tsvd = 0.834 T = 2.175
+ Site =    60 /    76 .. Mmpo =  1114 DW = 0.00e+00 Error = 1.15e-13 NNZ =   256114 SPT = 0.8149 Tsvd = 1.869 T = 2.952
+ Site =    61 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 5.95e-14 NNZ =   209697 SPT = 0.8106 Tsvd = 1.944 T = 2.882
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 1.03e-13 NNZ =   170035 SPT = 0.8061 Tsvd = 4.464 T = 5.305
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 1.33e-14 NNZ =   137198 SPT = 0.8001 Tsvd = 2.330 T = 3.031
+ Site =    64 /    76 .. Mmpo =   682 DW = 3.20e-29 Error = 6.42e-14 NNZ =   108965 SPT = 0.7946 Tsvd = 5.099 T = 6.022
+ Site =    65 /    76 .. Mmpo =   594 DW = 0.00e+00 Error = 3.24e-14 NNZ =    86683 SPT = 0.7860 Tsvd = 3.617 T = 4.212
+ Site =    66 /    76 .. Mmpo =   514 DW = 0.00e+00 Error = 3.70e-14 NNZ =    68709 SPT = 0.7750 Tsvd = 1.974 T = 2.393
+ Site =    67 /    76 .. Mmpo =   442 DW = 0.00e+00 Error = 6.08e-14 NNZ =    53931 SPT = 0.7626 Tsvd = 3.422 T = 3.818
+ Site =    68 /    76 .. Mmpo =   378 DW = 0.00e+00 Error = 2.49e-14 NNZ =    42095 SPT = 0.7480 Tsvd = 2.049 T = 2.320
+ Site =    69 /    76 .. Mmpo =   316 DW = 3.50e-12 Error = 1.87e-06 NNZ =    32401 SPT = 0.7287 Tsvd = 0.894 T = 1.106
+ Site =    70 /    76 .. Mmpo =   244 DW = 4.36e-12 Error = 2.09e-06 NNZ =    22667 SPT = 0.7060 Tsvd = 1.319 T = 1.462
+ Site =    71 /    76 .. Mmpo =   168 DW = 1.28e-12 Error = 1.13e-06 NNZ =    12619 SPT = 0.6922 Tsvd = 1.089 T = 1.159
+ Site =    72 /    76 .. Mmpo =    92 DW = 3.56e-34 Error = 2.51e-14 NNZ =     4873 SPT = 0.6847 Tsvd = 0.376 T = 0.400
+ Site =    73 /    76 .. Mmpo =    42 DW = 1.01e-33 Error = 2.97e-14 NNZ =     1127 SPT = 0.7083 Tsvd = 0.000 T = 0.006
+ Site =    74 /    76 .. Mmpo =    14 DW = 4.05e-34 Error = 4.92e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 2.13e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =   1826.426 Tsvd-total = 1403.464 MPO bond dimension =  5131 MaxDW = 1.32e-10 Total error = 3.36e-05
+NNZ =     92502952 SIZE =    542059264 SPT = 0.8293
+
+Rank =     0 Ttotal =   1826.959 MPO method = FastBlockedSVD bond dimension =    5131 NNZ =     92502952 SIZE =    542059264 SPT = 0.8293

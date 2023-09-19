@@ -1,0 +1,92 @@
+{
+    "random_seed": 0,
+    "create": {
+        "name": "fe2ocl6",
+        "spin": 10,
+        "charge": -2,
+        "time": "48:00:00",
+        "func": "tpss",
+        "basis": "def2-SV(P)",
+        "method": "uks"
+    },
+    "hosts": {
+        "name": "hpc",
+        "model": "hpc",
+        "cores": 24,
+        "nodes": 1,
+        "mem": "120G",
+        "partition": "any"
+    },
+    "mf-1": {
+        "x2c": "",
+        "dimer_init": "Fe 3d",
+        "dimer_idx": "0:1",
+        "dimer_spin": "5",
+        "dimer_type": "fm",
+        "direct_newton": "",
+        "geometry": "/central/groups/changroup/members/hczhai/work/software/05-Fe2OCl6/fe2ocl6.xyz",
+        "spin": "10",
+        "charge": -2,
+        "func": "tpss",
+        "basis": "ccpvdz-dk",
+        "method": "uhf",
+        "max_memory": "82000",
+        "max_cycle": "1000",
+        "conv_tol": "1E-12"
+    },
+    "mf-2": {
+        "x2c": "",
+        "dimer_init": "Fe 3d",
+        "dimer_idx": "0:1",
+        "dimer_spin": "5",
+        "dimer_type": "afm",
+        "direct_newton": "",
+        "geometry": "/central/groups/changroup/members/hczhai/work/software/05-Fe2OCl6/fe2ocl6.xyz",
+        "spin": "0",
+        "charge": -2,
+        "func": "tpss",
+        "basis": "ccpvdz-dk",
+        "method": "uhf",
+        "max_memory": "82000",
+        "max_cycle": "1000",
+        "conv_tol": "1E-12"
+    },
+    "cc-3": {
+        "load_mf": "mf-1",
+        "frozen": "41",
+        "spin": "10",
+        "max_cycle": "1000",
+        "bcc_conv_tol": 1e-05,
+        "bcc_max_cycle": 10
+    },
+    "cc-4": {
+        "load_mf": "mf-2",
+        "frozen": "41",
+        "spin": "0",
+        "max_cycle": "1000",
+        "bcc_conv_tol": 1e-05,
+        "bcc_max_cycle": 10
+    },
+    "stdmrg-5": {
+        "load_mf": "mf-1",
+        "spin": "10",
+        "max_memory": "100000",
+        "ncore": "26",
+        "ncas": "30",
+        "st_type": "H_HT_HTT",
+        "do_st_extrap": "",
+        "frozen": "41",
+        "max_cycle": "1000"
+    },
+    "stdmrg-6": {
+        "load_mf": "mf-2",
+        "spin": "0",
+        "max_memory": "100000",
+        "ncore": "26",
+        "ncas": "30",
+        "st_type": "H_HT_HTT",
+        "do_st_extrap": "",
+        "frozen": "41",
+        "max_cycle": "1000"
+    }
+}

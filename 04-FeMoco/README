@@ -1,0 +1,3 @@
+wget https://github.com/zhendongli2008/Active-space-model-for-FeMoco/raw/master/FCIDUMP.zip
+unzip FCIDUMP.zip
+rm FCIDUMP.zip
