@@ -43,7 +43,7 @@ with open("../08-C2/00-dmrg.out") as f:
         if l.startswith('DMRG (M=3000) energy ='):
             ener_dmrg.append(float(l.split()[4]))
 
-with open("../08-C2/02-pdmrg.out") as f:
+with open("../08-C2/04-pdmrg.out") as f:
     for l in f.readlines():
         if l.startswith('E(PDMRG) ='):
             ener_pdmrg.append(float(l.split()[2]))
@@ -138,4 +138,4 @@ axs[1].text(2.29, 1.15E-5, '$\mathrm{C}$', color='#000000', fontsize=16, zorder=
 axs[0].legend(loc='lower right', fontsize=10)
 axs[1].legend(loc='lower right', fontsize=10)
 plt.subplots_adjust(left=0.15, right=0.97, top=0.97, bottom=0.08, wspace=0.0, hspace=0.0)
-plt.savefig('fig-08.png', dpi=600)
+plt.savefig('fig-08.pdf', dpi=600)

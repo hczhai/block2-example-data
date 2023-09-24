@@ -45,4 +45,4 @@ axs.text(5, 1.5, '$\\hat{H} = \\sum_{\\mathbf{k}} \\frac{|\\mathbf{k}|^2}{2}\\ha
 axs.text(5, 0.5, '3D Uniform Electron Gas', color='#000000', fontsize=14, zorder=999)
 axs.legend(loc='upper left', fontsize=12)
 plt.subplots_adjust(left=0.11, right=0.97, top=0.95, bottom=0.14, wspace=0.0, hspace=0.0)
-plt.savefig('fig-07.png', dpi=600)
+plt.savefig('fig-07.pdf', dpi=600)

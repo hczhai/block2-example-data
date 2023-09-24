@@ -39,4 +39,4 @@ axs.text(5, 0.18, '$\\hat{H} = \\hat{H}_{\\mathrm{dot}} + \\hat{H}_{\\mathrm{lea
 axs.text(5, 0.08, 'Single-impurity Anderson model', color='#000000', fontsize=14, zorder=999)
 axs.legend(loc='upper right', fontsize=12)
 plt.subplots_adjust(left=0.13, right=0.97, top=0.95, bottom=0.14, wspace=0.0, hspace=0.0)
-plt.savefig('fig-06.png', dpi=600)
+plt.savefig('fig-06.pdf', dpi=600)
