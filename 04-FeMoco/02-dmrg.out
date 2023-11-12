@@ -1,0 +1,1404 @@
+symmetrize error =  0.0
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-05 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.021 T = 0.264
+ Site =     1 /    76 .. Mmpo =    34 DW = 2.56e-05 Error = 5.06e-03 NNZ =      137 SPT = 0.7122 Tsvd = 0.018 T = 0.393
+ Site =     2 /    76 .. Mmpo =    50 DW = 7.21e-05 Error = 8.49e-03 NNZ =      476 SPT = 0.7200 Tsvd = 0.027 T = 0.470
+ Site =     3 /    76 .. Mmpo =    73 DW = 8.91e-05 Error = 9.44e-03 NNZ =      934 SPT = 0.7441 Tsvd = 0.038 T = 0.525
+ Site =     4 /    76 .. Mmpo =    89 DW = 1.15e-04 Error = 1.07e-02 NNZ =     1612 SPT = 0.7519 Tsvd = 0.050 T = 0.580
+ Site =     5 /    76 .. Mmpo =    98 DW = 2.18e-04 Error = 1.48e-02 NNZ =     2192 SPT = 0.7487 Tsvd = 0.062 T = 0.607
+ Site =     6 /    76 .. Mmpo =   117 DW = 1.81e-04 Error = 1.35e-02 NNZ =     2647 SPT = 0.7691 Tsvd = 0.077 T = 0.669
+ Site =     7 /    76 .. Mmpo =   130 DW = 2.49e-04 Error = 1.58e-02 NNZ =     3816 SPT = 0.7491 Tsvd = 0.090 T = 0.736
+ Site =     8 /    76 .. Mmpo =   143 DW = 2.23e-04 Error = 1.49e-02 NNZ =     4867 SPT = 0.7382 Tsvd = 0.102 T = 0.801
+ Site =     9 /    76 .. Mmpo =   152 DW = 2.19e-04 Error = 1.48e-02 NNZ =     5618 SPT = 0.7415 Tsvd = 0.113 T = 0.856
+ Site =    10 /    76 .. Mmpo =   167 DW = 2.34e-04 Error = 1.53e-02 NNZ =     6681 SPT = 0.7368 Tsvd = 0.122 T = 0.904
+ Site =    11 /    76 .. Mmpo =   184 DW = 2.07e-04 Error = 1.44e-02 NNZ =     7877 SPT = 0.7437 Tsvd = 0.132 T = 0.937
+ Site =    12 /    76 .. Mmpo =   202 DW = 2.42e-04 Error = 1.56e-02 NNZ =     9593 SPT = 0.7419 Tsvd = 0.144 T = 0.985
+ Site =    13 /    76 .. Mmpo =   216 DW = 2.88e-04 Error = 1.70e-02 NNZ =    10888 SPT = 0.7505 Tsvd = 0.156 T = 1.021
+ Site =    14 /    76 .. Mmpo =   224 DW = 2.98e-04 Error = 1.73e-02 NNZ =    12021 SPT = 0.7516 Tsvd = 0.165 T = 1.071
+ Site =    15 /    76 .. Mmpo =   235 DW = 2.98e-04 Error = 1.73e-02 NNZ =    13142 SPT = 0.7503 Tsvd = 0.175 T = 1.108
+ Site =    16 /    76 .. Mmpo =   246 DW = 2.91e-04 Error = 1.71e-02 NNZ =    14756 SPT = 0.7448 Tsvd = 0.184 T = 1.147
+ Site =    17 /    76 .. Mmpo =   260 DW = 2.09e-04 Error = 1.45e-02 NNZ =    15879 SPT = 0.7517 Tsvd = 0.191 T = 1.195
+ Site =    18 /    76 .. Mmpo =   271 DW = 2.69e-04 Error = 1.64e-02 NNZ =    17351 SPT = 0.7537 Tsvd = 0.199 T = 1.235
+ Site =    19 /    76 .. Mmpo =   267 DW = 3.42e-04 Error = 1.85e-02 NNZ =    17949 SPT = 0.7519 Tsvd = 0.206 T = 1.264
+ Site =    20 /    76 .. Mmpo =   270 DW = 3.54e-04 Error = 1.88e-02 NNZ =    17827 SPT = 0.7527 Tsvd = 0.210 T = 1.287
+ Site =    21 /    76 .. Mmpo =   281 DW = 3.40e-04 Error = 1.84e-02 NNZ =    19247 SPT = 0.7463 Tsvd = 0.214 T = 1.339
+ Site =    22 /    76 .. Mmpo =   295 DW = 2.75e-04 Error = 1.66e-02 NNZ =    20450 SPT = 0.7533 Tsvd = 0.218 T = 1.380
+ Site =    23 /    76 .. Mmpo =   294 DW = 2.94e-04 Error = 1.72e-02 NNZ =    21149 SPT = 0.7562 Tsvd = 0.225 T = 1.403
+ Site =    24 /    76 .. Mmpo =   288 DW = 3.15e-04 Error = 1.78e-02 NNZ =    20814 SPT = 0.7542 Tsvd = 0.225 T = 1.411
+ Site =    25 /    76 .. Mmpo =   293 DW = 3.26e-04 Error = 1.81e-02 NNZ =    21182 SPT = 0.7490 Tsvd = 0.226 T = 1.410
+ Site =    26 /    76 .. Mmpo =   308 DW = 2.60e-04 Error = 1.61e-02 NNZ =    22518 SPT = 0.7505 Tsvd = 0.227 T = 1.443
+ Site =    27 /    76 .. Mmpo =   312 DW = 2.76e-04 Error = 1.66e-02 NNZ =    23699 SPT = 0.7534 Tsvd = 0.225 T = 1.442
+ Site =    28 /    76 .. Mmpo =   320 DW = 3.01e-04 Error = 1.74e-02 NNZ =    24357 SPT = 0.7560 Tsvd = 0.225 T = 1.433
+ Site =    29 /    76 .. Mmpo =   315 DW = 2.44e-04 Error = 1.56e-02 NNZ =    24552 SPT = 0.7564 Tsvd = 0.219 T = 1.425
+ Site =    30 /    76 .. Mmpo =   311 DW = 3.20e-04 Error = 1.79e-02 NNZ =    23829 SPT = 0.7568 Tsvd = 0.212 T = 1.496
+ Site =    31 /    76 .. Mmpo =   312 DW = 2.64e-04 Error = 1.63e-02 NNZ =    23757 SPT = 0.7552 Tsvd = 0.201 T = 1.396
+ Site =    32 /    76 .. Mmpo =   321 DW = 1.10e-04 Error = 1.05e-02 NNZ =    24245 SPT = 0.7579 Tsvd = 0.185 T = 1.314
+ Site =    33 /    76 .. Mmpo =   324 DW = 2.41e-04 Error = 1.55e-02 NNZ =    25227 SPT = 0.7574 Tsvd = 0.177 T = 1.284
+ Site =    34 /    76 .. Mmpo =   331 DW = 2.18e-04 Error = 1.48e-02 NNZ =    26149 SPT = 0.7562 Tsvd = 0.176 T = 1.265
+ Site =    35 /    76 .. Mmpo =   352 DW = 5.61e-04 Error = 2.37e-02 NNZ =    28478 SPT = 0.7556 Tsvd = 0.174 T = 1.224
+ Site =    36 /    76 .. Mmpo =   354 DW = 5.07e-04 Error = 2.25e-02 NNZ =    29576 SPT = 0.7626 Tsvd = 0.166 T = 1.159
+ Site =    37 /    76 .. Mmpo =   363 DW = 3.85e-04 Error = 1.96e-02 NNZ =    30522 SPT = 0.7625 Tsvd = 0.162 T = 1.130
+ Site =    38 /    76 .. Mmpo =   345 DW = 3.96e-04 Error = 1.99e-02 NNZ =    29656 SPT = 0.7632 Tsvd = 0.156 T = 1.079
+ Site =    39 /    76 .. Mmpo =   348 DW = 2.53e-04 Error = 1.59e-02 NNZ =    28664 SPT = 0.7613 Tsvd = 0.141 T = 1.019
+ Site =    40 /    76 .. Mmpo =   341 DW = 2.18e-04 Error = 1.48e-02 NNZ =    28327 SPT = 0.7613 Tsvd = 0.139 T = 0.974
+ Site =    41 /    76 .. Mmpo =   336 DW = 1.92e-04 Error = 1.39e-02 NNZ =    27739 SPT = 0.7579 Tsvd = 0.127 T = 0.911
+ Site =    42 /    76 .. Mmpo =   336 DW = 1.85e-04 Error = 1.36e-02 NNZ =    27218 SPT = 0.7589 Tsvd = 0.116 T = 0.846
+ Site =    43 /    76 .. Mmpo =   336 DW = 2.12e-04 Error = 1.46e-02 NNZ =    27036 SPT = 0.7605 Tsvd = 0.104 T = 0.770
+ Site =    44 /    76 .. Mmpo =   335 DW = 2.48e-04 Error = 1.57e-02 NNZ =    27100 SPT = 0.7592 Tsvd = 0.101 T = 0.714
+ Site =    45 /    76 .. Mmpo =   337 DW = 2.72e-04 Error = 1.65e-02 NNZ =    27072 SPT = 0.7602 Tsvd = 0.092 T = 0.655
+ Site =    46 /    76 .. Mmpo =   335 DW = 2.56e-04 Error = 1.60e-02 NNZ =    27256 SPT = 0.7586 Tsvd = 0.088 T = 0.636
+ Site =    47 /    76 .. Mmpo =   326 DW = 2.70e-04 Error = 1.64e-02 NNZ =    26723 SPT = 0.7553 Tsvd = 0.082 T = 0.559
+ Site =    48 /    76 .. Mmpo =   320 DW = 3.21e-04 Error = 1.79e-02 NNZ =    25923 SPT = 0.7515 Tsvd = 0.074 T = 0.512
+ Site =    49 /    76 .. Mmpo =   318 DW = 3.14e-04 Error = 1.77e-02 NNZ =    25235 SPT = 0.7520 Tsvd = 0.064 T = 0.449
+ Site =    50 /    76 .. Mmpo =   315 DW = 2.82e-04 Error = 1.68e-02 NNZ =    25153 SPT = 0.7489 Tsvd = 0.060 T = 0.406
+ Site =    51 /    76 .. Mmpo =   308 DW = 2.95e-04 Error = 1.72e-02 NNZ =    24249 SPT = 0.7501 Tsvd = 0.053 T = 0.369
+ Site =    52 /    76 .. Mmpo =   299 DW = 2.53e-04 Error = 1.59e-02 NNZ =    23053 SPT = 0.7497 Tsvd = 0.048 T = 0.322
+ Site =    53 /    76 .. Mmpo =   293 DW = 3.16e-04 Error = 1.78e-02 NNZ =    22383 SPT = 0.7445 Tsvd = 0.043 T = 0.287
+ Site =    54 /    76 .. Mmpo =   291 DW = 3.16e-04 Error = 1.78e-02 NNZ =    21563 SPT = 0.7471 Tsvd = 0.035 T = 0.245
+ Site =    55 /    76 .. Mmpo =   283 DW = 2.49e-04 Error = 1.58e-02 NNZ =    20859 SPT = 0.7467 Tsvd = 0.032 T = 0.212
+ Site =    56 /    76 .. Mmpo =   274 DW = 2.24e-04 Error = 1.50e-02 NNZ =    19669 SPT = 0.7463 Tsvd = 0.027 T = 0.182
+ Site =    57 /    76 .. Mmpo =   266 DW = 2.26e-04 Error = 1.50e-02 NNZ =    18484 SPT = 0.7464 Tsvd = 0.024 T = 0.154
+ Site =    58 /    76 .. Mmpo =   257 DW = 2.90e-04 Error = 1.70e-02 NNZ =    17676 SPT = 0.7414 Tsvd = 0.021 T = 0.132
+ Site =    59 /    76 .. Mmpo =   254 DW = 3.03e-04 Error = 1.74e-02 NNZ =    16597 SPT = 0.7457 Tsvd = 0.017 T = 0.105
+ Site =    60 /    76 .. Mmpo =   251 DW = 2.20e-04 Error = 1.48e-02 NNZ =    16100 SPT = 0.7475 Tsvd = 0.015 T = 0.122
+ Site =    61 /    76 .. Mmpo =   238 DW = 3.27e-04 Error = 1.81e-02 NNZ =    15111 SPT = 0.7470 Tsvd = 0.014 T = 0.070
+ Site =    62 /    76 .. Mmpo =   224 DW = 2.53e-04 Error = 1.59e-02 NNZ =    13512 SPT = 0.7465 Tsvd = 0.011 T = 0.056
+ Site =    63 /    76 .. Mmpo =   222 DW = 2.94e-04 Error = 1.71e-02 NNZ =    12507 SPT = 0.7485 Tsvd = 0.010 T = 0.045
+ Site =    64 /    76 .. Mmpo =   215 DW = 2.71e-04 Error = 1.65e-02 NNZ =    11841 SPT = 0.7519 Tsvd = 0.008 T = 0.037
+ Site =    65 /    76 .. Mmpo =   201 DW = 1.92e-04 Error = 1.39e-02 NNZ =    10669 SPT = 0.7531 Tsvd = 0.007 T = 0.030
+ Site =    66 /    76 .. Mmpo =   180 DW = 2.63e-04 Error = 1.62e-02 NNZ =     9047 SPT = 0.7499 Tsvd = 0.005 T = 0.023
+ Site =    67 /    76 .. Mmpo =   152 DW = 2.63e-04 Error = 1.62e-02 NNZ =     6876 SPT = 0.7487 Tsvd = 0.003 T = 0.016
+ Site =    68 /    76 .. Mmpo =   131 DW = 2.38e-04 Error = 1.54e-02 NNZ =     5009 SPT = 0.7484 Tsvd = 0.002 T = 0.011
+ Site =    69 /    76 .. Mmpo =   109 DW = 2.09e-04 Error = 1.45e-02 NNZ =     3639 SPT = 0.7452 Tsvd = 0.001 T = 0.008
+ Site =    70 /    76 .. Mmpo =    86 DW = 1.37e-04 Error = 1.17e-02 NNZ =     2488 SPT = 0.7346 Tsvd = 0.001 T = 0.005
+ Site =    71 /    76 .. Mmpo =    67 DW = 1.05e-04 Error = 1.03e-02 NNZ =     1622 SPT = 0.7185 Tsvd = 0.000 T = 0.003
+ Site =    72 /    76 .. Mmpo =    54 DW = 5.31e-05 Error = 7.29e-03 NNZ =     1009 SPT = 0.7211 Tsvd = 0.000 T = 0.002
+ Site =    73 /    76 .. Mmpo =    32 DW = 2.85e-05 Error = 5.34e-03 NNZ =      454 SPT = 0.7373 Tsvd = 0.000 T = 0.001
+ Site =    74 /    76 .. Mmpo =    14 DW = 1.70e-21 Error = 4.12e-11 NNZ =      117 SPT = 0.7388 Tsvd = 0.000 T = 0.000
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 2.49e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =     52.976 Tsvd-total = 7.661 MPO bond dimension =   363 MaxDW = 5.61e-04 Total error = 1.36e-01
+NNZ =      1223678 SIZE =      4962918 SPT = 0.7534
+
+Rank =     0 Ttotal =     53.385 MPO method = FastBlockedSVD bond dimension =     363 NNZ =      1223678 SIZE =      4962918 SPT = 0.7534
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.02
+ INIT-L --> Site =    2 ..  Bmem = 11.0 KB Rmem = 11.0 KB T = 0.13
+ INIT-L --> Site =    3 ..  Bmem =  196 KB Rmem =  173 KB T = 0.08
+ INIT-L --> Site =    4 ..  Bmem = 3.06 MB Rmem = 2.26 MB T = 0.03
+ INIT-L --> Site =    5 ..  Bmem = 37.2 MB Rmem = 23.8 MB T = 0.15
+ INIT-L --> Site =    6 ..  Bmem =  350 MB Rmem = 90.3 MB T = 0.29
+ INIT-L --> Site =    7 ..  Bmem = 1.35 GB Rmem =  231 MB T = 0.65
+ INIT-L --> Site =    8 ..  Bmem = 3.23 GB Rmem =  489 MB T = 1.36
+ INIT-L --> Site =    9 ..  Bmem = 6.71 GB Rmem =  549 MB T = 2.12
+ INIT-L --> Site =   10 ..  Bmem = 7.37 GB Rmem =  568 MB T = 2.28
+ INIT-L --> Site =   11 ..  Bmem = 7.81 GB Rmem =  605 MB T = 2.54
+ INIT-L --> Site =   12 ..  Bmem = 8.55 GB Rmem =  664 MB T = 2.80
+ INIT-L --> Site =   13 ..  Bmem = 9.25 GB Rmem =  731 MB T = 3.18
+ INIT-L --> Site =   14 ..  Bmem = 10.1 GB Rmem =  794 MB T = 3.49
+ INIT-L --> Site =   15 ..  Bmem = 10.6 GB Rmem =  851 MB T = 3.78
+ INIT-L --> Site =   16 ..  Bmem = 11.5 GB Rmem =  903 MB T = 4.09
+ INIT-L --> Site =   17 ..  Bmem = 12.0 GB Rmem =  934 MB T = 4.62
+ INIT-L --> Site =   18 ..  Bmem = 12.5 GB Rmem =  968 MB T = 4.79
+ INIT-L --> Site =   19 ..  Bmem = 13.1 GB Rmem = 0.99 GB T = 5.08
+ INIT-L --> Site =   20 ..  Bmem = 12.8 GB Rmem = 0.99 GB T = 5.22
+ INIT-L --> Site =   21 ..  Bmem = 13.4 GB Rmem = 1.04 GB T = 5.48
+ INIT-L --> Site =   22 ..  Bmem = 14.0 GB Rmem = 1.02 GB T = 5.60
+ INIT-L --> Site =   23 ..  Bmem = 14.0 GB Rmem = 1.06 GB T = 5.65
+ INIT-L --> Site =   24 ..  Bmem = 14.0 GB Rmem = 1.06 GB T = 5.73
+ INIT-L --> Site =   25 ..  Bmem = 13.9 GB Rmem = 1.08 GB T = 5.74
+ INIT-L --> Site =   26 ..  Bmem = 14.6 GB Rmem = 1.09 GB T = 6.13
+ INIT-L --> Site =   27 ..  Bmem = 15.1 GB Rmem = 1.02 GB T = 5.97
+ INIT-L --> Site =   28 ..  Bmem = 13.8 GB Rmem =  983 MB T = 5.85
+ INIT-L --> Site =   29 ..  Bmem = 13.5 GB Rmem = 0.98 GB T = 5.77
+ INIT-L --> Site =   30 ..  Bmem = 13.2 GB Rmem = 1.01 GB T = 5.63
+ INIT-L --> Site =   31 ..  Bmem = 13.7 GB Rmem = 1.10 GB T = 5.96
+ INIT-L --> Site =   32 ..  Bmem = 14.7 GB Rmem = 1.10 GB T = 6.46
+ INIT-L --> Site =   33 ..  Bmem = 15.2 GB Rmem = 1.12 GB T = 6.40
+ INIT-L --> Site =   34 ..  Bmem = 15.2 GB Rmem = 1.11 GB T = 6.34
+ INIT-L --> Site =   35 ..  Bmem = 15.3 GB Rmem = 1.12 GB T = 6.49
+ INIT-L --> Site =   36 ..  Bmem = 16.1 GB Rmem = 1.19 GB T = 6.94
+ INIT-L --> Site =   37 ..  Bmem = 16.2 GB Rmem = 1.21 GB T = 7.25
+ INIT-L --> Site =   38 ..  Bmem = 16.6 GB Rmem = 1.28 GB T = 7.70
+ INIT-L --> Site =   39 ..  Bmem = 16.2 GB Rmem = 1.25 GB T = 7.47
+ INIT-L --> Site =   40 ..  Bmem = 16.8 GB Rmem = 1.29 GB T = 7.52
+ INIT-L --> Site =   41 ..  Bmem = 16.8 GB Rmem = 1.32 GB T = 7.70
+ INIT-L --> Site =   42 ..  Bmem = 16.9 GB Rmem = 1.35 GB T = 7.88
+ INIT-L --> Site =   43 ..  Bmem = 17.4 GB Rmem = 1.41 GB T = 7.99
+ INIT-L --> Site =   44 ..  Bmem = 18.0 GB Rmem = 1.49 GB T = 8.26
+ INIT-L --> Site =   45 ..  Bmem = 18.8 GB Rmem = 1.44 GB T = 8.42
+ INIT-L --> Site =   46 ..  Bmem = 18.2 GB Rmem = 1.41 GB T = 8.28
+ INIT-L --> Site =   47 ..  Bmem = 17.8 GB Rmem = 1.43 GB T = 8.22
+ INIT-L --> Site =   48 ..  Bmem = 17.6 GB Rmem = 1.35 GB T = 8.03
+ INIT-L --> Site =   49 ..  Bmem = 16.9 GB Rmem = 1.34 GB T = 7.68
+ INIT-L --> Site =   50 ..  Bmem = 16.8 GB Rmem = 1.30 GB T = 7.70
+ INIT-L --> Site =   51 ..  Bmem = 16.4 GB Rmem = 1.28 GB T = 7.24
+ INIT-L --> Site =   52 ..  Bmem = 15.7 GB Rmem = 1.22 GB T = 7.24
+ INIT-L --> Site =   53 ..  Bmem = 15.1 GB Rmem = 1.19 GB T = 6.73
+ INIT-L --> Site =   54 ..  Bmem = 14.8 GB Rmem = 1.18 GB T = 6.79
+ INIT-L --> Site =   55 ..  Bmem = 14.8 GB Rmem = 1.13 GB T = 6.54
+ INIT-L --> Site =   56 ..  Bmem = 14.0 GB Rmem = 1.08 GB T = 6.22
+ INIT-L --> Site =   57 ..  Bmem = 13.3 GB Rmem = 1.03 GB T = 5.82
+ INIT-L --> Site =   58 ..  Bmem = 12.7 GB Rmem =  967 MB T = 5.46
+ INIT-L --> Site =   59 ..  Bmem = 12.0 GB Rmem =  939 MB T = 5.08
+ INIT-L --> Site =   60 ..  Bmem = 11.8 GB Rmem =  888 MB T = 4.64
+ INIT-L --> Site =   61 ..  Bmem = 11.3 GB Rmem =  854 MB T = 4.44
+ INIT-L --> Site =   62 ..  Bmem = 10.4 GB Rmem =  796 MB T = 4.02
+ INIT-L --> Site =   63 ..  Bmem = 9.67 GB Rmem =  732 MB T = 3.73
+ INIT-L --> Site =   64 ..  Bmem = 9.48 GB Rmem =  697 MB T = 3.49
+ INIT-L --> Site =   65 ..  Bmem = 8.88 GB Rmem =  678 MB T = 3.29
+ INIT-L --> Site =   66 ..  Bmem = 8.28 GB Rmem =  632 MB T = 3.00
+ INIT-L --> Site =   67 ..  Bmem = 7.50 GB Rmem =  560 MB T = 2.64
+ INIT-L --> Site =   68 ..  Bmem = 6.23 GB Rmem =  469 MB T = 2.09
+ INIT-L --> Site =   69 ..  Bmem = 5.20 GB Rmem =  440 MB T = 1.84
+ INIT-L --> Site =   70 ..  Bmem = 4.61 GB Rmem =  335 MB T = 1.45
+ INIT-L --> Site =   71 ..  Bmem = 3.36 GB Rmem = 63.9 MB T = 0.77
+ INIT-L --> Site =   72 ..  Bmem =  637 MB Rmem = 9.97 MB T = 0.19
+ INIT-L --> Site =   73 ..  Bmem = 96.6 MB Rmem = 1.64 MB T = 0.09
+ INIT-L --> Site =   74 ..  Bmem = 10.5 MB Rmem =  346 KB T = 0.02
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.01
+Time init sweep =      346.071 | MaxBmem = 18.8 GB | MaxRmem = 1.44 GB
+ | Tread = 0.000 | Twrite = 81.402 | Tfpread = 0.000 | Tfpwrite = 80.629 | data = 63.1 GB | cpsd = 50.3 GB | Tasync = 0.000
+
+1e-05         -22140.130217154764978
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-06 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.009 T = 0.310
+ Site =     1 /    76 .. Mmpo =    42 DW = 1.22e-35 Error = 4.70e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.019 T = 0.543
+ Site =     2 /    76 .. Mmpo =    73 DW = 1.96e-06 Error = 1.40e-03 NNZ =      784 SPT = 0.7443 Tsvd = 0.030 T = 0.688
+ Site =     3 /    76 .. Mmpo =   105 DW = 7.15e-06 Error = 2.67e-03 NNZ =     1793 SPT = 0.7661 Tsvd = 0.042 T = 0.799
+ Site =     4 /    76 .. Mmpo =   132 DW = 1.44e-05 Error = 3.79e-03 NNZ =     3166 SPT = 0.7716 Tsvd = 0.057 T = 0.904
+ Site =     5 /    76 .. Mmpo =   170 DW = 1.07e-05 Error = 3.27e-03 NNZ =     4784 SPT = 0.7868 Tsvd = 0.070 T = 0.981
+ Site =     6 /    76 .. Mmpo =   203 DW = 1.84e-05 Error = 4.29e-03 NNZ =     7130 SPT = 0.7934 Tsvd = 0.088 T = 1.073
+ Site =     7 /    76 .. Mmpo =   236 DW = 2.72e-05 Error = 5.21e-03 NNZ =    10678 SPT = 0.7771 Tsvd = 0.103 T = 1.203
+ Site =     8 /    76 .. Mmpo =   267 DW = 2.88e-05 Error = 5.37e-03 NNZ =    14352 SPT = 0.7722 Tsvd = 0.119 T = 1.325
+ Site =     9 /    76 .. Mmpo =   273 DW = 4.35e-05 Error = 6.59e-03 NNZ =    17045 SPT = 0.7662 Tsvd = 0.135 T = 1.442
+ Site =    10 /    76 .. Mmpo =   293 DW = 3.89e-05 Error = 6.23e-03 NNZ =    18895 SPT = 0.7638 Tsvd = 0.145 T = 1.504
+ Site =    11 /    76 .. Mmpo =   312 DW = 3.74e-05 Error = 6.11e-03 NNZ =    21376 SPT = 0.7662 Tsvd = 0.160 T = 1.590
+ Site =    12 /    76 .. Mmpo =   342 DW = 3.60e-05 Error = 6.00e-03 NNZ =    24558 SPT = 0.7698 Tsvd = 0.170 T = 1.683
+ Site =    13 /    76 .. Mmpo =   365 DW = 4.57e-05 Error = 6.76e-03 NNZ =    28474 SPT = 0.7719 Tsvd = 0.190 T = 1.782
+ Site =    14 /    76 .. Mmpo =   388 DW = 4.30e-05 Error = 6.56e-03 NNZ =    31400 SPT = 0.7783 Tsvd = 0.200 T = 1.862
+ Site =    15 /    76 .. Mmpo =   412 DW = 4.62e-05 Error = 6.80e-03 NNZ =    35548 SPT = 0.7776 Tsvd = 0.215 T = 1.997
+ Site =    16 /    76 .. Mmpo =   427 DW = 4.72e-05 Error = 6.87e-03 NNZ =    39524 SPT = 0.7753 Tsvd = 0.228 T = 2.056
+ Site =    17 /    76 .. Mmpo =   454 DW = 3.53e-05 Error = 5.94e-03 NNZ =    43200 SPT = 0.7772 Tsvd = 0.239 T = 2.109
+ Site =    18 /    76 .. Mmpo =   479 DW = 4.46e-05 Error = 6.68e-03 NNZ =    48383 SPT = 0.7775 Tsvd = 0.250 T = 2.217
+ Site =    19 /    76 .. Mmpo =   499 DW = 4.61e-05 Error = 6.79e-03 NNZ =    52637 SPT = 0.7798 Tsvd = 0.259 T = 2.253
+ Site =    20 /    76 .. Mmpo =   512 DW = 5.25e-05 Error = 7.24e-03 NNZ =    55701 SPT = 0.7820 Tsvd = 0.261 T = 2.267
+ Site =    21 /    76 .. Mmpo =   542 DW = 4.84e-05 Error = 6.96e-03 NNZ =    60488 SPT = 0.7820 Tsvd = 0.267 T = 2.301
+ Site =    22 /    76 .. Mmpo =   558 DW = 5.07e-05 Error = 7.12e-03 NNZ =    65406 SPT = 0.7837 Tsvd = 0.279 T = 2.333
+ Site =    23 /    76 .. Mmpo =   553 DW = 4.97e-05 Error = 7.05e-03 NNZ =    66357 SPT = 0.7850 Tsvd = 0.281 T = 2.420
+ Site =    24 /    76 .. Mmpo =   552 DW = 4.81e-05 Error = 6.93e-03 NNZ =    66143 SPT = 0.7833 Tsvd = 0.281 T = 2.430
+ Site =    25 /    76 .. Mmpo =   554 DW = 5.18e-05 Error = 7.20e-03 NNZ =    66551 SPT = 0.7824 Tsvd = 0.280 T = 2.370
+ Site =    26 /    76 .. Mmpo =   576 DW = 3.93e-05 Error = 6.27e-03 NNZ =    68966 SPT = 0.7839 Tsvd = 0.281 T = 2.344
+ Site =    27 /    76 .. Mmpo =   575 DW = 4.84e-05 Error = 6.96e-03 NNZ =    71326 SPT = 0.7846 Tsvd = 0.270 T = 2.284
+ Site =    28 /    76 .. Mmpo =   577 DW = 4.65e-05 Error = 6.82e-03 NNZ =    70512 SPT = 0.7875 Tsvd = 0.266 T = 2.226
+ Site =    29 /    76 .. Mmpo =   561 DW = 4.16e-05 Error = 6.45e-03 NNZ =    68726 SPT = 0.7877 Tsvd = 0.258 T = 2.175
+ Site =    30 /    76 .. Mmpo =   560 DW = 4.76e-05 Error = 6.90e-03 NNZ =    66269 SPT = 0.7891 Tsvd = 0.249 T = 2.068
+ Site =    31 /    76 .. Mmpo =   553 DW = 4.78e-05 Error = 6.91e-03 NNZ =    66159 SPT = 0.7864 Tsvd = 0.238 T = 1.988
+ Site =    32 /    76 .. Mmpo =   540 DW = 3.75e-05 Error = 6.13e-03 NNZ =    63479 SPT = 0.7874 Tsvd = 0.229 T = 1.925
+ Site =    33 /    76 .. Mmpo =   533 DW = 4.67e-05 Error = 6.84e-03 NNZ =    61975 SPT = 0.7847 Tsvd = 0.220 T = 1.861
+ Site =    34 /    76 .. Mmpo =   546 DW = 4.49e-05 Error = 6.70e-03 NNZ =    62102 SPT = 0.7866 Tsvd = 0.214 T = 1.768
+ Site =    35 /    76 .. Mmpo =   594 DW = 6.67e-05 Error = 8.17e-03 NNZ =    68390 SPT = 0.7891 Tsvd = 0.210 T = 1.676
+ Site =    36 /    76 .. Mmpo =   609 DW = 7.74e-05 Error = 8.80e-03 NNZ =    75687 SPT = 0.7908 Tsvd = 0.215 T = 1.616
+ Site =    37 /    76 .. Mmpo =   591 DW = 8.22e-05 Error = 9.07e-03 NNZ =    75588 SPT = 0.7900 Tsvd = 0.214 T = 1.539
+ Site =    38 /    76 .. Mmpo =   544 DW = 7.81e-05 Error = 8.84e-03 NNZ =    68149 SPT = 0.7880 Tsvd = 0.204 T = 1.447
+ Site =    39 /    76 .. Mmpo =   559 DW = 4.29e-05 Error = 6.55e-03 NNZ =    64166 SPT = 0.7890 Tsvd = 0.187 T = 1.355
+ Site =    40 /    76 .. Mmpo =   561 DW = 3.08e-05 Error = 5.55e-03 NNZ =    65685 SPT = 0.7905 Tsvd = 0.182 T = 1.293
+ Site =    41 /    76 .. Mmpo =   548 DW = 4.44e-05 Error = 6.66e-03 NNZ =    64955 SPT = 0.7887 Tsvd = 0.176 T = 1.241
+ Site =    42 /    76 .. Mmpo =   557 DW = 3.10e-05 Error = 5.57e-03 NNZ =    64470 SPT = 0.7888 Tsvd = 0.169 T = 1.168
+ Site =    43 /    76 .. Mmpo =   571 DW = 3.85e-05 Error = 6.21e-03 NNZ =    67304 SPT = 0.7884 Tsvd = 0.165 T = 1.116
+ Site =    44 /    76 .. Mmpo =   584 DW = 3.75e-05 Error = 6.13e-03 NNZ =    70303 SPT = 0.7892 Tsvd = 0.160 T = 1.057
+ Site =    45 /    76 .. Mmpo =   599 DW = 4.58e-05 Error = 6.77e-03 NNZ =    73661 SPT = 0.7894 Tsvd = 0.154 T = 0.990
+ Site =    46 /    76 .. Mmpo =   588 DW = 5.40e-05 Error = 7.35e-03 NNZ =    74815 SPT = 0.7876 Tsvd = 0.151 T = 0.952
+ Site =    47 /    76 .. Mmpo =   594 DW = 4.38e-05 Error = 6.62e-03 NNZ =    74237 SPT = 0.7875 Tsvd = 0.135 T = 0.854
+ Site =    48 /    76 .. Mmpo =   591 DW = 5.52e-05 Error = 7.43e-03 NNZ =    75269 SPT = 0.7856 Tsvd = 0.133 T = 0.803
+ Site =    49 /    76 .. Mmpo =   604 DW = 4.87e-05 Error = 6.98e-03 NNZ =    76886 SPT = 0.7846 Tsvd = 0.126 T = 0.746
+ Site =    50 /    76 .. Mmpo =   593 DW = 5.45e-05 Error = 7.38e-03 NNZ =    76718 SPT = 0.7858 Tsvd = 0.124 T = 0.704
+ Site =    51 /    76 .. Mmpo =   575 DW = 5.96e-05 Error = 7.72e-03 NNZ =    73467 SPT = 0.7845 Tsvd = 0.111 T = 0.639
+ Site =    52 /    76 .. Mmpo =   561 DW = 5.49e-05 Error = 7.41e-03 NNZ =    71050 SPT = 0.7797 Tsvd = 0.103 T = 0.581
+ Site =    53 /    76 .. Mmpo =   551 DW = 5.68e-05 Error = 7.54e-03 NNZ =    68139 SPT = 0.7796 Tsvd = 0.093 T = 0.517
+ Site =    54 /    76 .. Mmpo =   552 DW = 5.79e-05 Error = 7.61e-03 NNZ =    67560 SPT = 0.7779 Tsvd = 0.083 T = 0.470
+ Site =    55 /    76 .. Mmpo =   533 DW = 5.41e-05 Error = 7.36e-03 NNZ =    64339 SPT = 0.7813 Tsvd = 0.077 T = 0.418
+ Site =    56 /    76 .. Mmpo =   515 DW = 4.73e-05 Error = 6.88e-03 NNZ =    59697 SPT = 0.7825 Tsvd = 0.065 T = 0.361
+ Site =    57 /    76 .. Mmpo =   490 DW = 4.92e-05 Error = 7.01e-03 NNZ =    55827 SPT = 0.7788 Tsvd = 0.061 T = 0.322
+ Site =    58 /    76 .. Mmpo =   482 DW = 4.30e-05 Error = 6.56e-03 NNZ =    52914 SPT = 0.7760 Tsvd = 0.055 T = 0.275
+ Site =    59 /    76 .. Mmpo =   474 DW = 5.70e-05 Error = 7.55e-03 NNZ =    51499 SPT = 0.7746 Tsvd = 0.050 T = 0.248
+ Site =    60 /    76 .. Mmpo =   445 DW = 5.27e-05 Error = 7.26e-03 NNZ =    47558 SPT = 0.7745 Tsvd = 0.045 T = 0.208
+ Site =    61 /    76 .. Mmpo =   424 DW = 4.84e-05 Error = 6.96e-03 NNZ =    42273 SPT = 0.7760 Tsvd = 0.035 T = 0.160
+ Site =    62 /    76 .. Mmpo =   394 DW = 4.20e-05 Error = 6.48e-03 NNZ =    37684 SPT = 0.7744 Tsvd = 0.029 T = 0.132
+ Site =    63 /    76 .. Mmpo =   380 DW = 4.74e-05 Error = 6.88e-03 NNZ =    34160 SPT = 0.7718 Tsvd = 0.023 T = 0.105
+ Site =    64 /    76 .. Mmpo =   350 DW = 3.70e-05 Error = 6.08e-03 NNZ =    30107 SPT = 0.7736 Tsvd = 0.017 T = 0.081
+ Site =    65 /    76 .. Mmpo =   314 DW = 3.14e-05 Error = 5.61e-03 NNZ =    25108 SPT = 0.7715 Tsvd = 0.011 T = 0.061
+ Site =    66 /    76 .. Mmpo =   286 DW = 3.23e-05 Error = 5.68e-03 NNZ =    20979 SPT = 0.7664 Tsvd = 0.008 T = 0.059
+ Site =    67 /    76 .. Mmpo =   255 DW = 2.23e-05 Error = 4.73e-03 NNZ =    17325 SPT = 0.7624 Tsvd = 0.005 T = 0.036
+ Site =    68 /    76 .. Mmpo =   221 DW = 2.62e-05 Error = 5.12e-03 NNZ =    13503 SPT = 0.7604 Tsvd = 0.003 T = 0.024
+ Site =    69 /    76 .. Mmpo =   185 DW = 1.65e-05 Error = 4.06e-03 NNZ =     9731 SPT = 0.7620 Tsvd = 0.002 T = 0.016
+ Site =    70 /    76 .. Mmpo =   144 DW = 1.59e-05 Error = 3.99e-03 NNZ =     6329 SPT = 0.7624 Tsvd = 0.001 T = 0.011
+ Site =    71 /    76 .. Mmpo =   108 DW = 6.59e-06 Error = 2.57e-03 NNZ =     3763 SPT = 0.7580 Tsvd = 0.000 T = 0.006
+ Site =    72 /    76 .. Mmpo =    71 DW = 1.70e-06 Error = 1.30e-03 NNZ =     1826 SPT = 0.7619 Tsvd = 0.000 T = 0.003
+ Site =    73 /    76 .. Mmpo =    38 DW = 8.70e-08 Error = 2.95e-04 NNZ =      617 SPT = 0.7713 Tsvd = 0.000 T = 0.001
+ Site =    74 /    76 .. Mmpo =    14 DW = 1.28e-34 Error = 3.03e-14 NNZ =      133 SPT = 0.7500 Tsvd = 0.000 T = 0.000
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 7.11e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =     84.372 Tsvd-total = 10.187 MPO bond dimension =   609 MaxDW = 8.22e-05 Total error = 5.45e-02
+NNZ =      3375951 SIZE =     15560517 SPT = 0.7830
+
+Rank =     0 Ttotal =     84.744 MPO method = FastBlockedSVD bond dimension =     609 NNZ =      3375951 SIZE =     15560517 SPT = 0.7830
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.06
+ INIT-L --> Site =    2 ..  Bmem = 12.8 KB Rmem = 12.8 KB T = 0.01
+ INIT-L --> Site =    3 ..  Bmem =  293 KB Rmem =  255 KB T = 0.05
+ INIT-L --> Site =    4 ..  Bmem = 4.53 MB Rmem = 3.30 MB T = 0.02
+ INIT-L --> Site =    5 ..  Bmem = 54.0 MB Rmem = 33.9 MB T = 0.12
+ INIT-L --> Site =    6 ..  Bmem =  567 MB Rmem =  144 MB T = 0.31
+ INIT-L --> Site =    7 ..  Bmem = 2.18 GB Rmem =  370 MB T = 1.01
+ INIT-L --> Site =    8 ..  Bmem = 5.60 GB Rmem =  837 MB T = 2.60
+ INIT-L --> Site =    9 ..  Bmem = 12.3 GB Rmem =  988 MB T = 4.31
+ INIT-L --> Site =   10 ..  Bmem = 13.1 GB Rmem =  997 MB T = 4.92
+ INIT-L --> Site =   11 ..  Bmem = 13.8 GB Rmem = 1.03 GB T = 5.23
+ INIT-L --> Site =   12 ..  Bmem = 14.5 GB Rmem = 1.09 GB T = 5.76
+ INIT-L --> Site =   13 ..  Bmem = 15.7 GB Rmem = 1.20 GB T = 6.36
+ INIT-L --> Site =   14 ..  Bmem = 16.8 GB Rmem = 1.28 GB T = 7.28
+ INIT-L --> Site =   15 ..  Bmem = 18.1 GB Rmem = 1.40 GB T = 7.88
+ INIT-L --> Site =   16 ..  Bmem = 19.9 GB Rmem = 1.51 GB T = 9.03
+ INIT-L --> Site =   17 ..  Bmem = 20.7 GB Rmem = 1.55 GB T = 9.81
+ INIT-L --> Site =   18 ..  Bmem = 21.7 GB Rmem = 1.62 GB T = 10.50
+ INIT-L --> Site =   19 ..  Bmem = 22.6 GB Rmem = 1.69 GB T = 11.47
+ INIT-L --> Site =   20 ..  Bmem = 23.4 GB Rmem = 1.79 GB T = 12.24
+ INIT-L --> Site =   21 ..  Bmem = 24.5 GB Rmem = 1.87 GB T = 13.10
+ INIT-L --> Site =   22 ..  Bmem = 26.3 GB Rmem = 1.89 GB T = 14.08
+ INIT-L --> Site =   23 ..  Bmem = 25.9 GB Rmem = 1.94 GB T = 14.68
+ INIT-L --> Site =   24 ..  Bmem = 25.7 GB Rmem = 1.93 GB T = 14.69
+ INIT-L --> Site =   25 ..  Bmem = 25.8 GB Rmem = 1.98 GB T = 14.95
+ INIT-L --> Site =   26 ..  Bmem = 26.7 GB Rmem = 1.97 GB T = 15.19
+ INIT-L --> Site =   27 ..  Bmem = 27.3 GB Rmem = 1.84 GB T = 15.29
+ INIT-L --> Site =   28 ..  Bmem = 25.1 GB Rmem = 1.73 GB T = 14.42
+ INIT-L --> Site =   29 ..  Bmem = 23.9 GB Rmem = 1.72 GB T = 13.63
+ INIT-L --> Site =   30 ..  Bmem = 23.1 GB Rmem = 1.75 GB T = 13.24
+ INIT-L --> Site =   31 ..  Bmem = 24.0 GB Rmem = 1.91 GB T = 13.69
+ INIT-L --> Site =   32 ..  Bmem = 25.7 GB Rmem = 1.91 GB T = 14.17
+ INIT-L --> Site =   33 ..  Bmem = 25.2 GB Rmem = 1.84 GB T = 13.96
+ INIT-L --> Site =   34 ..  Bmem = 24.7 GB Rmem = 1.79 GB T = 13.39
+ INIT-L --> Site =   35 ..  Bmem = 24.9 GB Rmem = 1.81 GB T = 13.41
+ INIT-L --> Site =   36 ..  Bmem = 26.7 GB Rmem = 1.95 GB T = 14.53
+ INIT-L --> Site =   37 ..  Bmem = 27.2 GB Rmem = 2.01 GB T = 15.70
+ INIT-L --> Site =   38 ..  Bmem = 26.5 GB Rmem = 2.02 GB T = 15.62
+ INIT-L --> Site =   39 ..  Bmem = 25.1 GB Rmem = 1.92 GB T = 14.85
+ INIT-L --> Site =   40 ..  Bmem = 26.3 GB Rmem = 2.00 GB T = 14.38
+ INIT-L --> Site =   41 ..  Bmem = 26.8 GB Rmem = 2.08 GB T = 15.01
+ INIT-L --> Site =   42 ..  Bmem = 26.8 GB Rmem = 2.11 GB T = 15.33
+ INIT-L --> Site =   43 ..  Bmem = 27.9 GB Rmem = 2.21 GB T = 15.68
+ INIT-L --> Site =   44 ..  Bmem = 29.5 GB Rmem = 2.38 GB T = 17.01
+ INIT-L --> Site =   45 ..  Bmem = 31.4 GB Rmem = 2.36 GB T = 18.43
+ INIT-L --> Site =   46 ..  Bmem = 31.2 GB Rmem = 2.36 GB T = 18.49
+ INIT-L --> Site =   47 ..  Bmem = 30.1 GB Rmem = 2.37 GB T = 18.59
+ INIT-L --> Site =   48 ..  Bmem = 30.8 GB Rmem = 2.32 GB T = 18.84
+ INIT-L --> Site =   49 ..  Bmem = 29.9 GB Rmem = 2.32 GB T = 18.66
+ INIT-L --> Site =   50 ..  Bmem = 30.5 GB Rmem = 2.32 GB T = 18.76
+ INIT-L --> Site =   51 ..  Bmem = 29.4 GB Rmem = 2.24 GB T = 18.31
+ INIT-L --> Site =   52 ..  Bmem = 28.3 GB Rmem = 2.15 GB T = 17.37
+ INIT-L --> Site =   53 ..  Bmem = 27.3 GB Rmem = 2.10 GB T = 16.86
+ INIT-L --> Site =   54 ..  Bmem = 26.8 GB Rmem = 2.09 GB T = 16.17
+ INIT-L --> Site =   55 ..  Bmem = 27.0 GB Rmem = 2.01 GB T = 15.94
+ INIT-L --> Site =   56 ..  Bmem = 25.4 GB Rmem = 1.91 GB T = 14.82
+ INIT-L --> Site =   57 ..  Bmem = 24.1 GB Rmem = 1.83 GB T = 13.66
+ INIT-L --> Site =   58 ..  Bmem = 22.8 GB Rmem = 1.68 GB T = 12.55
+ INIT-L --> Site =   59 ..  Bmem = 21.8 GB Rmem = 1.64 GB T = 11.81
+ INIT-L --> Site =   60 ..  Bmem = 21.3 GB Rmem = 1.56 GB T = 11.40
+ INIT-L --> Site =   61 ..  Bmem = 19.5 GB Rmem = 1.43 GB T = 10.34
+ INIT-L --> Site =   62 ..  Bmem = 18.2 GB Rmem = 1.35 GB T = 9.29
+ INIT-L --> Site =   63 ..  Bmem = 16.9 GB Rmem = 1.24 GB T = 8.45
+ INIT-L --> Site =   64 ..  Bmem = 15.9 GB Rmem = 1.14 GB T = 7.77
+ INIT-L --> Site =   65 ..  Bmem = 14.1 GB Rmem = 1.05 GB T = 6.83
+ INIT-L --> Site =   66 ..  Bmem = 12.8 GB Rmem =  972 MB T = 5.79
+ INIT-L --> Site =   67 ..  Bmem = 11.6 GB Rmem =  866 MB T = 4.93
+ INIT-L --> Site =   68 ..  Bmem = 10.3 GB Rmem =  768 MB T = 4.19
+ INIT-L --> Site =   69 ..  Bmem = 8.67 GB Rmem =  727 MB T = 3.46
+ INIT-L --> Site =   70 ..  Bmem = 7.69 GB Rmem =  555 MB T = 2.71
+ INIT-L --> Site =   71 ..  Bmem = 5.54 GB Rmem =  104 MB T = 1.30
+ INIT-L --> Site =   72 ..  Bmem =  991 MB Rmem = 15.2 MB T = 0.28
+ INIT-L --> Site =   73 ..  Bmem =  118 MB Rmem = 1.96 MB T = 0.07
+ INIT-L --> Site =   74 ..  Bmem = 12.2 MB Rmem =  391 KB T = 0.01
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.00
+Time init sweep =      775.263 | MaxBmem = 31.4 GB | MaxRmem = 2.36 GB
+ | Tread = 0.000 | Twrite = 123.938 | Tfpread = 0.000 | Tfpwrite = 123.698 | data = 107 GB | cpsd = 85.6 GB | Tasync = 0.000
+
+1e-06         -22140.114948147969699
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-07 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.008 T = 0.375
+ Site =     1 /    76 .. Mmpo =    42 DW = 1.22e-35 Error = 4.64e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.018 T = 0.677
+ Site =     2 /    76 .. Mmpo =    78 DW = 4.58e-07 Error = 6.76e-04 NNZ =      805 SPT = 0.7543 Tsvd = 0.029 T = 0.857
+ Site =     3 /    76 .. Mmpo =   126 DW = 4.12e-07 Error = 6.42e-04 NNZ =     2409 SPT = 0.7549 Tsvd = 0.043 T = 0.996
+ Site =     4 /    76 .. Mmpo =   167 DW = 9.68e-07 Error = 9.84e-04 NNZ =     4561 SPT = 0.7832 Tsvd = 0.059 T = 1.138
+ Site =     5 /    76 .. Mmpo =   218 DW = 8.73e-07 Error = 9.34e-04 NNZ =     7758 SPT = 0.7869 Tsvd = 0.075 T = 1.229
+ Site =     6 /    76 .. Mmpo =   270 DW = 1.45e-06 Error = 1.21e-03 NNZ =    12192 SPT = 0.7929 Tsvd = 0.095 T = 1.376
+ Site =     7 /    76 .. Mmpo =   317 DW = 2.30e-06 Error = 1.52e-03 NNZ =    18383 SPT = 0.7852 Tsvd = 0.117 T = 1.529
+ Site =     8 /    76 .. Mmpo =   369 DW = 2.37e-06 Error = 1.54e-03 NNZ =    25851 SPT = 0.7790 Tsvd = 0.137 T = 1.654
+ Site =     9 /    76 .. Mmpo =   413 DW = 3.01e-06 Error = 1.74e-03 NNZ =    33401 SPT = 0.7808 Tsvd = 0.159 T = 1.792
+ Site =    10 /    76 .. Mmpo =   470 DW = 2.82e-06 Error = 1.68e-03 NNZ =    41141 SPT = 0.7881 Tsvd = 0.179 T = 1.925
+ Site =    11 /    76 .. Mmpo =   517 DW = 3.62e-06 Error = 1.90e-03 NNZ =    50088 SPT = 0.7939 Tsvd = 0.209 T = 2.074
+ Site =    12 /    76 .. Mmpo =   559 DW = 4.70e-06 Error = 2.17e-03 NNZ =    59054 SPT = 0.7957 Tsvd = 0.237 T = 2.256
+ Site =    13 /    76 .. Mmpo =   611 DW = 4.37e-06 Error = 2.09e-03 NNZ =    68126 SPT = 0.8005 Tsvd = 0.248 T = 2.409
+ Site =    14 /    76 .. Mmpo =   639 DW = 5.57e-06 Error = 2.36e-03 NNZ =    78012 SPT = 0.8002 Tsvd = 0.263 T = 2.523
+ Site =    15 /    76 .. Mmpo =   671 DW = 5.42e-06 Error = 2.33e-03 NNZ =    84711 SPT = 0.8024 Tsvd = 0.267 T = 2.608
+ Site =    16 /    76 .. Mmpo =   695 DW = 5.73e-06 Error = 2.39e-03 NNZ =    92356 SPT = 0.8020 Tsvd = 0.283 T = 2.730
+ Site =    17 /    76 .. Mmpo =   745 DW = 3.91e-06 Error = 1.98e-03 NNZ =   100164 SPT = 0.8065 Tsvd = 0.296 T = 2.781
+ Site =    18 /    76 .. Mmpo =   790 DW = 5.02e-06 Error = 2.24e-03 NNZ =   112770 SPT = 0.8084 Tsvd = 0.311 T = 2.973
+ Site =    19 /    76 .. Mmpo =   839 DW = 4.85e-06 Error = 2.20e-03 NNZ =   125726 SPT = 0.8103 Tsvd = 0.324 T = 3.172
+ Site =    20 /    76 .. Mmpo =   875 DW = 5.67e-06 Error = 2.38e-03 NNZ =   140136 SPT = 0.8091 Tsvd = 0.352 T = 3.181
+ Site =    21 /    76 .. Mmpo =   908 DW = 6.26e-06 Error = 2.50e-03 NNZ =   152748 SPT = 0.8077 Tsvd = 0.363 T = 3.232
+ Site =    22 /    76 .. Mmpo =   935 DW = 6.47e-06 Error = 2.54e-03 NNZ =   163418 SPT = 0.8075 Tsvd = 0.363 T = 3.204
+ Site =    23 /    76 .. Mmpo =   941 DW = 6.71e-06 Error = 2.59e-03 NNZ =   169353 SPT = 0.8075 Tsvd = 0.376 T = 3.147
+ Site =    24 /    76 .. Mmpo =   929 DW = 7.65e-06 Error = 2.77e-03 NNZ =   169421 SPT = 0.8062 Tsvd = 0.381 T = 3.072
+ Site =    25 /    76 .. Mmpo =   940 DW = 7.12e-06 Error = 2.67e-03 NNZ =   168645 SPT = 0.8069 Tsvd = 0.374 T = 2.959
+ Site =    26 /    76 .. Mmpo =   947 DW = 7.59e-06 Error = 2.75e-03 NNZ =   170342 SPT = 0.8086 Tsvd = 0.378 T = 2.886
+ Site =    27 /    76 .. Mmpo =   944 DW = 7.17e-06 Error = 2.68e-03 NNZ =   171582 SPT = 0.8081 Tsvd = 0.372 T = 2.799
+ Site =    28 /    76 .. Mmpo =   929 DW = 8.48e-06 Error = 2.91e-03 NNZ =   168297 SPT = 0.8081 Tsvd = 0.365 T = 2.709
+ Site =    29 /    76 .. Mmpo =   906 DW = 6.86e-06 Error = 2.62e-03 NNZ =   161924 SPT = 0.8076 Tsvd = 0.347 T = 2.596
+ Site =    30 /    76 .. Mmpo =   897 DW = 7.38e-06 Error = 2.72e-03 NNZ =   156912 SPT = 0.8069 Tsvd = 0.337 T = 2.494
+ Site =    31 /    76 .. Mmpo =   902 DW = 8.37e-06 Error = 2.89e-03 NNZ =   155869 SPT = 0.8074 Tsvd = 0.324 T = 2.382
+ Site =    32 /    76 .. Mmpo =   904 DW = 6.14e-06 Error = 2.48e-03 NNZ =   155710 SPT = 0.8090 Tsvd = 0.315 T = 2.291
+ Site =    33 /    76 .. Mmpo =   911 DW = 8.26e-06 Error = 2.87e-03 NNZ =   159153 SPT = 0.8067 Tsvd = 0.303 T = 2.208
+ Site =    34 /    76 .. Mmpo =   938 DW = 7.75e-06 Error = 2.78e-03 NNZ =   161780 SPT = 0.8107 Tsvd = 0.300 T = 2.131
+ Site =    35 /    76 .. Mmpo =   981 DW = 1.02e-05 Error = 3.20e-03 NNZ =   176112 SPT = 0.8086 Tsvd = 0.303 T = 2.087
+ Site =    36 /    76 .. Mmpo =  1007 DW = 1.05e-05 Error = 3.24e-03 NNZ =   188125 SPT = 0.8096 Tsvd = 0.314 T = 2.036
+ Site =    37 /    76 .. Mmpo =  1008 DW = 1.10e-05 Error = 3.32e-03 NNZ =   193288 SPT = 0.8096 Tsvd = 0.314 T = 1.973
+ Site =    38 /    76 .. Mmpo =   973 DW = 1.28e-05 Error = 3.58e-03 NNZ =   188509 SPT = 0.8078 Tsvd = 0.311 T = 1.900
+ Site =    39 /    76 .. Mmpo =   990 DW = 8.41e-06 Error = 2.90e-03 NNZ =   181647 SPT = 0.8114 Tsvd = 0.287 T = 1.796
+ Site =    40 /    76 .. Mmpo =   960 DW = 6.54e-06 Error = 2.56e-03 NNZ =   178625 SPT = 0.8121 Tsvd = 0.289 T = 1.736
+ Site =    41 /    76 .. Mmpo =   934 DW = 8.06e-06 Error = 2.84e-03 NNZ =   170836 SPT = 0.8095 Tsvd = 0.272 T = 1.642
+ Site =    42 /    76 .. Mmpo =   928 DW = 6.56e-06 Error = 2.56e-03 NNZ =   164901 SPT = 0.8097 Tsvd = 0.264 T = 1.555
+ Site =    43 /    76 .. Mmpo =   927 DW = 7.61e-06 Error = 2.76e-03 NNZ =   165360 SPT = 0.8078 Tsvd = 0.249 T = 1.460
+ Site =    44 /    76 .. Mmpo =   957 DW = 6.58e-06 Error = 2.57e-03 NNZ =   170096 SPT = 0.8083 Tsvd = 0.246 T = 1.401
+ Site =    45 /    76 .. Mmpo =   973 DW = 7.63e-06 Error = 2.76e-03 NNZ =   178072 SPT = 0.8088 Tsvd = 0.243 T = 1.332
+ Site =    46 /    76 .. Mmpo =   980 DW = 6.75e-06 Error = 2.60e-03 NNZ =   182614 SPT = 0.8085 Tsvd = 0.239 T = 1.282
+ Site =    47 /    76 .. Mmpo =   996 DW = 6.72e-06 Error = 2.59e-03 NNZ =   186335 SPT = 0.8091 Tsvd = 0.234 T = 1.261
+ Site =    48 /    76 .. Mmpo =  1002 DW = 7.74e-06 Error = 2.78e-03 NNZ =   191535 SPT = 0.8081 Tsvd = 0.238 T = 1.189
+ Site =    49 /    76 .. Mmpo =  1019 DW = 7.08e-06 Error = 2.66e-03 NNZ =   197125 SPT = 0.8069 Tsvd = 0.240 T = 1.166
+ Site =    50 /    76 .. Mmpo =  1008 DW = 8.13e-06 Error = 2.85e-03 NNZ =   197862 SPT = 0.8074 Tsvd = 0.234 T = 1.105
+ Site =    51 /    76 .. Mmpo =   999 DW = 7.89e-06 Error = 2.81e-03 NNZ =   194116 SPT = 0.8072 Tsvd = 0.227 T = 1.037
+ Site =    52 /    76 .. Mmpo =   979 DW = 7.98e-06 Error = 2.82e-03 NNZ =   189003 SPT = 0.8067 Tsvd = 0.212 T = 0.970
+ Site =    53 /    76 .. Mmpo =   959 DW = 8.16e-06 Error = 2.86e-03 NNZ =   182627 SPT = 0.8055 Tsvd = 0.221 T = 0.943
+ Site =    54 /    76 .. Mmpo =   941 DW = 8.01e-06 Error = 2.83e-03 NNZ =   177229 SPT = 0.8036 Tsvd = 0.199 T = 0.860
+ Site =    55 /    76 .. Mmpo =   910 DW = 7.23e-06 Error = 2.69e-03 NNZ =   168579 SPT = 0.8031 Tsvd = 0.194 T = 0.796
+ Site =    56 /    76 .. Mmpo =   866 DW = 6.56e-06 Error = 2.56e-03 NNZ =   156968 SPT = 0.8008 Tsvd = 0.167 T = 0.728
+ Site =    57 /    76 .. Mmpo =   820 DW = 6.57e-06 Error = 2.56e-03 NNZ =   142100 SPT = 0.7999 Tsvd = 0.141 T = 0.624
+ Site =    58 /    76 .. Mmpo =   780 DW = 6.40e-06 Error = 2.53e-03 NNZ =   130852 SPT = 0.7954 Tsvd = 0.124 T = 0.552
+ Site =    59 /    76 .. Mmpo =   761 DW = 6.07e-06 Error = 2.46e-03 NNZ =   122209 SPT = 0.7941 Tsvd = 0.119 T = 0.501
+ Site =    60 /    76 .. Mmpo =   712 DW = 6.56e-06 Error = 2.56e-03 NNZ =   112544 SPT = 0.7923 Tsvd = 0.080 T = 0.436
+ Site =    61 /    76 .. Mmpo =   668 DW = 5.17e-06 Error = 2.27e-03 NNZ =    99679 SPT = 0.7904 Tsvd = 0.060 T = 0.331
+ Site =    62 /    76 .. Mmpo =   617 DW = 4.41e-06 Error = 2.10e-03 NNZ =    87065 SPT = 0.7888 Tsvd = 0.044 T = 0.269
+ Site =    63 /    76 .. Mmpo =   568 DW = 4.95e-06 Error = 2.23e-03 NNZ =    75015 SPT = 0.7860 Tsvd = 0.032 T = 0.212
+ Site =    64 /    76 .. Mmpo =   516 DW = 3.36e-06 Error = 1.83e-03 NNZ =    61669 SPT = 0.7896 Tsvd = 0.021 T = 0.160
+ Site =    65 /    76 .. Mmpo =   456 DW = 2.59e-06 Error = 1.61e-03 NNZ =    50109 SPT = 0.7870 Tsvd = 0.014 T = 0.115
+ Site =    66 /    76 .. Mmpo =   405 DW = 2.44e-06 Error = 1.56e-03 NNZ =    40883 SPT = 0.7786 Tsvd = 0.009 T = 0.085
+ Site =    67 /    76 .. Mmpo =   343 DW = 2.09e-06 Error = 1.44e-03 NNZ =    30998 SPT = 0.7769 Tsvd = 0.006 T = 0.060
+ Site =    68 /    76 .. Mmpo =   291 DW = 1.38e-06 Error = 1.17e-03 NNZ =    22990 SPT = 0.7697 Tsvd = 0.004 T = 0.042
+ Site =    69 /    76 .. Mmpo =   239 DW = 5.95e-07 Error = 7.71e-04 NNZ =    16246 SPT = 0.7664 Tsvd = 0.002 T = 0.029
+ Site =    70 /    76 .. Mmpo =   178 DW = 4.26e-07 Error = 6.53e-04 NNZ =     9970 SPT = 0.7656 Tsvd = 0.001 T = 0.017
+ Site =    71 /    76 .. Mmpo =   126 DW = 1.17e-07 Error = 3.43e-04 NNZ =     5193 SPT = 0.7685 Tsvd = 0.001 T = 0.009
+ Site =    72 /    76 .. Mmpo =    76 DW = 7.28e-08 Error = 2.70e-04 NNZ =     2367 SPT = 0.7528 Tsvd = 0.000 T = 0.004
+ Site =    73 /    76 .. Mmpo =    38 DW = 1.59e-07 Error = 3.99e-04 NNZ =      712 SPT = 0.7535 Tsvd = 0.000 T = 0.001
+ Site =    74 /    76 .. Mmpo =    14 DW = 1.50e-34 Error = 2.95e-14 NNZ =      136 SPT = 0.7444 Tsvd = 0.000 T = 0.000
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 3.78e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    112.065 Tsvd-total = 14.762 MPO bond dimension =  1019 MaxDW = 1.28e-05 Total error = 1.99e-02
+NNZ =      8333292 SIZE =     42758886 SPT = 0.8051
+
+Rank =     0 Ttotal =    112.507 MPO method = FastBlockedSVD bond dimension =    1019 NNZ =      8333292 SIZE =     42758886 SPT = 0.8051
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.00
+ INIT-L --> Site =    2 ..  Bmem = 12.8 KB Rmem = 12.8 KB T = 0.01
+ INIT-L --> Site =    3 ..  Bmem =  299 KB Rmem =  261 KB T = 0.14
+ INIT-L --> Site =    4 ..  Bmem = 5.34 MB Rmem = 3.89 MB T = 0.03
+ INIT-L --> Site =    5 ..  Bmem = 67.0 MB Rmem = 41.9 MB T = 0.21
+ INIT-L --> Site =    6 ..  Bmem =  718 MB Rmem =  182 MB T = 0.38
+ INIT-L --> Site =    7 ..  Bmem = 2.89 GB Rmem =  489 MB T = 1.34
+ INIT-L --> Site =    8 ..  Bmem = 7.41 GB Rmem = 1.08 GB T = 3.75
+ INIT-L --> Site =    9 ..  Bmem = 16.6 GB Rmem = 1.30 GB T = 6.72
+ INIT-L --> Site =   10 ..  Bmem = 19.2 GB Rmem = 1.42 GB T = 8.47
+ INIT-L --> Site =   11 ..  Bmem = 21.5 GB Rmem = 1.60 GB T = 9.47
+ INIT-L --> Site =   12 ..  Bmem = 23.5 GB Rmem = 1.75 GB T = 11.12
+ INIT-L --> Site =   13 ..  Bmem = 25.4 GB Rmem = 1.92 GB T = 12.79
+ INIT-L --> Site =   14 ..  Bmem = 28.1 GB Rmem = 2.12 GB T = 14.78
+ INIT-L --> Site =   15 ..  Bmem = 29.7 GB Rmem = 2.27 GB T = 16.81
+ INIT-L --> Site =   16 ..  Bmem = 31.6 GB Rmem = 2.38 GB T = 18.63
+ INIT-L --> Site =   17 ..  Bmem = 32.7 GB Rmem = 2.45 GB T = 19.78
+ INIT-L --> Site =   18 ..  Bmem = 34.6 GB Rmem = 2.57 GB T = 21.17
+ INIT-L --> Site =   19 ..  Bmem = 36.5 GB Rmem = 2.71 GB T = 23.55
+ INIT-L --> Site =   20 ..  Bmem = 38.5 GB Rmem = 2.92 GB T = 26.32
+ INIT-L --> Site =   21 ..  Bmem = 40.6 GB Rmem = 3.08 GB T = 29.49
+ INIT-L --> Site =   22 ..  Bmem = 42.7 GB Rmem = 3.05 GB T = 32.44
+ INIT-L --> Site =   23 ..  Bmem = 42.4 GB Rmem = 3.16 GB T = 33.03
+ INIT-L --> Site =   24 ..  Bmem = 42.7 GB Rmem = 3.18 GB T = 34.69
+ INIT-L --> Site =   25 ..  Bmem = 42.4 GB Rmem = 3.23 GB T = 35.07
+ INIT-L --> Site =   26 ..  Bmem = 43.8 GB Rmem = 3.21 GB T = 35.48
+ INIT-L --> Site =   27 ..  Bmem = 43.6 GB Rmem = 2.94 GB T = 35.11
+ INIT-L --> Site =   28 ..  Bmem = 40.1 GB Rmem = 2.76 GB T = 32.14
+ INIT-L --> Site =   29 ..  Bmem = 37.7 GB Rmem = 2.70 GB T = 29.98
+ INIT-L --> Site =   30 ..  Bmem = 36.5 GB Rmem = 2.75 GB T = 29.05
+ INIT-L --> Site =   31 ..  Bmem = 37.6 GB Rmem = 2.98 GB T = 29.55
+ INIT-L --> Site =   32 ..  Bmem = 41.0 GB Rmem = 3.03 GB T = 31.76
+ INIT-L --> Site =   33 ..  Bmem = 41.4 GB Rmem = 3.01 GB T = 31.92
+ INIT-L --> Site =   34 ..  Bmem = 41.4 GB Rmem = 2.99 GB T = 32.54
+ INIT-L --> Site =   35 ..  Bmem = 42.0 GB Rmem = 3.04 GB T = 32.82
+ INIT-L --> Site =   36 ..  Bmem = 43.5 GB Rmem = 3.16 GB T = 35.47
+ INIT-L --> Site =   37 ..  Bmem = 44.3 GB Rmem = 3.25 GB T = 37.69
+ INIT-L --> Site =   38 ..  Bmem = 44.5 GB Rmem = 3.37 GB T = 38.79
+ INIT-L --> Site =   39 ..  Bmem = 44.4 GB Rmem = 3.36 GB T = 39.47
+ INIT-L --> Site =   40 ..  Bmem = 46.1 GB Rmem = 3.47 GB T = 39.15
+ INIT-L --> Site =   41 ..  Bmem = 45.2 GB Rmem = 3.47 GB T = 39.34
+ INIT-L --> Site =   42 ..  Bmem = 45.1 GB Rmem = 3.51 GB T = 38.52
+ INIT-L --> Site =   43 ..  Bmem = 45.9 GB Rmem = 3.60 GB T = 38.32
+ INIT-L --> Site =   44 ..  Bmem = 47.1 GB Rmem = 3.77 GB T = 39.78
+ INIT-L --> Site =   45 ..  Bmem = 50.5 GB Rmem = 3.76 GB T = 42.45
+ INIT-L --> Site =   46 ..  Bmem = 49.7 GB Rmem = 3.72 GB T = 42.97
+ INIT-L --> Site =   47 ..  Bmem = 48.8 GB Rmem = 3.81 GB T = 42.91
+ INIT-L --> Site =   48 ..  Bmem = 50.2 GB Rmem = 3.74 GB T = 44.30
+ INIT-L --> Site =   49 ..  Bmem = 49.2 GB Rmem = 3.78 GB T = 44.92
+ INIT-L --> Site =   50 ..  Bmem = 50.1 GB Rmem = 3.78 GB T = 47.54
+ INIT-L --> Site =   51 ..  Bmem = 48.8 GB Rmem = 3.69 GB T = 45.47
+ INIT-L --> Site =   52 ..  Bmem = 47.8 GB Rmem = 3.60 GB T = 43.82
+ INIT-L --> Site =   53 ..  Bmem = 46.3 GB Rmem = 3.52 GB T = 42.53
+ INIT-L --> Site =   54 ..  Bmem = 45.3 GB Rmem = 3.51 GB T = 40.85
+ INIT-L --> Site =   55 ..  Bmem = 45.0 GB Rmem = 3.32 GB T = 41.01
+ INIT-L --> Site =   56 ..  Bmem = 42.3 GB Rmem = 3.17 GB T = 36.86
+ INIT-L --> Site =   57 ..  Bmem = 39.7 GB Rmem = 2.99 GB T = 34.48
+ INIT-L --> Site =   58 ..  Bmem = 37.3 GB Rmem = 2.73 GB T = 30.62
+ INIT-L --> Site =   59 ..  Bmem = 34.6 GB Rmem = 2.59 GB T = 27.70
+ INIT-L --> Site =   60 ..  Bmem = 33.5 GB Rmem = 2.44 GB T = 25.37
+ INIT-L --> Site =   61 ..  Bmem = 30.7 GB Rmem = 2.25 GB T = 22.96
+ INIT-L --> Site =   62 ..  Bmem = 28.4 GB Rmem = 2.10 GB T = 19.74
+ INIT-L --> Site =   63 ..  Bmem = 26.1 GB Rmem = 1.90 GB T = 17.21
+ INIT-L --> Site =   64 ..  Bmem = 23.5 GB Rmem = 1.68 GB T = 14.99
+ INIT-L --> Site =   65 ..  Bmem = 20.8 GB Rmem = 1.54 GB T = 12.00
+ INIT-L --> Site =   66 ..  Bmem = 18.4 GB Rmem = 1.36 GB T = 10.11
+ INIT-L --> Site =   67 ..  Bmem = 16.3 GB Rmem = 1.19 GB T = 8.29
+ INIT-L --> Site =   68 ..  Bmem = 13.6 GB Rmem = 1.00 GB T = 6.40
+ INIT-L --> Site =   69 ..  Bmem = 11.3 GB Rmem =  945 MB T = 5.23
+ INIT-L --> Site =   70 ..  Bmem = 9.74 GB Rmem =  704 MB T = 3.95
+ INIT-L --> Site =   71 ..  Bmem = 6.60 GB Rmem =  124 MB T = 1.87
+ INIT-L --> Site =   72 ..  Bmem = 1.10 GB Rmem = 17.4 MB T = 0.32
+ INIT-L --> Site =   73 ..  Bmem =  128 MB Rmem = 2.13 MB T = 0.05
+ INIT-L --> Site =   74 ..  Bmem = 12.2 MB Rmem =  391 KB T = 0.01
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.00
+Time init sweep =     1784.255 | MaxBmem = 50.5 GB | MaxRmem = 3.76 GB
+ | Tread = 0.000 | Twrite = 195.072 | Tfpread = 0.000 | Tfpwrite = 194.973 | data = 172 GB | cpsd = 137 GB | Tasync = 0.000
+
+1e-07         -22140.111802795578114
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-08 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.009 T = 0.396
+ Site =     1 /    76 .. Mmpo =    42 DW = 1.22e-35 Error = 4.62e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.018 T = 0.768
+ Site =     2 /    76 .. Mmpo =    84 DW = 2.97e-08 Error = 1.72e-04 NNZ =      943 SPT = 0.7327 Tsvd = 0.029 T = 0.968
+ Site =     3 /    76 .. Mmpo =   136 DW = 4.61e-08 Error = 2.15e-04 NNZ =     3003 SPT = 0.7371 Tsvd = 0.042 T = 1.128
+ Site =     4 /    76 .. Mmpo =   190 DW = 4.47e-08 Error = 2.11e-04 NNZ =     6379 SPT = 0.7531 Tsvd = 0.059 T = 1.302
+ Site =     5 /    76 .. Mmpo =   244 DW = 6.87e-08 Error = 2.62e-04 NNZ =    10489 SPT = 0.7737 Tsvd = 0.074 T = 1.396
+ Site =     6 /    76 .. Mmpo =   304 DW = 7.35e-08 Error = 2.71e-04 NNZ =    15937 SPT = 0.7851 Tsvd = 0.093 T = 1.571
+ Site =     7 /    76 .. Mmpo =   381 DW = 9.01e-08 Error = 3.00e-04 NNZ =    25250 SPT = 0.7820 Tsvd = 0.118 T = 1.737
+ Site =     8 /    76 .. Mmpo =   451 DW = 1.69e-07 Error = 4.11e-04 NNZ =    36633 SPT = 0.7868 Tsvd = 0.147 T = 1.925
+ Site =     9 /    76 .. Mmpo =   521 DW = 1.79e-07 Error = 4.23e-04 NNZ =    49652 SPT = 0.7887 Tsvd = 0.178 T = 2.097
+ Site =    10 /    76 .. Mmpo =   594 DW = 2.22e-07 Error = 4.71e-04 NNZ =    63635 SPT = 0.7944 Tsvd = 0.214 T = 2.302
+ Site =    11 /    76 .. Mmpo =   676 DW = 2.06e-07 Error = 4.54e-04 NNZ =    80018 SPT = 0.8007 Tsvd = 0.236 T = 2.533
+ Site =    12 /    76 .. Mmpo =   752 DW = 3.01e-07 Error = 5.48e-04 NNZ =    98533 SPT = 0.8062 Tsvd = 0.266 T = 2.649
+ Site =    13 /    76 .. Mmpo =   838 DW = 2.64e-07 Error = 5.14e-04 NNZ =   118049 SPT = 0.8127 Tsvd = 0.285 T = 2.822
+ Site =    14 /    76 .. Mmpo =   918 DW = 3.30e-07 Error = 5.74e-04 NNZ =   142334 SPT = 0.8150 Tsvd = 0.325 T = 3.000
+ Site =    15 /    76 .. Mmpo =   975 DW = 5.20e-07 Error = 7.21e-04 NNZ =   161811 SPT = 0.8192 Tsvd = 0.359 T = 3.321
+ Site =    16 /    76 .. Mmpo =  1032 DW = 5.51e-07 Error = 7.42e-04 NNZ =   182526 SPT = 0.8186 Tsvd = 0.387 T = 3.455
+ Site =    17 /    76 .. Mmpo =  1100 DW = 4.48e-07 Error = 6.69e-04 NNZ =   203433 SPT = 0.8208 Tsvd = 0.390 T = 3.545
+ Site =    18 /    76 .. Mmpo =  1168 DW = 5.48e-07 Error = 7.40e-04 NNZ =   228838 SPT = 0.8219 Tsvd = 0.440 T = 3.760
+ Site =    19 /    76 .. Mmpo =  1232 DW = 5.52e-07 Error = 7.43e-04 NNZ =   257098 SPT = 0.8213 Tsvd = 0.453 T = 3.761
+ Site =    20 /    76 .. Mmpo =  1282 DW = 6.66e-07 Error = 8.16e-04 NNZ =   282195 SPT = 0.8213 Tsvd = 0.490 T = 3.772
+ Site =    21 /    76 .. Mmpo =  1335 DW = 7.36e-07 Error = 8.58e-04 NNZ =   306362 SPT = 0.8210 Tsvd = 0.529 T = 3.761
+ Site =    22 /    76 .. Mmpo =  1391 DW = 7.17e-07 Error = 8.47e-04 NNZ =   331718 SPT = 0.8214 Tsvd = 0.544 T = 3.786
+ Site =    23 /    76 .. Mmpo =  1429 DW = 7.73e-07 Error = 8.79e-04 NNZ =   354506 SPT = 0.8217 Tsvd = 0.571 T = 3.751
+ Site =    24 /    76 .. Mmpo =  1444 DW = 8.77e-07 Error = 9.36e-04 NNZ =   371186 SPT = 0.8201 Tsvd = 0.594 T = 3.714
+ Site =    25 /    76 .. Mmpo =  1466 DW = 9.04e-07 Error = 9.51e-04 NNZ =   380965 SPT = 0.8200 Tsvd = 0.591 T = 3.614
+ Site =    26 /    76 .. Mmpo =  1496 DW = 9.41e-07 Error = 9.70e-04 NNZ =   391592 SPT = 0.8214 Tsvd = 0.604 T = 3.556
+ Site =    27 /    76 .. Mmpo =  1495 DW = 1.09e-06 Error = 1.04e-03 NNZ =   401030 SPT = 0.8207 Tsvd = 0.622 T = 3.532
+ Site =    28 /    76 .. Mmpo =  1500 DW = 1.10e-06 Error = 1.05e-03 NNZ =   403734 SPT = 0.8200 Tsvd = 0.614 T = 3.443
+ Site =    29 /    76 .. Mmpo =  1470 DW = 1.11e-06 Error = 1.05e-03 NNZ =   396834 SPT = 0.8200 Tsvd = 0.630 T = 3.398
+ Site =    30 /    76 .. Mmpo =  1461 DW = 1.11e-06 Error = 1.05e-03 NNZ =   387978 SPT = 0.8193 Tsvd = 0.568 T = 3.242
+ Site =    31 /    76 .. Mmpo =  1480 DW = 1.08e-06 Error = 1.04e-03 NNZ =   391457 SPT = 0.8190 Tsvd = 0.564 T = 3.160
+ Site =    32 /    76 .. Mmpo =  1499 DW = 1.03e-06 Error = 1.01e-03 NNZ =   397470 SPT = 0.8208 Tsvd = 0.597 T = 3.159
+ Site =    33 /    76 .. Mmpo =  1525 DW = 1.07e-06 Error = 1.03e-03 NNZ =   415738 SPT = 0.8181 Tsvd = 0.566 T = 3.119
+ Site =    34 /    76 .. Mmpo =  1572 DW = 1.09e-06 Error = 1.04e-03 NNZ =   431165 SPT = 0.8201 Tsvd = 0.624 T = 3.117
+ Site =    35 /    76 .. Mmpo =  1609 DW = 1.33e-06 Error = 1.15e-03 NNZ =   463252 SPT = 0.8168 Tsvd = 0.624 T = 3.047
+ Site =    36 /    76 .. Mmpo =  1632 DW = 1.33e-06 Error = 1.16e-03 NNZ =   479642 SPT = 0.8173 Tsvd = 0.637 T = 2.976
+ Site =    37 /    76 .. Mmpo =  1635 DW = 1.44e-06 Error = 1.20e-03 NNZ =   487400 SPT = 0.8173 Tsvd = 0.706 T = 2.977
+ Site =    38 /    76 .. Mmpo =  1639 DW = 1.43e-06 Error = 1.20e-03 NNZ =   492355 SPT = 0.8163 Tsvd = 0.649 T = 2.899
+ Site =    39 /    76 .. Mmpo =  1664 DW = 1.25e-06 Error = 1.12e-03 NNZ =   488960 SPT = 0.8207 Tsvd = 0.651 T = 2.871
+ Site =    40 /    76 .. Mmpo =  1618 DW = 1.07e-06 Error = 1.04e-03 NNZ =   479219 SPT = 0.8220 Tsvd = 0.671 T = 2.776
+ Site =    41 /    76 .. Mmpo =  1579 DW = 1.26e-06 Error = 1.12e-03 NNZ =   460668 SPT = 0.8197 Tsvd = 0.603 T = 2.633
+ Site =    42 /    76 .. Mmpo =  1561 DW = 1.03e-06 Error = 1.02e-03 NNZ =   440933 SPT = 0.8211 Tsvd = 0.601 T = 2.517
+ Site =    43 /    76 .. Mmpo =  1553 DW = 1.14e-06 Error = 1.07e-03 NNZ =   439505 SPT = 0.8187 Tsvd = 0.565 T = 2.373
+ Site =    44 /    76 .. Mmpo =  1583 DW = 1.00e-06 Error = 1.00e-03 NNZ =   445154 SPT = 0.8189 Tsvd = 0.544 T = 2.296
+ Site =    45 /    76 .. Mmpo =  1599 DW = 1.02e-06 Error = 1.01e-03 NNZ =   455245 SPT = 0.8201 Tsvd = 0.555 T = 2.220
+ Site =    46 /    76 .. Mmpo =  1573 DW = 1.11e-06 Error = 1.05e-03 NNZ =   452792 SPT = 0.8200 Tsvd = 0.550 T = 2.194
+ Site =    47 /    76 .. Mmpo =  1576 DW = 9.69e-07 Error = 9.85e-04 NNZ =   444658 SPT = 0.8206 Tsvd = 0.537 T = 2.110
+ Site =    48 /    76 .. Mmpo =  1571 DW = 9.91e-07 Error = 9.96e-04 NNZ =   445727 SPT = 0.8200 Tsvd = 0.587 T = 2.124
+ Site =    49 /    76 .. Mmpo =  1561 DW = 1.04e-06 Error = 1.02e-03 NNZ =   443382 SPT = 0.8192 Tsvd = 0.550 T = 2.013
+ Site =    50 /    76 .. Mmpo =  1531 DW = 1.01e-06 Error = 1.01e-03 NNZ =   431379 SPT = 0.8195 Tsvd = 0.563 T = 1.918
+ Site =    51 /    76 .. Mmpo =  1507 DW = 9.26e-07 Error = 9.63e-04 NNZ =   418507 SPT = 0.8186 Tsvd = 0.522 T = 1.848
+ Site =    52 /    76 .. Mmpo =  1469 DW = 9.04e-07 Error = 9.51e-04 NNZ =   401038 SPT = 0.8188 Tsvd = 0.488 T = 1.750
+ Site =    53 /    76 .. Mmpo =  1427 DW = 9.09e-07 Error = 9.53e-04 NNZ =   380867 SPT = 0.8183 Tsvd = 0.443 T = 1.642
+ Site =    54 /    76 .. Mmpo =  1377 DW = 8.29e-07 Error = 9.11e-04 NNZ =   358832 SPT = 0.8174 Tsvd = 0.390 T = 1.494
+ Site =    55 /    76 .. Mmpo =  1310 DW = 7.62e-07 Error = 8.73e-04 NNZ =   331452 SPT = 0.8163 Tsvd = 0.354 T = 1.357
+ Site =    56 /    76 .. Mmpo =  1224 DW = 7.47e-07 Error = 8.64e-04 NNZ =   296768 SPT = 0.8149 Tsvd = 0.282 T = 1.176
+ Site =    57 /    76 .. Mmpo =  1153 DW = 6.47e-07 Error = 8.04e-04 NNZ =   264213 SPT = 0.8128 Tsvd = 0.215 T = 1.006
+ Site =    58 /    76 .. Mmpo =  1086 DW = 5.82e-07 Error = 7.63e-04 NNZ =   236677 SPT = 0.8110 Tsvd = 0.168 T = 0.848
+ Site =    59 /    76 .. Mmpo =  1033 DW = 5.51e-07 Error = 7.42e-04 NNZ =   216484 SPT = 0.8070 Tsvd = 0.183 T = 0.793
+ Site =    60 /    76 .. Mmpo =   972 DW = 3.93e-07 Error = 6.27e-04 NNZ =   194934 SPT = 0.8059 Tsvd = 0.098 T = 0.643
+ Site =    61 /    76 .. Mmpo =   894 DW = 3.04e-07 Error = 5.52e-04 NNZ =   170517 SPT = 0.8038 Tsvd = 0.071 T = 0.541
+ Site =    62 /    76 .. Mmpo =   815 DW = 2.56e-07 Error = 5.06e-04 NNZ =   144206 SPT = 0.8021 Tsvd = 0.051 T = 0.449
+ Site =    63 /    76 .. Mmpo =   735 DW = 1.98e-07 Error = 4.45e-04 NNZ =   121677 SPT = 0.7969 Tsvd = 0.037 T = 0.366
+ Site =    64 /    76 .. Mmpo =   643 DW = 1.40e-07 Error = 3.74e-04 NNZ =    96431 SPT = 0.7960 Tsvd = 0.026 T = 0.293
+ Site =    65 /    76 .. Mmpo =   549 DW = 1.39e-07 Error = 3.72e-04 NNZ =    73656 SPT = 0.7913 Tsvd = 0.017 T = 0.207
+ Site =    66 /    76 .. Mmpo =   476 DW = 9.01e-08 Error = 3.00e-04 NNZ =    56477 SPT = 0.7839 Tsvd = 0.011 T = 0.141
+ Site =    67 /    76 .. Mmpo =   400 DW = 4.47e-08 Error = 2.11e-04 NNZ =    42072 SPT = 0.7790 Tsvd = 0.007 T = 0.093
+ Site =    68 /    76 .. Mmpo =   326 DW = 4.24e-08 Error = 2.06e-04 NNZ =    29432 SPT = 0.7743 Tsvd = 0.004 T = 0.059
+ Site =    69 /    76 .. Mmpo =   256 DW = 6.15e-08 Error = 2.48e-04 NNZ =    19711 SPT = 0.7638 Tsvd = 0.002 T = 0.038
+ Site =    70 /    76 .. Mmpo =   190 DW = 6.67e-08 Error = 2.58e-04 NNZ =    11972 SPT = 0.7539 Tsvd = 0.001 T = 0.023
+ Site =    71 /    76 .. Mmpo =   134 DW = 2.39e-08 Error = 1.54e-04 NNZ =     6350 SPT = 0.7506 Tsvd = 0.001 T = 0.012
+ Site =    72 /    76 .. Mmpo =    80 DW = 2.47e-08 Error = 1.57e-04 NNZ =     2812 SPT = 0.7377 Tsvd = 0.000 T = 0.005
+ Site =    73 /    76 .. Mmpo =    42 DW = 1.65e-34 Error = 1.17e-13 NNZ =      845 SPT = 0.7485 Tsvd = 0.000 T = 0.002
+ Site =    74 /    76 .. Mmpo =    14 DW = 6.84e-35 Error = 2.89e-14 NNZ =      162 SPT = 0.7245 Tsvd = 0.000 T = 0.000
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 3.59e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    151.288 Tsvd-total = 25.797 MPO bond dimension =  1664 MaxDW = 1.44e-06 Total error = 6.78e-03
+NNZ =     18555047 SIZE =    101692836 SPT = 0.8175
+
+Rank =     0 Ttotal =    151.774 MPO method = FastBlockedSVD bond dimension =    1664 NNZ =     18555047 SIZE =    101692836 SPT = 0.8175
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.00
+ INIT-L --> Site =    2 ..  Bmem = 12.8 KB Rmem = 12.8 KB T = 0.01
+ INIT-L --> Site =    3 ..  Bmem =  328 KB Rmem =  285 KB T = 0.22
+ INIT-L --> Site =    4 ..  Bmem = 5.86 MB Rmem = 4.26 MB T = 0.03
+ INIT-L --> Site =    5 ..  Bmem = 76.9 MB Rmem = 48.3 MB T = 0.12
+ INIT-L --> Site =    6 ..  Bmem =  800 MB Rmem =  203 MB T = 0.42
+ INIT-L --> Site =    7 ..  Bmem = 3.24 GB Rmem =  549 MB T = 1.64
+ INIT-L --> Site =    8 ..  Bmem = 8.87 GB Rmem = 1.29 GB T = 4.51
+ INIT-L --> Site =    9 ..  Bmem = 20.1 GB Rmem = 1.58 GB T = 8.74
+ INIT-L --> Site =   10 ..  Bmem = 24.0 GB Rmem = 1.77 GB T = 11.44
+ INIT-L --> Site =   11 ..  Bmem = 26.8 GB Rmem = 1.98 GB T = 13.63
+ INIT-L --> Site =   12 ..  Bmem = 30.1 GB Rmem = 2.24 GB T = 16.60
+ INIT-L --> Site =   13 ..  Bmem = 33.4 GB Rmem = 2.52 GB T = 20.17
+ INIT-L --> Site =   14 ..  Bmem = 37.6 GB Rmem = 2.84 GB T = 23.89
+ INIT-L --> Site =   15 ..  Bmem = 41.6 GB Rmem = 3.18 GB T = 28.89
+ INIT-L --> Site =   16 ..  Bmem = 45.2 GB Rmem = 3.40 GB T = 33.35
+ INIT-L --> Site =   17 ..  Bmem = 48.0 GB Rmem = 3.57 GB T = 37.98
+ INIT-L --> Site =   18 ..  Bmem = 50.9 GB Rmem = 3.76 GB T = 42.35
+ INIT-L --> Site =   19 ..  Bmem = 53.4 GB Rmem = 3.95 GB T = 47.06
+ INIT-L --> Site =   20 ..  Bmem = 55.8 GB Rmem = 4.22 GB T = 52.92
+ INIT-L --> Site =   21 ..  Bmem = 58.8 GB Rmem = 4.45 GB T = 59.02
+ INIT-L --> Site =   22 ..  Bmem = 62.1 GB Rmem = 4.43 GB T = 64.22
+ INIT-L --> Site =   23 ..  Bmem = 62.2 GB Rmem = 4.63 GB T = 66.64
+ INIT-L --> Site =   24 ..  Bmem = 64.0 GB Rmem = 4.76 GB T = 72.26
+ INIT-L --> Site =   25 ..  Bmem = 65.1 GB Rmem = 4.94 GB T = 76.18
+ INIT-L --> Site =   26 ..  Bmem = 67.9 GB Rmem = 4.96 GB T = 80.51
+ INIT-L --> Site =   27 ..  Bmem = 68.6 GB Rmem = 4.61 GB T = 81.23
+ INIT-L --> Site =   28 ..  Bmem = 63.5 GB Rmem = 4.37 GB T = 76.08
+ INIT-L --> Site =   29 ..  Bmem = 60.8 GB Rmem = 4.35 GB T = 73.79
+ INIT-L --> Site =   30 ..  Bmem = 59.2 GB Rmem = 4.45 GB T = 72.34
+ INIT-L --> Site =   31 ..  Bmem = 61.1 GB Rmem = 4.82 GB T = 77.91
+ INIT-L --> Site =   32 ..  Bmem = 66.6 GB Rmem = 4.90 GB T = 79.51
+ INIT-L --> Site =   33 ..  Bmem = 67.9 GB Rmem = 4.92 GB T = 80.68
+ INIT-L --> Site =   34 ..  Bmem = 68.5 GB Rmem = 4.93 GB T = 84.29
+ INIT-L --> Site =   35 ..  Bmem = 69.6 GB Rmem = 5.02 GB T = 86.26
+ INIT-L --> Site =   36 ..  Bmem = 70.5 GB Rmem = 5.11 GB T = 92.54
+ INIT-L --> Site =   37 ..  Bmem = 71.2 GB Rmem = 5.20 GB T = 95.43
+ INIT-L --> Site =   38 ..  Bmem = 71.3 GB Rmem = 5.38 GB T = 96.64
+ INIT-L --> Site =   39 ..  Bmem = 73.4 GB Rmem = 5.53 GB T = 100.22
+ INIT-L --> Site =   40 ..  Bmem = 76.2 GB Rmem = 5.72 GB T = 101.38
+ INIT-L --> Site =   41 ..  Bmem = 75.2 GB Rmem = 5.74 GB T = 101.22
+ INIT-L --> Site =   42 ..  Bmem = 75.4 GB Rmem = 5.82 GB T = 101.23
+ INIT-L --> Site =   43 ..  Bmem = 76.6 GB Rmem = 5.95 GB T = 99.50
+ INIT-L --> Site =   44 ..  Bmem = 78.2 GB Rmem = 6.21 GB T = 103.15
+ INIT-L --> Site =   45 ..  Bmem = 82.7 GB Rmem = 6.11 GB T = 107.13
+ INIT-L --> Site =   46 ..  Bmem = 80.8 GB Rmem = 6.01 GB T = 106.84
+ INIT-L --> Site =   47 ..  Bmem = 77.7 GB Rmem = 6.01 GB T = 104.38
+ INIT-L --> Site =   48 ..  Bmem = 78.6 GB Rmem = 5.83 GB T = 104.27
+ INIT-L --> Site =   49 ..  Bmem = 76.2 GB Rmem = 5.82 GB T = 101.23
+ INIT-L --> Site =   50 ..  Bmem = 75.8 GB Rmem = 5.69 GB T = 100.92
+ INIT-L --> Site =   51 ..  Bmem = 73.3 GB Rmem = 5.51 GB T = 96.09
+ INIT-L --> Site =   52 ..  Bmem = 71.1 GB Rmem = 5.34 GB T = 91.73
+ INIT-L --> Site =   53 ..  Bmem = 68.4 GB Rmem = 5.19 GB T = 86.41
+ INIT-L --> Site =   54 ..  Bmem = 66.2 GB Rmem = 5.10 GB T = 82.23
+ INIT-L --> Site =   55 ..  Bmem = 64.7 GB Rmem = 4.76 GB T = 78.22
+ INIT-L --> Site =   56 ..  Bmem = 59.8 GB Rmem = 4.46 GB T = 70.22
+ INIT-L --> Site =   57 ..  Bmem = 55.2 GB Rmem = 4.14 GB T = 62.60
+ INIT-L --> Site =   58 ..  Bmem = 51.7 GB Rmem = 3.77 GB T = 55.20
+ INIT-L --> Site =   59 ..  Bmem = 47.5 GB Rmem = 3.54 GB T = 47.92
+ INIT-L --> Site =   60 ..  Bmem = 45.2 GB Rmem = 3.28 GB T = 44.91
+ INIT-L --> Site =   61 ..  Bmem = 41.3 GB Rmem = 3.01 GB T = 38.36
+ INIT-L --> Site =   62 ..  Bmem = 37.4 GB Rmem = 2.75 GB T = 33.06
+ INIT-L --> Site =   63 ..  Bmem = 34.0 GB Rmem = 2.48 GB T = 28.60
+ INIT-L --> Site =   64 ..  Bmem = 30.2 GB Rmem = 2.15 GB T = 24.30
+ INIT-L --> Site =   65 ..  Bmem = 25.6 GB Rmem = 1.89 GB T = 19.00
+ INIT-L --> Site =   66 ..  Bmem = 22.0 GB Rmem = 1.63 GB T = 14.54
+ INIT-L --> Site =   67 ..  Bmem = 18.9 GB Rmem = 1.37 GB T = 11.34
+ INIT-L --> Site =   68 ..  Bmem = 15.5 GB Rmem = 1.13 GB T = 8.43
+ INIT-L --> Site =   69 ..  Bmem = 12.4 GB Rmem = 1.02 GB T = 6.57
+ INIT-L --> Site =   70 ..  Bmem = 10.4 GB Rmem =  756 MB T = 4.57
+ INIT-L --> Site =   71 ..  Bmem = 7.13 GB Rmem =  134 MB T = 2.40
+ INIT-L --> Site =   72 ..  Bmem = 1.18 GB Rmem = 18.7 MB T = 0.35
+ INIT-L --> Site =   73 ..  Bmem =  137 MB Rmem = 2.27 MB T = 0.05
+ INIT-L --> Site =   74 ..  Bmem = 13.9 MB Rmem =  443 KB T = 0.01
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.00
+Time init sweep =     3898.460 | MaxBmem = 82.7 GB | MaxRmem = 6.11 GB
+ | Tread = 0.000 | Twrite = 300.086 | Tfpread = 0.000 | Tfpwrite = 295.892 | data = 257 GB | cpsd = 204 GB | Tasync = 0.000
+
+1e-08         -22140.111873475885659
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-09 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.009 T = 0.523
+ Site =     1 /    76 .. Mmpo =    42 DW = 1.22e-35 Error = 4.62e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.019 T = 1.103
+ Site =     2 /    76 .. Mmpo =    92 DW = 1.12e-35 Error = 1.55e-14 NNZ =     1127 SPT = 0.7083 Tsvd = 0.030 T = 1.365
+ Site =     3 /    76 .. Mmpo =   148 DW = 5.57e-09 Error = 7.46e-05 NNZ =     3819 SPT = 0.7195 Tsvd = 0.045 T = 1.610
+ Site =     4 /    76 .. Mmpo =   204 DW = 6.62e-09 Error = 8.14e-05 NNZ =     7949 SPT = 0.7367 Tsvd = 0.062 T = 1.831
+ Site =     5 /    76 .. Mmpo =   264 DW = 5.20e-09 Error = 7.21e-05 NNZ =    13379 SPT = 0.7516 Tsvd = 0.077 T = 1.937
+ Site =     6 /    76 .. Mmpo =   326 DW = 6.61e-09 Error = 8.13e-05 NNZ =    19875 SPT = 0.7691 Tsvd = 0.097 T = 2.195
+ Site =     7 /    76 .. Mmpo =   404 DW = 7.61e-09 Error = 8.72e-05 NNZ =    29900 SPT = 0.7730 Tsvd = 0.122 T = 2.463
+ Site =     8 /    76 .. Mmpo =   488 DW = 6.17e-09 Error = 7.86e-05 NNZ =    43185 SPT = 0.7810 Tsvd = 0.155 T = 2.657
+ Site =     9 /    76 .. Mmpo =   576 DW = 6.50e-09 Error = 8.06e-05 NNZ =    59540 SPT = 0.7882 Tsvd = 0.191 T = 2.942
+ Site =    10 /    76 .. Mmpo =   671 DW = 4.51e-09 Error = 6.71e-05 NNZ =    79150 SPT = 0.7952 Tsvd = 0.238 T = 3.191
+ Site =    11 /    76 .. Mmpo =   771 DW = 2.06e-09 Error = 4.53e-05 NNZ =   102047 SPT = 0.8027 Tsvd = 0.259 T = 3.377
+ Site =    12 /    76 .. Mmpo =   864 DW = 8.61e-09 Error = 9.28e-05 NNZ =   125615 SPT = 0.8114 Tsvd = 0.287 T = 3.611
+ Site =    13 /    76 .. Mmpo =   962 DW = 1.32e-08 Error = 1.15e-04 NNZ =   151838 SPT = 0.8173 Tsvd = 0.336 T = 3.868
+ Site =    14 /    76 .. Mmpo =  1068 DW = 1.27e-08 Error = 1.13e-04 NNZ =   184246 SPT = 0.8207 Tsvd = 0.388 T = 4.146
+ Site =    15 /    76 .. Mmpo =  1169 DW = 1.91e-08 Error = 1.38e-04 NNZ =   221531 SPT = 0.8226 Tsvd = 0.426 T = 4.307
+ Site =    16 /    76 .. Mmpo =  1283 DW = 1.73e-08 Error = 1.31e-04 NNZ =   263943 SPT = 0.8240 Tsvd = 0.460 T = 4.367
+ Site =    17 /    76 .. Mmpo =  1400 DW = 2.10e-08 Error = 1.45e-04 NNZ =   311949 SPT = 0.8263 Tsvd = 0.526 T = 4.454
+ Site =    18 /    76 .. Mmpo =  1516 DW = 2.99e-08 Error = 1.73e-04 NNZ =   364868 SPT = 0.8281 Tsvd = 0.583 T = 4.595
+ Site =    19 /    76 .. Mmpo =  1624 DW = 3.62e-08 Error = 1.90e-04 NNZ =   421166 SPT = 0.8289 Tsvd = 0.681 T = 4.711
+ Site =    20 /    76 .. Mmpo =  1718 DW = 5.26e-08 Error = 2.29e-04 NNZ =   477360 SPT = 0.8289 Tsvd = 0.722 T = 4.801
+ Site =    21 /    76 .. Mmpo =  1825 DW = 5.15e-08 Error = 2.27e-04 NNZ =   534283 SPT = 0.8296 Tsvd = 0.805 T = 4.876
+ Site =    22 /    76 .. Mmpo =  1924 DW = 6.23e-08 Error = 2.50e-04 NNZ =   595474 SPT = 0.8304 Tsvd = 0.916 T = 4.987
+ Site =    23 /    76 .. Mmpo =  2003 DW = 7.60e-08 Error = 2.76e-04 NNZ =   657795 SPT = 0.8293 Tsvd = 1.012 T = 5.124
+ Site =    24 /    76 .. Mmpo =  2043 DW = 9.96e-08 Error = 3.16e-04 NNZ =   705256 SPT = 0.8277 Tsvd = 1.081 T = 5.201
+ Site =    25 /    76 .. Mmpo =  2099 DW = 9.53e-08 Error = 3.09e-04 NNZ =   741415 SPT = 0.8271 Tsvd = 1.122 T = 5.202
+ Site =    26 /    76 .. Mmpo =  2171 DW = 9.14e-08 Error = 3.02e-04 NNZ =   785878 SPT = 0.8275 Tsvd = 1.154 T = 5.211
+ Site =    27 /    76 .. Mmpo =  2210 DW = 1.14e-07 Error = 3.37e-04 NNZ =   833132 SPT = 0.8264 Tsvd = 1.287 T = 5.400
+ Site =    28 /    76 .. Mmpo =  2267 DW = 1.07e-07 Error = 3.27e-04 NNZ =   868376 SPT = 0.8267 Tsvd = 1.275 T = 5.349
+ Site =    29 /    76 .. Mmpo =  2263 DW = 1.30e-07 Error = 3.61e-04 NNZ =   890506 SPT = 0.8264 Tsvd = 1.350 T = 5.382
+ Site =    30 /    76 .. Mmpo =  2267 DW = 1.37e-07 Error = 3.71e-04 NNZ =   892722 SPT = 0.8260 Tsvd = 1.313 T = 5.241
+ Site =    31 /    76 .. Mmpo =  2296 DW = 1.33e-07 Error = 3.64e-04 NNZ =   908308 SPT = 0.8255 Tsvd = 1.317 T = 5.239
+ Site =    32 /    76 .. Mmpo =  2340 DW = 1.21e-07 Error = 3.48e-04 NNZ =   926178 SPT = 0.8276 Tsvd = 1.404 T = 5.304
+ Site =    33 /    76 .. Mmpo =  2357 DW = 1.39e-07 Error = 3.73e-04 NNZ =   967463 SPT = 0.8246 Tsvd = 1.423 T = 5.271
+ Site =    34 /    76 .. Mmpo =  2426 DW = 1.23e-07 Error = 3.51e-04 NNZ =   994398 SPT = 0.8261 Tsvd = 1.477 T = 5.293
+ Site =    35 /    76 .. Mmpo =  2444 DW = 1.56e-07 Error = 3.95e-04 NNZ =  1044046 SPT = 0.8239 Tsvd = 1.531 T = 5.366
+ Site =    36 /    76 .. Mmpo =  2462 DW = 1.58e-07 Error = 3.98e-04 NNZ =  1055285 SPT = 0.8246 Tsvd = 1.593 T = 5.516
+ Site =    37 /    76 .. Mmpo =  2475 DW = 1.57e-07 Error = 3.96e-04 NNZ =  1071519 SPT = 0.8242 Tsvd = 1.598 T = 5.362
+ Site =    38 /    76 .. Mmpo =  2487 DW = 1.61e-07 Error = 4.02e-04 NNZ =  1090455 SPT = 0.8228 Tsvd = 1.659 T = 5.395
+ Site =    39 /    76 .. Mmpo =  2527 DW = 1.44e-07 Error = 3.79e-04 NNZ =  1091569 SPT = 0.8263 Tsvd = 1.692 T = 5.390
+ Site =    40 /    76 .. Mmpo =  2483 DW = 1.44e-07 Error = 3.79e-04 NNZ =  1083009 SPT = 0.8274 Tsvd = 1.691 T = 5.406
+ Site =    41 /    76 .. Mmpo =  2429 DW = 1.52e-07 Error = 3.90e-04 NNZ =  1052080 SPT = 0.8256 Tsvd = 1.636 T = 5.225
+ Site =    42 /    76 .. Mmpo =  2386 DW = 1.43e-07 Error = 3.79e-04 NNZ =  1004955 SPT = 0.8266 Tsvd = 1.686 T = 5.099
+ Site =    43 /    76 .. Mmpo =  2374 DW = 1.38e-07 Error = 3.71e-04 NNZ =   990012 SPT = 0.8252 Tsvd = 1.708 T = 4.936
+ Site =    44 /    76 .. Mmpo =  2376 DW = 1.34e-07 Error = 3.66e-04 NNZ =   980265 SPT = 0.8262 Tsvd = 1.517 T = 4.725
+ Site =    45 /    76 .. Mmpo =  2360 DW = 1.27e-07 Error = 3.56e-04 NNZ =   971439 SPT = 0.8268 Tsvd = 1.600 T = 4.719
+ Site =    46 /    76 .. Mmpo =  2311 DW = 1.28e-07 Error = 3.58e-04 NNZ =   947992 SPT = 0.8262 Tsvd = 1.516 T = 4.633
+ Site =    47 /    76 .. Mmpo =  2277 DW = 1.13e-07 Error = 3.37e-04 NNZ =   913804 SPT = 0.8263 Tsvd = 1.462 T = 4.391
+ Site =    48 /    76 .. Mmpo =  2219 DW = 1.13e-07 Error = 3.36e-04 NNZ =   878942 SPT = 0.8260 Tsvd = 1.286 T = 4.001
+ Site =    49 /    76 .. Mmpo =  2168 DW = 1.10e-07 Error = 3.32e-04 NNZ =   838603 SPT = 0.8257 Tsvd = 1.198 T = 3.868
+ Site =    50 /    76 .. Mmpo =  2096 DW = 9.81e-08 Error = 3.13e-04 NNZ =   791862 SPT = 0.8257 Tsvd = 1.047 T = 3.526
+ Site =    51 /    76 .. Mmpo =  2017 DW = 8.72e-08 Error = 2.95e-04 NNZ =   742080 SPT = 0.8245 Tsvd = 0.982 T = 3.379
+ Site =    52 /    76 .. Mmpo =  1923 DW = 8.30e-08 Error = 2.88e-04 NNZ =   682820 SPT = 0.8240 Tsvd = 0.818 T = 3.037
+ Site =    53 /    76 .. Mmpo =  1836 DW = 7.34e-08 Error = 2.71e-04 NNZ =   622165 SPT = 0.8238 Tsvd = 0.636 T = 2.648
+ Site =    54 /    76 .. Mmpo =  1749 DW = 6.40e-08 Error = 2.53e-04 NNZ =   566338 SPT = 0.8236 Tsvd = 0.541 T = 2.369
+ Site =    55 /    76 .. Mmpo =  1638 DW = 5.53e-08 Error = 2.35e-04 NNZ =   508306 SPT = 0.8226 Tsvd = 0.460 T = 2.096
+ Site =    56 /    76 .. Mmpo =  1527 DW = 4.23e-08 Error = 2.06e-04 NNZ =   445990 SPT = 0.8217 Tsvd = 0.343 T = 1.791
+ Site =    57 /    76 .. Mmpo =  1416 DW = 3.48e-08 Error = 1.87e-04 NNZ =   388864 SPT = 0.8202 Tsvd = 0.253 T = 1.528
+ Site =    58 /    76 .. Mmpo =  1299 DW = 3.24e-08 Error = 1.80e-04 NNZ =   333031 SPT = 0.8189 Tsvd = 0.195 T = 1.295
+ Site =    59 /    76 .. Mmpo =  1207 DW = 1.57e-08 Error = 1.25e-04 NNZ =   289336 SPT = 0.8155 Tsvd = 0.190 T = 1.153
+ Site =    60 /    76 .. Mmpo =  1095 DW = 1.07e-08 Error = 1.04e-04 NNZ =   245110 SPT = 0.8145 Tsvd = 0.101 T = 0.911
+ Site =    61 /    76 .. Mmpo =   980 DW = 7.80e-09 Error = 8.83e-05 NNZ =   202005 SPT = 0.8118 Tsvd = 0.072 T = 0.743
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 1.26e-13 NNZ =   166214 SPT = 0.8077 Tsvd = 0.052 T = 0.586
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 3.45e-14 NNZ =   134997 SPT = 0.8033 Tsvd = 0.038 T = 0.464
+ Site =    64 /    76 .. Mmpo =   680 DW = 9.50e-10 Error = 3.08e-05 NNZ =   107188 SPT = 0.7974 Tsvd = 0.027 T = 0.353
+ Site =    65 /    76 .. Mmpo =   588 DW = 2.38e-09 Error = 4.88e-05 NNZ =    84291 SPT = 0.7892 Tsvd = 0.019 T = 0.262
+ Site =    66 /    76 .. Mmpo =   500 DW = 5.05e-09 Error = 7.11e-05 NNZ =    64854 SPT = 0.7794 Tsvd = 0.013 T = 0.185
+ Site =    67 /    76 .. Mmpo =   418 DW = 5.96e-09 Error = 7.72e-05 NNZ =    47860 SPT = 0.7710 Tsvd = 0.008 T = 0.119
+ Site =    68 /    76 .. Mmpo =   344 DW = 3.93e-09 Error = 6.27e-05 NNZ =    34185 SPT = 0.7623 Tsvd = 0.005 T = 0.077
+ Site =    69 /    76 .. Mmpo =   274 DW = 4.70e-09 Error = 6.85e-05 NNZ =    23576 SPT = 0.7499 Tsvd = 0.003 T = 0.050
+ Site =    70 /    76 .. Mmpo =   206 DW = 4.94e-09 Error = 7.03e-05 NNZ =    14795 SPT = 0.7379 Tsvd = 0.002 T = 0.030
+ Site =    71 /    76 .. Mmpo =   142 DW = 3.53e-09 Error = 5.94e-05 NNZ =     7909 SPT = 0.7296 Tsvd = 0.001 T = 0.016
+ Site =    72 /    76 .. Mmpo =    88 DW = 1.54e-09 Error = 3.92e-05 NNZ =     3397 SPT = 0.7282 Tsvd = 0.000 T = 0.007
+ Site =    73 /    76 .. Mmpo =    42 DW = 2.43e-34 Error = 8.54e-14 NNZ =     1028 SPT = 0.7219 Tsvd = 0.000 T = 0.002
+ Site =    74 /    76 .. Mmpo =    14 DW = 3.82e-34 Error = 5.83e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.000
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 7.11e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    237.794 Tsvd-total = 51.832 MPO bond dimension =  2527 MaxDW = 1.61e-07 Total error = 2.11e-03
+NNZ =     35706205 SIZE =    203581458 SPT = 0.8246
+
+Rank =     0 Ttotal =    238.410 MPO method = FastBlockedSVD bond dimension =    2527 NNZ =     35706205 SIZE =    203581458 SPT = 0.8246
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.00
+ INIT-L --> Site =    2 ..  Bmem = 12.8 KB Rmem = 12.8 KB T = 0.01
+ INIT-L --> Site =    3 ..  Bmem =  365 KB Rmem =  318 KB T = 0.32
+ INIT-L --> Site =    4 ..  Bmem = 6.47 MB Rmem = 4.71 MB T = 0.04
+ INIT-L --> Site =    5 ..  Bmem = 83.6 MB Rmem = 52.6 MB T = 0.16
+ INIT-L --> Site =    6 ..  Bmem =  878 MB Rmem =  223 MB T = 0.58
+ INIT-L --> Site =    7 ..  Bmem = 3.50 GB Rmem =  593 MB T = 1.93
+ INIT-L --> Site =    8 ..  Bmem = 9.40 GB Rmem = 1.37 GB T = 5.33
+ INIT-L --> Site =    9 ..  Bmem = 21.6 GB Rmem = 1.69 GB T = 10.40
+ INIT-L --> Site =   10 ..  Bmem = 26.3 GB Rmem = 1.94 GB T = 14.02
+ INIT-L --> Site =   11 ..  Bmem = 29.9 GB Rmem = 2.22 GB T = 17.08
+ INIT-L --> Site =   12 ..  Bmem = 33.9 GB Rmem = 2.52 GB T = 21.35
+ INIT-L --> Site =   13 ..  Bmem = 37.8 GB Rmem = 2.86 GB T = 26.03
+ INIT-L --> Site =   14 ..  Bmem = 42.6 GB Rmem = 3.21 GB T = 30.63
+ INIT-L --> Site =   15 ..  Bmem = 47.7 GB Rmem = 3.64 GB T = 37.47
+ INIT-L --> Site =   16 ..  Bmem = 53.2 GB Rmem = 3.99 GB T = 46.03
+ INIT-L --> Site =   17 ..  Bmem = 58.4 GB Rmem = 4.35 GB T = 54.22
+ INIT-L --> Site =   18 ..  Bmem = 63.4 GB Rmem = 4.69 GB T = 63.29
+ INIT-L --> Site =   19 ..  Bmem = 68.0 GB Rmem = 5.03 GB T = 73.18
+ INIT-L --> Site =   20 ..  Bmem = 72.6 GB Rmem = 5.48 GB T = 84.51
+ INIT-L --> Site =   21 ..  Bmem = 77.9 GB Rmem = 5.88 GB T = 97.88
+ INIT-L --> Site =   22 ..  Bmem = 84.0 GB Rmem = 5.98 GB T = 111.03
+ INIT-L --> Site =   23 ..  Bmem = 85.2 GB Rmem = 6.33 GB T = 119.15
+ INIT-L --> Site =   24 ..  Bmem = 89.0 GB Rmem = 6.60 GB T = 132.11
+ INIT-L --> Site =   25 ..  Bmem = 91.1 GB Rmem = 6.91 GB T = 143.76
+ INIT-L --> Site =   26 ..  Bmem = 96.0 GB Rmem = 7.01 GB T = 155.72
+ INIT-L --> Site =   27 ..  Bmem = 98.7 GB Rmem = 6.63 GB T = 162.59
+ INIT-L --> Site =   28 ..  Bmem = 92.8 GB Rmem = 6.38 GB T = 159.70
+ INIT-L --> Site =   29 ..  Bmem = 90.7 GB Rmem = 6.49 GB T = 158.74
+ INIT-L --> Site =   30 ..  Bmem = 90.2 GB Rmem = 6.77 GB T = 162.74
+ INIT-L --> Site =   31 ..  Bmem = 93.9 GB Rmem = 7.38 GB T = 169.74
+ INIT-L --> Site =   32 ..  Bmem =  102 GB Rmem = 7.51 GB T = 184.65
+ INIT-L --> Site =   33 ..  Bmem =  105 GB Rmem = 7.58 GB T = 188.40
+ INIT-L --> Site =   34 ..  Bmem =  105 GB Rmem = 7.53 GB T = 198.39
+ INIT-L --> Site =   35 ..  Bmem =  106 GB Rmem = 7.65 GB T = 203.27
+ INIT-L --> Site =   36 ..  Bmem =  106 GB Rmem = 7.67 GB T = 211.07
+ INIT-L --> Site =   37 ..  Bmem =  106 GB Rmem = 7.74 GB T = 211.36
+ INIT-L --> Site =   38 ..  Bmem =  107 GB Rmem = 8.04 GB T = 215.74
+ INIT-L --> Site =   39 ..  Bmem =  110 GB Rmem = 8.28 GB T = 225.13
+ INIT-L --> Site =   40 ..  Bmem =  114 GB Rmem = 8.56 GB T = 228.55
+ INIT-L --> Site =   41 ..  Bmem =  114 GB Rmem = 8.68 GB T = 232.37
+ INIT-L --> Site =   42 ..  Bmem =  114 GB Rmem = 8.79 GB T = 232.80
+ INIT-L --> Site =   43 ..  Bmem =  115 GB Rmem = 8.93 GB T = 228.50
+ INIT-L --> Site =   44 ..  Bmem =  117 GB Rmem = 9.31 GB T = 234.61
+ INIT-L --> Site =   45 ..  Bmem =  122 GB Rmem = 9.03 GB T = 241.61
+ INIT-L --> Site =   46 ..  Bmem =  118 GB Rmem = 8.75 GB T = 231.12
+ INIT-L --> Site =   47 ..  Bmem =  113 GB Rmem = 8.71 GB T = 221.06
+ INIT-L --> Site =   48 ..  Bmem =  112 GB Rmem = 8.30 GB T = 217.79
+ INIT-L --> Site =   49 ..  Bmem =  106 GB Rmem = 8.12 GB T = 205.33
+ INIT-L --> Site =   50 ..  Bmem =  104 GB Rmem = 7.80 GB T = 194.36
+ INIT-L --> Site =   51 ..  Bmem = 99.0 GB Rmem = 7.43 GB T = 179.98
+ INIT-L --> Site =   52 ..  Bmem = 94.2 GB Rmem = 7.07 GB T = 167.50
+ INIT-L --> Site =   53 ..  Bmem = 88.5 GB Rmem = 6.71 GB T = 151.20
+ INIT-L --> Site =   54 ..  Bmem = 84.2 GB Rmem = 6.49 GB T = 137.29
+ INIT-L --> Site =   55 ..  Bmem = 81.2 GB Rmem = 5.98 GB T = 126.79
+ INIT-L --> Site =   56 ..  Bmem = 73.9 GB Rmem = 5.51 GB T = 110.00
+ INIT-L --> Site =   57 ..  Bmem = 67.9 GB Rmem = 5.08 GB T = 93.72
+ INIT-L --> Site =   58 ..  Bmem = 62.4 GB Rmem = 4.55 GB T = 82.13
+ INIT-L --> Site =   59 ..  Bmem = 55.8 GB Rmem = 4.16 GB T = 68.88
+ INIT-L --> Site =   60 ..  Bmem = 51.6 GB Rmem = 3.74 GB T = 58.68
+ INIT-L --> Site =   61 ..  Bmem = 45.6 GB Rmem = 3.32 GB T = 48.67
+ INIT-L --> Site =   62 ..  Bmem = 40.2 GB Rmem = 2.97 GB T = 39.43
+ INIT-L --> Site =   63 ..  Bmem = 36.0 GB Rmem = 2.63 GB T = 32.94
+ INIT-L --> Site =   64 ..  Bmem = 31.5 GB Rmem = 2.24 GB T = 26.42
+ INIT-L --> Site =   65 ..  Bmem = 26.8 GB Rmem = 1.98 GB T = 20.76
+ INIT-L --> Site =   66 ..  Bmem = 23.3 GB Rmem = 1.72 GB T = 16.25
+ INIT-L --> Site =   67 ..  Bmem = 19.9 GB Rmem = 1.44 GB T = 13.08
+ INIT-L --> Site =   68 ..  Bmem = 16.3 GB Rmem = 1.19 GB T = 9.57
+ INIT-L --> Site =   69 ..  Bmem = 13.2 GB Rmem = 1.08 GB T = 7.48
+ INIT-L --> Site =   70 ..  Bmem = 11.3 GB Rmem =  820 MB T = 5.60
+ INIT-L --> Site =   71 ..  Bmem = 7.85 GB Rmem =  148 MB T = 3.01
+ INIT-L --> Site =   72 ..  Bmem = 1.27 GB Rmem = 20.1 MB T = 0.43
+ INIT-L --> Site =   73 ..  Bmem =  153 MB Rmem = 2.55 MB T = 0.09
+ INIT-L --> Site =   74 ..  Bmem = 13.9 MB Rmem =  443 KB T = 0.01
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.00
+Time init sweep =     7566.011 | MaxBmem =  122 GB | MaxRmem = 9.03 GB
+ | Tread = 0.000 | Twrite = 407.566 | Tfpread = 0.000 | Tfpwrite = 407.456 | data = 349 GB | cpsd = 276 GB | Tasync = 0.000
+
+1e-09         -22140.111903414628614
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-10 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.009 T = 0.694
+ Site =     1 /    76 .. Mmpo =    42 DW = 1.22e-35 Error = 4.62e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.019 T = 1.669
+ Site =     2 /    76 .. Mmpo =    92 DW = 1.14e-35 Error = 1.54e-14 NNZ =     1127 SPT = 0.7083 Tsvd = 0.033 T = 2.046
+ Site =     3 /    76 .. Mmpo =   158 DW = 3.84e-10 Error = 1.96e-05 NNZ =     4339 SPT = 0.7015 Tsvd = 0.048 T = 2.378
+ Site =     4 /    76 .. Mmpo =   220 DW = 5.29e-10 Error = 2.30e-05 NNZ =     9769 SPT = 0.7190 Tsvd = 0.061 T = 2.655
+ Site =     5 /    76 .. Mmpo =   280 DW = 5.50e-10 Error = 2.35e-05 NNZ =    16129 SPT = 0.7382 Tsvd = 0.080 T = 2.823
+ Site =     6 /    76 .. Mmpo =   342 DW = 6.87e-10 Error = 2.62e-05 NNZ =    23311 SPT = 0.7566 Tsvd = 0.097 T = 3.180
+ Site =     7 /    76 .. Mmpo =   420 DW = 7.39e-10 Error = 2.72e-05 NNZ =    34111 SPT = 0.7625 Tsvd = 0.122 T = 3.402
+ Site =     8 /    76 .. Mmpo =   504 DW = 3.39e-10 Error = 1.84e-05 NNZ =    48321 SPT = 0.7717 Tsvd = 0.151 T = 3.568
+ Site =     9 /    76 .. Mmpo =   592 DW = 5.77e-11 Error = 7.60e-06 NNZ =    65043 SPT = 0.7820 Tsvd = 0.188 T = 3.789
+ Site =    10 /    76 .. Mmpo =   680 DW = 1.46e-10 Error = 1.21e-05 NNZ =    82505 SPT = 0.7950 Tsvd = 0.231 T = 3.967
+ Site =    11 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 2.44e-14 NNZ =   104019 SPT = 0.8034 Tsvd = 0.255 T = 4.111
+ Site =    12 /    76 .. Mmpo =   882 DW = 0.00e+00 Error = 4.45e-14 NNZ =   129647 SPT = 0.8111 Tsvd = 0.283 T = 4.214
+ Site =    13 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 4.25e-14 NNZ =   160687 SPT = 0.8167 Tsvd = 0.323 T = 4.378
+ Site =    14 /    76 .. Mmpo =  1114 DW = 4.03e-29 Error = 5.10e-14 NNZ =   197836 SPT = 0.8213 Tsvd = 0.371 T = 4.592
+ Site =    15 /    76 .. Mmpo =  1240 DW = 1.47e-10 Error = 1.21e-05 NNZ =   243670 SPT = 0.8236 Tsvd = 0.478 T = 4.708
+ Site =    16 /    76 .. Mmpo =  1373 DW = 2.48e-10 Error = 1.58e-05 NNZ =   295339 SPT = 0.8265 Tsvd = 0.486 T = 4.781
+ Site =    17 /    76 .. Mmpo =  1515 DW = 1.76e-10 Error = 1.33e-05 NNZ =   353551 SPT = 0.8300 Tsvd = 0.541 T = 4.982
+ Site =    18 /    76 .. Mmpo =  1662 DW = 4.60e-10 Error = 2.15e-05 NNZ =   423162 SPT = 0.8319 Tsvd = 0.637 T = 5.089
+ Site =    19 /    76 .. Mmpo =  1809 DW = 1.10e-09 Error = 3.32e-05 NNZ =   501481 SPT = 0.8332 Tsvd = 0.733 T = 5.262
+ Site =    20 /    76 .. Mmpo =  1960 DW = 1.46e-09 Error = 3.82e-05 NNZ =   590361 SPT = 0.8335 Tsvd = 0.853 T = 5.508
+ Site =    21 /    76 .. Mmpo =  2111 DW = 2.16e-09 Error = 4.64e-05 NNZ =   686881 SPT = 0.8340 Tsvd = 1.028 T = 5.692
+ Site =    22 /    76 .. Mmpo =  2275 DW = 1.64e-09 Error = 4.05e-05 NNZ =   792171 SPT = 0.8351 Tsvd = 1.184 T = 5.933
+ Site =    23 /    76 .. Mmpo =  2433 DW = 2.77e-09 Error = 5.27e-05 NNZ =   912773 SPT = 0.8351 Tsvd = 1.316 T = 6.216
+ Site =    24 /    76 .. Mmpo =  2568 DW = 4.75e-09 Error = 6.89e-05 NNZ =  1044997 SPT = 0.8327 Tsvd = 1.550 T = 6.603
+ Site =    25 /    76 .. Mmpo =  2693 DW = 6.34e-09 Error = 7.96e-05 NNZ =  1156989 SPT = 0.8327 Tsvd = 1.680 T = 6.838
+ Site =    26 /    76 .. Mmpo =  2838 DW = 5.64e-09 Error = 7.51e-05 NNZ =  1274585 SPT = 0.8332 Tsvd = 1.969 T = 7.220
+ Site =    27 /    76 .. Mmpo =  2945 DW = 8.77e-09 Error = 9.37e-05 NNZ =  1411637 SPT = 0.8311 Tsvd = 2.315 T = 7.732
+ Site =    28 /    76 .. Mmpo =  3057 DW = 8.74e-09 Error = 9.35e-05 NNZ =  1519822 SPT = 0.8312 Tsvd = 2.390 T = 7.962
+ Site =    29 /    76 .. Mmpo =  3115 DW = 1.17e-08 Error = 1.08e-04 NNZ =  1621087 SPT = 0.8298 Tsvd = 2.748 T = 8.484
+ Site =    30 /    76 .. Mmpo =  3169 DW = 1.25e-08 Error = 1.12e-04 NNZ =  1689053 SPT = 0.8289 Tsvd = 2.698 T = 8.471
+ Site =    31 /    76 .. Mmpo =  3221 DW = 1.34e-08 Error = 1.16e-04 NNZ =  1749820 SPT = 0.8286 Tsvd = 2.837 T = 8.757
+ Site =    32 /    76 .. Mmpo =  3290 DW = 1.28e-08 Error = 1.13e-04 NNZ =  1799027 SPT = 0.8302 Tsvd = 3.214 T = 9.216
+ Site =    33 /    76 .. Mmpo =  3314 DW = 1.50e-08 Error = 1.22e-04 NNZ =  1876580 SPT = 0.8279 Tsvd = 3.163 T = 9.225
+ Site =    34 /    76 .. Mmpo =  3390 DW = 1.33e-08 Error = 1.15e-04 NNZ =  1916091 SPT = 0.8294 Tsvd = 3.214 T = 9.320
+ Site =    35 /    76 .. Mmpo =  3414 DW = 1.57e-08 Error = 1.25e-04 NNZ =  2003902 SPT = 0.8269 Tsvd = 3.380 T = 9.626
+ Site =    36 /    76 .. Mmpo =  3434 DW = 1.61e-08 Error = 1.27e-04 NNZ =  2029961 SPT = 0.8268 Tsvd = 3.437 T = 9.820
+ Site =    37 /    76 .. Mmpo =  3438 DW = 1.69e-08 Error = 1.30e-04 NNZ =  2043656 SPT = 0.8269 Tsvd = 3.920 T = 10.336
+ Site =    38 /    76 .. Mmpo =  3447 DW = 1.64e-08 Error = 1.28e-04 NNZ =  2063496 SPT = 0.8259 Tsvd = 3.937 T = 10.231
+ Site =    39 /    76 .. Mmpo =  3467 DW = 1.57e-08 Error = 1.25e-04 NNZ =  2046606 SPT = 0.8287 Tsvd = 4.114 T = 10.454
+ Site =    40 /    76 .. Mmpo =  3424 DW = 1.56e-08 Error = 1.25e-04 NNZ =  2022581 SPT = 0.8296 Tsvd = 4.019 T = 10.167
+ Site =    41 /    76 .. Mmpo =  3334 DW = 1.62e-08 Error = 1.27e-04 NNZ =  1960699 SPT = 0.8282 Tsvd = 3.638 T = 9.734
+ Site =    42 /    76 .. Mmpo =  3275 DW = 1.50e-08 Error = 1.22e-04 NNZ =  1865443 SPT = 0.8292 Tsvd = 3.314 T = 9.138
+ Site =    43 /    76 .. Mmpo =  3219 DW = 1.53e-08 Error = 1.24e-04 NNZ =  1811454 SPT = 0.8282 Tsvd = 3.157 T = 8.769
+ Site =    44 /    76 .. Mmpo =  3186 DW = 1.34e-08 Error = 1.16e-04 NNZ =  1750995 SPT = 0.8293 Tsvd = 2.948 T = 8.272
+ Site =    45 /    76 .. Mmpo =  3109 DW = 1.24e-08 Error = 1.11e-04 NNZ =  1680724 SPT = 0.8303 Tsvd = 2.920 T = 7.994
+ Site =    46 /    76 .. Mmpo =  2999 DW = 1.17e-08 Error = 1.08e-04 NNZ =  1585047 SPT = 0.8300 Tsvd = 2.526 T = 7.282
+ Site =    47 /    76 .. Mmpo =  2895 DW = 1.06e-08 Error = 1.03e-04 NNZ =  1473600 SPT = 0.8303 Tsvd = 2.325 T = 6.687
+ Site =    48 /    76 .. Mmpo =  2775 DW = 9.18e-09 Error = 9.58e-05 NNZ =  1364129 SPT = 0.8302 Tsvd = 1.851 T = 6.079
+ Site =    49 /    76 .. Mmpo =  2655 DW = 8.72e-09 Error = 9.34e-05 NNZ =  1253222 SPT = 0.8299 Tsvd = 1.557 T = 5.502
+ Site =    50 /    76 .. Mmpo =  2525 DW = 6.97e-09 Error = 8.35e-05 NNZ =  1142096 SPT = 0.8296 Tsvd = 1.331 T = 4.979
+ Site =    51 /    76 .. Mmpo =  2387 DW = 5.61e-09 Error = 7.49e-05 NNZ =  1030481 SPT = 0.8290 Tsvd = 1.235 T = 4.564
+ Site =    52 /    76 .. Mmpo =  2244 DW = 4.55e-09 Error = 6.75e-05 NNZ =   920003 SPT = 0.8282 Tsvd = 0.874 T = 3.915
+ Site =    53 /    76 .. Mmpo =  2104 DW = 3.61e-09 Error = 6.00e-05 NNZ =   809273 SPT = 0.8286 Tsvd = 0.687 T = 3.429
+ Site =    54 /    76 .. Mmpo =  1958 DW = 2.33e-09 Error = 4.82e-05 NNZ =   706898 SPT = 0.8284 Tsvd = 0.585 T = 3.020
+ Site =    55 /    76 .. Mmpo =  1810 DW = 1.32e-09 Error = 3.63e-05 NNZ =   611309 SPT = 0.8275 Tsvd = 0.503 T = 2.629
+ Site =    56 /    76 .. Mmpo =  1661 DW = 7.52e-10 Error = 2.74e-05 NNZ =   520312 SPT = 0.8269 Tsvd = 0.364 T = 2.175
+ Site =    57 /    76 .. Mmpo =  1512 DW = 6.80e-10 Error = 2.61e-05 NNZ =   439734 SPT = 0.8249 Tsvd = 0.266 T = 1.799
+ Site =    58 /    76 .. Mmpo =  1376 DW = 1.88e-10 Error = 1.37e-05 NNZ =   366875 SPT = 0.8237 Tsvd = 0.204 T = 1.481
+ Site =    59 /    76 .. Mmpo =  1242 DW = 0.00e+00 Error = 3.90e-14 NNZ =   305966 SPT = 0.8210 Tsvd = 0.202 T = 1.275
+ Site =    60 /    76 .. Mmpo =  1114 DW = 0.00e+00 Error = 3.93e-14 NNZ =   251215 SPT = 0.8184 Tsvd = 0.100 T = 0.973
+ Site =    61 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 9.05e-14 NNZ =   206113 SPT = 0.8139 Tsvd = 0.073 T = 0.780
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 1.03e-13 NNZ =   167848 SPT = 0.8085 Tsvd = 0.052 T = 0.625
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 5.97e-14 NNZ =   135417 SPT = 0.8027 Tsvd = 0.038 T = 0.483
+ Site =    64 /    76 .. Mmpo =   682 DW = 3.20e-29 Error = 1.01e-13 NNZ =   107389 SPT = 0.7976 Tsvd = 0.028 T = 0.377
+ Site =    65 /    76 .. Mmpo =   594 DW = 0.00e+00 Error = 3.50e-14 NNZ =    85427 SPT = 0.7891 Tsvd = 0.019 T = 0.276
+ Site =    66 /    76 .. Mmpo =   512 DW = 1.37e-10 Error = 1.17e-05 NNZ =    67689 SPT = 0.7774 Tsvd = 0.014 T = 0.198
+ Site =    67 /    76 .. Mmpo =   434 DW = 3.18e-10 Error = 1.78e-05 NNZ =    52288 SPT = 0.7647 Tsvd = 0.009 T = 0.136
+ Site =    68 /    76 .. Mmpo =   362 DW = 3.48e-10 Error = 1.86e-05 NNZ =    38865 SPT = 0.7526 Tsvd = 0.006 T = 0.089
+ Site =    69 /    76 .. Mmpo =   290 DW = 4.66e-10 Error = 2.16e-05 NNZ =    27558 SPT = 0.7375 Tsvd = 0.004 T = 0.058
+ Site =    70 /    76 .. Mmpo =   220 DW = 4.15e-10 Error = 2.04e-05 NNZ =    17516 SPT = 0.7255 Tsvd = 0.002 T = 0.064
+ Site =    71 /    76 .. Mmpo =   152 DW = 4.06e-10 Error = 2.01e-05 NNZ =     9514 SPT = 0.7155 Tsvd = 0.001 T = 0.019
+ Site =    72 /    76 .. Mmpo =    92 DW = 2.38e-34 Error = 5.75e-14 NNZ =     4025 SPT = 0.7122 Tsvd = 0.000 T = 0.008
+ Site =    73 /    76 .. Mmpo =    42 DW = 2.69e-34 Error = 6.34e-15 NNZ =     1127 SPT = 0.7083 Tsvd = 0.000 T = 0.002
+ Site =    74 /    76 .. Mmpo =    14 DW = 3.82e-35 Error = 3.03e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.000
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 1.78e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    348.909 Tsvd-total = 90.949 MPO bond dimension =  3467 MaxDW = 1.69e-08 Total error = 6.03e-04
+NNZ =     57716732 SIZE =    336573073 SPT = 0.8285
+
+Rank =     0 Ttotal =    349.514 MPO method = FastBlockedSVD bond dimension =    3467 NNZ =     57716732 SIZE =    336573073 SPT = 0.8285
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.00
+ INIT-L --> Site =    2 ..  Bmem = 12.8 KB Rmem = 12.8 KB T = 0.01
+ INIT-L --> Site =    3 ..  Bmem =  365 KB Rmem =  318 KB T = 0.42
+ INIT-L --> Site =    4 ..  Bmem = 6.98 MB Rmem = 5.09 MB T = 0.05
+ INIT-L --> Site =    5 ..  Bmem = 91.3 MB Rmem = 57.6 MB T = 0.13
+ INIT-L --> Site =    6 ..  Bmem =  941 MB Rmem =  239 MB T = 0.58
+ INIT-L --> Site =    7 ..  Bmem = 3.70 GB Rmem =  628 MB T = 2.09
+ INIT-L --> Site =    8 ..  Bmem = 9.84 GB Rmem = 1.43 GB T = 6.01
+ INIT-L --> Site =    9 ..  Bmem = 22.4 GB Rmem = 1.76 GB T = 11.47
+ INIT-L --> Site =   10 ..  Bmem = 27.0 GB Rmem = 2.00 GB T = 15.20
+ INIT-L --> Site =   11 ..  Bmem = 30.3 GB Rmem = 2.24 GB T = 18.22
+ INIT-L --> Site =   12 ..  Bmem = 34.1 GB Rmem = 2.54 GB T = 22.49
+ INIT-L --> Site =   13 ..  Bmem = 38.4 GB Rmem = 2.90 GB T = 26.94
+ INIT-L --> Site =   14 ..  Bmem = 43.6 GB Rmem = 3.29 GB T = 33.01
+ INIT-L --> Site =   15 ..  Bmem = 49.2 GB Rmem = 3.75 GB T = 41.27
+ INIT-L --> Site =   16 ..  Bmem = 55.8 GB Rmem = 4.19 GB T = 50.43
+ INIT-L --> Site =   17 ..  Bmem = 61.8 GB Rmem = 4.60 GB T = 61.13
+ INIT-L --> Site =   18 ..  Bmem = 67.7 GB Rmem = 5.00 GB T = 72.90
+ INIT-L --> Site =   19 ..  Bmem = 73.5 GB Rmem = 5.43 GB T = 86.41
+ INIT-L --> Site =   20 ..  Bmem = 79.6 GB Rmem = 6.01 GB T = 101.23
+ INIT-L --> Site =   21 ..  Bmem = 87.4 GB Rmem = 6.60 GB T = 120.29
+ INIT-L --> Site =   22 ..  Bmem = 95.5 GB Rmem = 6.80 GB T = 139.41
+ INIT-L --> Site =   23 ..  Bmem = 98.9 GB Rmem = 7.34 GB T = 156.28
+ INIT-L --> Site =   24 ..  Bmem =  106 GB Rmem = 7.88 GB T = 181.18
+ INIT-L --> Site =   25 ..  Bmem =  113 GB Rmem = 8.54 GB T = 209.62
+ INIT-L --> Site =   26 ..  Bmem =  121 GB Rmem = 8.85 GB T = 238.96
+ INIT-L --> Site =   27 ..  Bmem =  127 GB Rmem = 8.51 GB T = 257.49
+ INIT-L --> Site =   28 ..  Bmem =  122 GB Rmem = 8.37 GB T = 265.20
+ INIT-L --> Site =   29 ..  Bmem =  121 GB Rmem = 8.64 GB T = 273.37
+ INIT-L --> Site =   30 ..  Bmem =  123 GB Rmem = 9.20 GB T = 291.83
+ INIT-L --> Site =   31 ..  Bmem =  130 GB Rmem = 10.2 GB T = 318.11
+ INIT-L --> Site =   32 ..  Bmem =  142 GB Rmem = 10.4 GB T = 350.98
+ INIT-L --> Site =   33 ..  Bmem =  146 GB Rmem = 10.5 GB T = 362.11
+ INIT-L --> Site =   34 ..  Bmem =  145 GB Rmem = 10.4 GB T = 380.85
+ INIT-L --> Site =   35 ..  Bmem =  147 GB Rmem = 10.6 GB T = 384.73
+ INIT-L --> Site =   36 ..  Bmem =  147 GB Rmem = 10.6 GB T = 406.08
+ INIT-L --> Site =   37 ..  Bmem =  147 GB Rmem = 10.7 GB T = 407.74
+ INIT-L --> Site =   38 ..  Bmem =  147 GB Rmem = 11.1 GB T = 409.40
+ INIT-L --> Site =   39 ..  Bmem =  151 GB Rmem = 11.4 GB T = 433.18
+ INIT-L --> Site =   40 ..  Bmem =  155 GB Rmem = 11.6 GB T = 435.47
+ INIT-L --> Site =   41 ..  Bmem =  155 GB Rmem = 11.8 GB T = 440.01
+ INIT-L --> Site =   42 ..  Bmem =  155 GB Rmem = 11.9 GB T = 434.29
+ INIT-L --> Site =   43 ..  Bmem =  156 GB Rmem = 12.1 GB T = 419.70
+ INIT-L --> Site =   44 ..  Bmem =  157 GB Rmem = 12.5 GB T = 419.94
+ INIT-L --> Site =   45 ..  Bmem =  162 GB Rmem = 12.0 GB T = 417.43
+ INIT-L --> Site =   46 ..  Bmem =  153 GB Rmem = 11.4 GB T = 402.00
+ INIT-L --> Site =   47 ..  Bmem =  144 GB Rmem = 11.1 GB T = 384.27
+ INIT-L --> Site =   48 ..  Bmem =  141 GB Rmem = 10.4 GB T = 355.42
+ INIT-L --> Site =   49 ..  Bmem =  131 GB Rmem = 10.0 GB T = 316.65
+ INIT-L --> Site =   50 ..  Bmem =  126 GB Rmem = 9.45 GB T = 285.33
+ INIT-L --> Site =   51 ..  Bmem =  118 GB Rmem = 8.85 GB T = 257.97
+ INIT-L --> Site =   52 ..  Bmem =  110 GB Rmem = 8.25 GB T = 226.33
+ INIT-L --> Site =   53 ..  Bmem =  102 GB Rmem = 7.74 GB T = 199.44
+ INIT-L --> Site =   54 ..  Bmem = 95.6 GB Rmem = 7.36 GB T = 174.99
+ INIT-L --> Site =   55 ..  Bmem = 89.8 GB Rmem = 6.61 GB T = 153.09
+ INIT-L --> Site =   56 ..  Bmem = 80.6 GB Rmem = 6.01 GB T = 129.72
+ INIT-L --> Site =   57 ..  Bmem = 72.9 GB Rmem = 5.46 GB T = 109.23
+ INIT-L --> Site =   58 ..  Bmem = 65.9 GB Rmem = 4.80 GB T = 91.34
+ INIT-L --> Site =   59 ..  Bmem = 58.5 GB Rmem = 4.36 GB T = 74.98
+ INIT-L --> Site =   60 ..  Bmem = 52.7 GB Rmem = 3.82 GB T = 61.49
+ INIT-L --> Site =   61 ..  Bmem = 46.2 GB Rmem = 3.37 GB T = 50.71
+ INIT-L --> Site =   62 ..  Bmem = 40.7 GB Rmem = 3.00 GB T = 41.32
+ INIT-L --> Site =   63 ..  Bmem = 36.0 GB Rmem = 2.63 GB T = 34.16
+ INIT-L --> Site =   64 ..  Bmem = 31.5 GB Rmem = 2.24 GB T = 27.13
+ INIT-L --> Site =   65 ..  Bmem = 26.8 GB Rmem = 1.98 GB T = 21.60
+ INIT-L --> Site =   66 ..  Bmem = 23.6 GB Rmem = 1.74 GB T = 17.57
+ INIT-L --> Site =   67 ..  Bmem = 20.4 GB Rmem = 1.48 GB T = 14.25
+ INIT-L --> Site =   68 ..  Bmem = 17.0 GB Rmem = 1.25 GB T = 11.33
+ INIT-L --> Site =   69 ..  Bmem = 14.0 GB Rmem = 1.15 GB T = 8.93
+ INIT-L --> Site =   70 ..  Bmem = 12.1 GB Rmem =  877 MB T = 7.51
+ INIT-L --> Site =   71 ..  Bmem = 8.48 GB Rmem =  160 MB T = 4.02
+ INIT-L --> Site =   72 ..  Bmem = 1.38 GB Rmem = 21.8 MB T = 0.46
+ INIT-L --> Site =   73 ..  Bmem =  162 MB Rmem = 2.69 MB T = 0.05
+ INIT-L --> Site =   74 ..  Bmem = 13.9 MB Rmem =  443 KB T = 0.01
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.00
+Time init sweep =    12165.280 | MaxBmem =  162 GB | MaxRmem = 12.0 GB
+ | Tread = 0.000 | Twrite = 509.305 | Tfpread = 0.000 | Tfpwrite = 509.072 | data = 430 GB | cpsd = 338 GB | Tasync = 0.000
+
+1e-10         -22140.111911956548283
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-11 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.010 T = 0.683
+ Site =     1 /    76 .. Mmpo =    42 DW = 1.22e-35 Error = 4.62e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.047 T = 1.667
+ Site =     2 /    76 .. Mmpo =    92 DW = 1.11e-35 Error = 1.53e-14 NNZ =     1127 SPT = 0.7083 Tsvd = 0.044 T = 2.013
+ Site =     3 /    76 .. Mmpo =   168 DW = 4.87e-12 Error = 2.21e-06 NNZ =     4859 SPT = 0.6856 Tsvd = 0.042 T = 2.286
+ Site =     4 /    76 .. Mmpo =   236 DW = 4.30e-11 Error = 6.56e-06 NNZ =    11759 SPT = 0.7034 Tsvd = 0.058 T = 2.543
+ Site =     5 /    76 .. Mmpo =   296 DW = 6.51e-11 Error = 8.07e-06 NNZ =    19141 SPT = 0.7260 Tsvd = 0.074 T = 2.725
+ Site =     6 /    76 .. Mmpo =   360 DW = 6.44e-11 Error = 8.03e-06 NNZ =    27347 SPT = 0.7434 Tsvd = 0.095 T = 2.958
+ Site =     7 /    76 .. Mmpo =   436 DW = 2.45e-11 Error = 4.95e-06 NNZ =    38705 SPT = 0.7534 Tsvd = 0.119 T = 3.203
+ Site =     8 /    76 .. Mmpo =   512 DW = 1.16e-11 Error = 3.41e-06 NNZ =    51523 SPT = 0.7692 Tsvd = 0.149 T = 3.410
+ Site =     9 /    76 .. Mmpo =   594 DW = 4.66e-29 Error = 4.95e-14 NNZ =    66252 SPT = 0.7822 Tsvd = 0.185 T = 3.558
+ Site =    10 /    76 .. Mmpo =   682 DW = 0.00e+00 Error = 4.82e-14 NNZ =    83524 SPT = 0.7938 Tsvd = 0.227 T = 3.703
+ Site =    11 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 2.48e-14 NNZ =   104272 SPT = 0.8035 Tsvd = 0.252 T = 3.912
+ Site =    12 /    76 .. Mmpo =   882 DW = 0.00e+00 Error = 4.77e-14 NNZ =   129522 SPT = 0.8112 Tsvd = 0.280 T = 4.025
+ Site =    13 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 4.32e-14 NNZ =   160564 SPT = 0.8169 Tsvd = 0.318 T = 4.130
+ Site =    14 /    76 .. Mmpo =  1114 DW = 4.03e-29 Error = 5.20e-14 NNZ =   198256 SPT = 0.8210 Tsvd = 0.368 T = 4.272
+ Site =    15 /    76 .. Mmpo =  1242 DW = 3.84e-29 Error = 5.25e-14 NNZ =   245076 SPT = 0.8229 Tsvd = 0.475 T = 4.473
+ Site =    16 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 2.17e-14 NNZ =   298534 SPT = 0.8256 Tsvd = 0.472 T = 4.626
+ Site =    17 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 5.49e-14 NNZ =   357462 SPT = 0.8296 Tsvd = 0.533 T = 4.789
+ Site =    18 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 7.20e-14 NNZ =   428348 SPT = 0.8319 Tsvd = 0.645 T = 4.971
+ Site =    19 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 6.93e-14 NNZ =   510612 SPT = 0.8337 Tsvd = 0.743 T = 5.174
+ Site =    20 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 1.85e-14 NNZ =   606780 SPT = 0.8347 Tsvd = 0.871 T = 5.424
+ Site =    21 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 2.79e-14 NNZ =   714395 SPT = 0.8362 Tsvd = 1.028 T = 5.761
+ Site =    22 /    76 .. Mmpo =  2361 DW = 9.07e-12 Error = 3.01e-06 NNZ =   840082 SPT = 0.8366 Tsvd = 1.252 T = 6.171
+ Site =    23 /    76 .. Mmpo =  2553 DW = 0.00e+00 Error = 8.33e-14 NNZ =   984173 SPT = 0.8367 Tsvd = 1.502 T = 6.588
+ Site =    24 /    76 .. Mmpo =  2749 DW = 3.50e-11 Error = 5.92e-06 NNZ =  1158296 SPT = 0.8350 Tsvd = 1.795 T = 7.036
+ Site =    25 /    76 .. Mmpo =  2951 DW = 5.34e-11 Error = 7.31e-06 NNZ =  1338292 SPT = 0.8350 Tsvd = 1.994 T = 7.369
+ Site =    26 /    76 .. Mmpo =  3151 DW = 1.35e-10 Error = 1.16e-05 NNZ =  1526134 SPT = 0.8359 Tsvd = 2.312 T = 7.880
+ Site =    27 /    76 .. Mmpo =  3346 DW = 2.35e-10 Error = 1.53e-05 NNZ =  1755841 SPT = 0.8335 Tsvd = 2.751 T = 8.621
+ Site =    28 /    76 .. Mmpo =  3548 DW = 2.48e-10 Error = 1.57e-05 NNZ =  1978197 SPT = 0.8334 Tsvd = 3.287 T = 9.451
+ Site =    29 /    76 .. Mmpo =  3719 DW = 5.35e-10 Error = 2.31e-05 NNZ =  2220249 SPT = 0.8317 Tsvd = 3.737 T = 10.286
+ Site =    30 /    76 .. Mmpo =  3872 DW = 7.04e-10 Error = 2.65e-05 NNZ =  2435407 SPT = 0.8309 Tsvd = 4.159 T = 11.081
+ Site =    31 /    76 .. Mmpo =  3999 DW = 9.26e-10 Error = 3.04e-05 NNZ =  2630068 SPT = 0.8301 Tsvd = 4.668 T = 11.927
+ Site =    32 /    76 .. Mmpo =  4138 DW = 8.96e-10 Error = 2.99e-05 NNZ =  2785373 SPT = 0.8317 Tsvd = 5.159 T = 12.764
+ Site =    33 /    76 .. Mmpo =  4202 DW = 1.35e-09 Error = 3.67e-05 NNZ =  2971399 SPT = 0.8291 Tsvd = 6.268 T = 14.103
+ Site =    34 /    76 .. Mmpo =  4301 DW = 1.22e-09 Error = 3.49e-05 NNZ =  3061284 SPT = 0.8306 Tsvd = 6.434 T = 14.456
+ Site =    35 /    76 .. Mmpo =  4351 DW = 1.43e-09 Error = 3.79e-05 NNZ =  3214424 SPT = 0.8282 Tsvd = 7.147 T = 15.440
+ Site =    36 /    76 .. Mmpo =  4371 DW = 1.57e-09 Error = 3.97e-05 NNZ =  3263318 SPT = 0.8284 Tsvd = 7.129 T = 15.665
+ Site =    37 /    76 .. Mmpo =  4382 DW = 1.56e-09 Error = 3.95e-05 NNZ =  3290558 SPT = 0.8282 Tsvd = 6.905 T = 15.515
+ Site =    38 /    76 .. Mmpo =  4376 DW = 1.53e-09 Error = 3.92e-05 NNZ =  3303887 SPT = 0.8277 Tsvd = 6.899 T = 15.566
+ Site =    39 /    76 .. Mmpo =  4352 DW = 1.51e-09 Error = 3.88e-05 NNZ =  3242250 SPT = 0.8298 Tsvd = 6.737 T = 15.726
+ Site =    40 /    76 .. Mmpo =  4269 DW = 1.49e-09 Error = 3.86e-05 NNZ =  3148696 SPT = 0.8305 Tsvd = 6.443 T = 15.221
+ Site =    41 /    76 .. Mmpo =  4141 DW = 1.36e-09 Error = 3.69e-05 NNZ =  3020806 SPT = 0.8291 Tsvd = 5.890 T = 14.266
+ Site =    42 /    76 .. Mmpo =  4022 DW = 1.27e-09 Error = 3.56e-05 NNZ =  2829573 SPT = 0.8301 Tsvd = 5.450 T = 13.364
+ Site =    43 /    76 .. Mmpo =  3909 DW = 1.15e-09 Error = 3.40e-05 NNZ =  2683245 SPT = 0.8293 Tsvd = 6.607 T = 14.160
+ Site =    44 /    76 .. Mmpo =  3785 DW = 1.00e-09 Error = 3.16e-05 NNZ =  2507473 SPT = 0.8305 Tsvd = 4.332 T = 11.631
+ Site =    45 /    76 .. Mmpo =  3635 DW = 7.98e-10 Error = 2.82e-05 NNZ =  2313311 SPT = 0.8319 Tsvd = 3.573 T = 10.448
+ Site =    46 /    76 .. Mmpo =  3464 DW = 6.23e-10 Error = 2.50e-05 NNZ =  2119394 SPT = 0.8317 Tsvd = 3.012 T = 9.444
+ Site =    47 /    76 .. Mmpo =  3298 DW = 4.37e-10 Error = 2.09e-05 NNZ =  1914516 SPT = 0.8324 Tsvd = 2.830 T = 8.746
+ Site =    48 /    76 .. Mmpo =  3114 DW = 3.33e-10 Error = 1.82e-05 NNZ =  1723718 SPT = 0.8322 Tsvd = 2.147 T = 7.579
+ Site =    49 /    76 .. Mmpo =  2927 DW = 2.02e-10 Error = 1.42e-05 NNZ =  1536207 SPT = 0.8315 Tsvd = 1.773 T = 6.730
+ Site =    50 /    76 .. Mmpo =  2730 DW = 1.54e-10 Error = 1.24e-05 NNZ =  1346579 SPT = 0.8315 Tsvd = 1.484 T = 5.940
+ Site =    51 /    76 .. Mmpo =  2546 DW = 5.45e-11 Error = 7.38e-06 NNZ =  1175637 SPT = 0.8309 Tsvd = 1.303 T = 6.643
+ Site =    52 /    76 .. Mmpo =  2359 DW = 2.47e-11 Error = 4.97e-06 NNZ =  1020539 SPT = 0.8301 Tsvd = 0.979 T = 5.612
+ Site =    53 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 7.24e-14 NNZ =   877902 SPT = 0.8291 Tsvd = 0.760 T = 4.767
+ Site =    54 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 9.25e-14 NNZ =   748982 SPT = 0.8282 Tsvd = 0.626 T = 4.041
+ Site =    55 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 3.05e-14 NNZ =   635386 SPT = 0.8269 Tsvd = 0.526 T = 3.433
+ Site =    56 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 5.29e-14 NNZ =   536086 SPT = 0.8254 Tsvd = 0.384 T = 2.847
+ Site =    57 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 6.87e-14 NNZ =   449645 SPT = 0.8235 Tsvd = 0.275 T = 2.346
+ Site =    58 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 4.21e-14 NNZ =   373445 SPT = 0.8219 Tsvd = 0.215 T = 1.917
+ Site =    59 /    76 .. Mmpo =  1242 DW = 0.00e+00 Error = 8.76e-14 NNZ =   310579 SPT = 0.8185 Tsvd = 0.201 T = 1.646
+ Site =    60 /    76 .. Mmpo =  1114 DW = 0.00e+00 Error = 3.77e-14 NNZ =   255467 SPT = 0.8154 Tsvd = 0.102 T = 1.262
+ Site =    61 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 1.85e-14 NNZ =   209291 SPT = 0.8110 Tsvd = 0.073 T = 1.015
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 1.53e-13 NNZ =   169881 SPT = 0.8062 Tsvd = 0.053 T = 0.807
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 4.38e-14 NNZ =   136893 SPT = 0.8005 Tsvd = 0.038 T = 0.646
+ Site =    64 /    76 .. Mmpo =   682 DW = 3.20e-29 Error = 6.96e-14 NNZ =   108909 SPT = 0.7947 Tsvd = 0.028 T = 0.480
+ Site =    65 /    76 .. Mmpo =   594 DW = 0.00e+00 Error = 4.12e-14 NNZ =    86560 SPT = 0.7863 Tsvd = 0.019 T = 0.356
+ Site =    66 /    76 .. Mmpo =   514 DW = 0.00e+00 Error = 9.05e-14 NNZ =    68670 SPT = 0.7751 Tsvd = 0.014 T = 0.262
+ Site =    67 /    76 .. Mmpo =   442 DW = 0.00e+00 Error = 5.77e-14 NNZ =    53809 SPT = 0.7632 Tsvd = 0.009 T = 0.174
+ Site =    68 /    76 .. Mmpo =   374 DW = 1.95e-11 Error = 4.41e-06 NNZ =    41669 SPT = 0.7479 Tsvd = 0.007 T = 0.113
+ Site =    69 /    76 .. Mmpo =   304 DW = 4.88e-11 Error = 6.99e-06 NNZ =    30685 SPT = 0.7301 Tsvd = 0.005 T = 0.075
+ Site =    70 /    76 .. Mmpo =   230 DW = 5.56e-11 Error = 7.46e-06 NNZ =    20014 SPT = 0.7138 Tsvd = 0.003 T = 0.046
+ Site =    71 /    76 .. Mmpo =   162 DW = 3.01e-11 Error = 5.48e-06 NNZ =    10934 SPT = 0.7065 Tsvd = 0.001 T = 0.025
+ Site =    72 /    76 .. Mmpo =    92 DW = 2.48e-34 Error = 5.78e-14 NNZ =     4550 SPT = 0.6947 Tsvd = 0.000 T = 0.011
+ Site =    73 /    76 .. Mmpo =    42 DW = 2.37e-34 Error = 2.87e-14 NNZ =     1127 SPT = 0.7083 Tsvd = 0.000 T = 0.003
+ Site =    74 /    76 .. Mmpo =    14 DW = 3.58e-34 Error = 2.67e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 3.35e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    442.002 Tsvd-total = 136.335 MPO bond dimension =  4382 MaxDW = 1.57e-09 Total error = 1.52e-04
+NNZ =     78527826 SIZE =    461635501 SPT = 0.8299
+
+Rank =     0 Ttotal =    442.624 MPO method = FastBlockedSVD bond dimension =    4382 NNZ =     78527826 SIZE =    461635501 SPT = 0.8299
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.00
+ INIT-L --> Site =    2 ..  Bmem = 12.8 KB Rmem = 12.8 KB T = 0.01
+ INIT-L --> Site =    3 ..  Bmem =  365 KB Rmem =  318 KB T = 0.71
+ INIT-L --> Site =    4 ..  Bmem = 7.49 MB Rmem = 5.46 MB T = 0.05
+ INIT-L --> Site =    5 ..  Bmem = 99.0 MB Rmem = 62.5 MB T = 0.17
+ INIT-L --> Site =    6 ..  Bmem = 0.98 GB Rmem =  255 MB T = 0.63
+ INIT-L --> Site =    7 ..  Bmem = 3.93 GB Rmem =  668 MB T = 2.46
+ INIT-L --> Site =    8 ..  Bmem = 10.3 GB Rmem = 1.50 GB T = 6.39
+ INIT-L --> Site =    9 ..  Bmem = 22.9 GB Rmem = 1.79 GB T = 12.52
+ INIT-L --> Site =   10 ..  Bmem = 27.1 GB Rmem = 2.00 GB T = 16.20
+ INIT-L --> Site =   11 ..  Bmem = 30.4 GB Rmem = 2.25 GB T = 18.94
+ INIT-L --> Site =   12 ..  Bmem = 34.1 GB Rmem = 2.54 GB T = 22.78
+ INIT-L --> Site =   13 ..  Bmem = 38.4 GB Rmem = 2.90 GB T = 27.34
+ INIT-L --> Site =   14 ..  Bmem = 43.6 GB Rmem = 3.29 GB T = 33.33
+ INIT-L --> Site =   15 ..  Bmem = 49.2 GB Rmem = 3.75 GB T = 41.35
+ INIT-L --> Site =   16 ..  Bmem = 55.9 GB Rmem = 4.19 GB T = 52.17
+ INIT-L --> Site =   17 ..  Bmem = 62.0 GB Rmem = 4.61 GB T = 63.50
+ INIT-L --> Site =   18 ..  Bmem = 67.9 GB Rmem = 5.01 GB T = 73.57
+ INIT-L --> Site =   19 ..  Bmem = 73.8 GB Rmem = 5.46 GB T = 86.69
+ INIT-L --> Site =   20 ..  Bmem = 80.3 GB Rmem = 6.06 GB T = 102.22
+ INIT-L --> Site =   21 ..  Bmem = 88.7 GB Rmem = 6.70 GB T = 123.04
+ INIT-L --> Site =   22 ..  Bmem = 97.8 GB Rmem = 6.96 GB T = 145.30
+ INIT-L --> Site =   23 ..  Bmem =  102 GB Rmem = 7.56 GB T = 165.01
+ INIT-L --> Site =   24 ..  Bmem =  110 GB Rmem = 8.19 GB T = 195.37
+ INIT-L --> Site =   25 ..  Bmem =  119 GB Rmem = 9.04 GB T = 229.40
+ INIT-L --> Site =   26 ..  Bmem =  131 GB Rmem = 9.56 GB T = 271.74
+ INIT-L --> Site =   27 ..  Bmem =  139 GB Rmem = 9.31 GB T = 305.34
+ INIT-L --> Site =   28 ..  Bmem =  136 GB Rmem = 9.36 GB T = 326.00
+ INIT-L --> Site =   29 ..  Bmem =  138 GB Rmem = 9.86 GB T = 349.91
+ INIT-L --> Site =   30 ..  Bmem =  144 GB Rmem = 10.8 GB T = 389.49
+ INIT-L --> Site =   31 ..  Bmem =  157 GB Rmem = 12.3 GB T = 459.67
+ INIT-L --> Site =   32 ..  Bmem =  175 GB Rmem = 12.9 GB T = 530.57
+ INIT-L --> Site =   33 ..  Bmem =  182 GB Rmem = 13.2 GB T = 567.77
+ INIT-L --> Site =   34 ..  Bmem =  184 GB Rmem = 13.2 GB T = 612.74
+ INIT-L --> Site =   35 ..  Bmem =  186 GB Rmem = 13.4 GB T = 617.80
+ INIT-L --> Site =   36 ..  Bmem =  186 GB Rmem = 13.5 GB T = 666.59
+ INIT-L --> Site =   37 ..  Bmem =  186 GB Rmem = 13.6 GB T = 683.21
+ INIT-L --> Site =   38 ..  Bmem =  187 GB Rmem = 14.1 GB T = 684.84
+ INIT-L --> Site =   39 ..  Bmem =  192 GB Rmem = 14.4 GB T = 726.44
+ INIT-L --> Site =   40 ..  Bmem =  195 GB Rmem = 14.5 GB T = 737.15
+ INIT-L --> Site =   41 ..  Bmem =  193 GB Rmem = 14.7 GB T = 736.04
+ INIT-L --> Site =   42 ..  Bmem =  192 GB Rmem = 14.8 GB T = 723.91
+ INIT-L --> Site =   43 ..  Bmem =  191 GB Rmem = 14.8 GB T = 702.69
+ INIT-L --> Site =   44 ..  Bmem =  191 GB Rmem = 15.1 GB T = 699.42
+ INIT-L --> Site =   45 ..  Bmem =  192 GB Rmem = 14.2 GB T = 665.02
+ INIT-L --> Site =   46 ..  Bmem =  179 GB Rmem = 13.3 GB T = 601.10
+ INIT-L --> Site =   47 ..  Bmem =  166 GB Rmem = 12.9 GB T = 546.73
+ INIT-L --> Site =   48 ..  Bmem =  161 GB Rmem = 12.0 GB T = 500.65
+ INIT-L --> Site =   49 ..  Bmem =  148 GB Rmem = 11.3 GB T = 402.54
+ INIT-L --> Site =   50 ..  Bmem =  140 GB Rmem = 10.5 GB T = 348.68
+ INIT-L --> Site =   51 ..  Bmem =  129 GB Rmem = 9.65 GB T = 297.04
+ INIT-L --> Site =   52 ..  Bmem =  119 GB Rmem = 8.89 GB T = 256.03
+ INIT-L --> Site =   53 ..  Bmem =  109 GB Rmem = 8.22 GB T = 219.85
+ INIT-L --> Site =   54 ..  Bmem =  100 GB Rmem = 7.71 GB T = 188.20
+ INIT-L --> Site =   55 ..  Bmem = 93.4 GB Rmem = 6.87 GB T = 162.04
+ INIT-L --> Site =   56 ..  Bmem = 83.4 GB Rmem = 6.21 GB T = 134.33
+ INIT-L --> Site =   57 ..  Bmem = 75.2 GB Rmem = 5.62 GB T = 112.33
+ INIT-L --> Site =   58 ..  Bmem = 67.9 GB Rmem = 4.94 GB T = 92.41
+ INIT-L --> Site =   59 ..  Bmem = 60.1 GB Rmem = 4.47 GB T = 74.48
+ INIT-L --> Site =   60 ..  Bmem = 54.2 GB Rmem = 3.92 GB T = 61.89
+ INIT-L --> Site =   61 ..  Bmem = 47.6 GB Rmem = 3.46 GB T = 49.78
+ INIT-L --> Site =   62 ..  Bmem = 42.0 GB Rmem = 3.08 GB T = 40.30
+ INIT-L --> Site =   63 ..  Bmem = 37.2 GB Rmem = 2.70 GB T = 32.79
+ INIT-L --> Site =   64 ..  Bmem = 32.5 GB Rmem = 2.31 GB T = 26.08
+ INIT-L --> Site =   65 ..  Bmem = 27.8 GB Rmem = 2.05 GB T = 20.92
+ INIT-L --> Site =   66 ..  Bmem = 24.5 GB Rmem = 1.81 GB T = 16.64
+ INIT-L --> Site =   67 ..  Bmem = 21.3 GB Rmem = 1.54 GB T = 13.47
+ INIT-L --> Site =   68 ..  Bmem = 18.1 GB Rmem = 1.32 GB T = 10.85
+ INIT-L --> Site =   69 ..  Bmem = 15.2 GB Rmem = 1.24 GB T = 8.74
+ INIT-L --> Site =   70 ..  Bmem = 13.3 GB Rmem =  964 MB T = 7.11
+ INIT-L --> Site =   71 ..  Bmem = 9.34 GB Rmem =  175 MB T = 3.83
+ INIT-L --> Site =   72 ..  Bmem = 1.50 GB Rmem = 23.7 MB T = 0.50
+ INIT-L --> Site =   73 ..  Bmem =  162 MB Rmem = 2.69 MB T = 0.05
+ INIT-L --> Site =   74 ..  Bmem = 13.9 MB Rmem =  443 KB T = 0.01
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.00
+Time init sweep =    17105.079 | MaxBmem =  195 GB | MaxRmem = 14.5 GB
+ | Tread = 0.000 | Twrite = 605.827 | Tfpread = 0.000 | Tfpwrite = 605.605 | data = 489 GB | cpsd = 381 GB | Tasync = 0.000
+
+1e-11         -22140.111911327898270
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+mpo terms =   16985266
+
+Build MPO | Nsites =    76 | Nterms =   16985266 | Algorithm = FastBlockedSVD | Cutoff = 1.00e-12 | Max bond dimension =    -1
+ Site =     0 /    76 .. Mmpo =    14 DW = 5.96e-38 Error = 3.56e-15 NNZ =       14 SPT = 0.0000 Tsvd = 0.011 T = 0.738
+ Site =     1 /    76 .. Mmpo =    42 DW = 1.22e-35 Error = 4.62e-15 NNZ =      165 SPT = 0.7194 Tsvd = 0.048 T = 1.770
+ Site =     2 /    76 .. Mmpo =    92 DW = 1.11e-35 Error = 1.53e-14 NNZ =     1127 SPT = 0.7083 Tsvd = 0.048 T = 2.130
+ Site =     3 /    76 .. Mmpo =   170 DW = 4.56e-36 Error = 3.47e-14 NNZ =     4963 SPT = 0.6827 Tsvd = 0.043 T = 2.438
+ Site =     4 /    76 .. Mmpo =   246 DW = 5.88e-12 Error = 2.42e-06 NNZ =    12837 SPT = 0.6930 Tsvd = 0.059 T = 2.729
+ Site =     5 /    76 .. Mmpo =   312 DW = 3.17e-12 Error = 1.78e-06 NNZ =    22015 SPT = 0.7132 Tsvd = 0.075 T = 2.886
+ Site =     6 /    76 .. Mmpo =   374 DW = 2.15e-12 Error = 1.47e-06 NNZ =    30932 SPT = 0.7349 Tsvd = 0.099 T = 3.168
+ Site =     7 /    76 .. Mmpo =   442 DW = 0.00e+00 Error = 9.17e-15 NNZ =    41043 SPT = 0.7517 Tsvd = 0.125 T = 3.397
+ Site =     8 /    76 .. Mmpo =   514 DW = 0.00e+00 Error = 1.84e-14 NNZ =    52603 SPT = 0.7685 Tsvd = 0.153 T = 3.626
+ Site =     9 /    76 .. Mmpo =   594 DW = 4.66e-29 Error = 4.97e-14 NNZ =    66652 SPT = 0.7817 Tsvd = 0.187 T = 3.782
+ Site =    10 /    76 .. Mmpo =   682 DW = 0.00e+00 Error = 4.86e-14 NNZ =    84053 SPT = 0.7925 Tsvd = 0.232 T = 3.941
+ Site =    11 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 2.46e-14 NNZ =   105323 SPT = 0.8015 Tsvd = 0.254 T = 4.086
+ Site =    12 /    76 .. Mmpo =   882 DW = 0.00e+00 Error = 4.49e-14 NNZ =   131713 SPT = 0.8081 Tsvd = 0.283 T = 4.259
+ Site =    13 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 4.34e-14 NNZ =   163684 SPT = 0.8133 Tsvd = 0.335 T = 4.455
+ Site =    14 /    76 .. Mmpo =  1114 DW = 4.03e-29 Error = 5.24e-14 NNZ =   201557 SPT = 0.8180 Tsvd = 0.372 T = 4.576
+ Site =    15 /    76 .. Mmpo =  1242 DW = 3.84e-29 Error = 5.24e-14 NNZ =   248515 SPT = 0.8204 Tsvd = 0.480 T = 4.780
+ Site =    16 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 2.22e-14 NNZ =   301837 SPT = 0.8236 Tsvd = 0.479 T = 4.929
+ Site =    17 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 5.54e-14 NNZ =   359937 SPT = 0.8284 Tsvd = 0.542 T = 5.108
+ Site =    18 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 7.04e-14 NNZ =   432869 SPT = 0.8301 Tsvd = 0.652 T = 5.328
+ Site =    19 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 6.96e-14 NNZ =   516036 SPT = 0.8319 Tsvd = 0.739 T = 5.561
+ Site =    20 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 2.05e-14 NNZ =   612652 SPT = 0.8331 Tsvd = 0.893 T = 5.870
+ Site =    21 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 2.63e-14 NNZ =   721970 SPT = 0.8344 Tsvd = 1.033 T = 6.191
+ Site =    22 /    76 .. Mmpo =  2362 DW = 0.00e+00 Error = 6.42e-14 NNZ =   844291 SPT = 0.8359 Tsvd = 1.263 T = 6.610
+ Site =    23 /    76 .. Mmpo =  2554 DW = 0.00e+00 Error = 8.41e-14 NNZ =   991590 SPT = 0.8356 Tsvd = 1.549 T = 7.137
+ Site =    24 /    76 .. Mmpo =  2754 DW = 0.00e+00 Error = 8.04e-14 NNZ =  1170901 SPT = 0.8335 Tsvd = 1.767 T = 7.669
+ Site =    25 /    76 .. Mmpo =  2962 DW = 0.00e+00 Error = 6.15e-14 NNZ =  1358119 SPT = 0.8335 Tsvd = 2.019 T = 8.212
+ Site =    26 /    76 .. Mmpo =  3178 DW = 0.00e+00 Error = 3.75e-14 NNZ =  1556308 SPT = 0.8347 Tsvd = 2.380 T = 8.887
+ Site =    27 /    76 .. Mmpo =  3402 DW = 0.00e+00 Error = 6.62e-14 NNZ =  1808772 SPT = 0.8327 Tsvd = 3.102 T = 9.951
+ Site =    28 /    76 .. Mmpo =  3633 DW = 9.92e-13 Error = 9.96e-07 NNZ =  2066853 SPT = 0.8328 Tsvd = 3.406 T = 10.467
+ Site =    29 /    76 .. Mmpo =  3872 DW = 9.49e-13 Error = 9.74e-07 NNZ =  2372486 SPT = 0.8313 Tsvd = 3.947 T = 11.449
+ Site =    30 /    76 .. Mmpo =  4114 DW = 5.08e-12 Error = 2.25e-06 NNZ =  2703708 SPT = 0.8303 Tsvd = 4.773 T = 12.766
+ Site =    31 /    76 .. Mmpo =  4352 DW = 1.43e-11 Error = 3.78e-06 NNZ =  3048503 SPT = 0.8297 Tsvd = 7.214 T = 15.807
+ Site =    32 /    76 .. Mmpo =  4582 DW = 2.70e-11 Error = 5.20e-06 NNZ =  3360915 SPT = 0.8315 Tsvd = 6.745 T = 16.051
+ Site =    33 /    76 .. Mmpo =  4778 DW = 5.42e-11 Error = 7.36e-06 NNZ =  3748044 SPT = 0.8288 Tsvd = 8.920 T = 18.965
+ Site =    34 /    76 .. Mmpo =  4945 DW = 7.94e-11 Error = 8.91e-06 NNZ =  4000546 SPT = 0.8307 Tsvd = 9.032 T = 19.648
+ Site =    35 /    76 .. Mmpo =  5059 DW = 1.08e-10 Error = 1.04e-05 NNZ =  4306809 SPT = 0.8278 Tsvd = 9.296 T = 20.504
+ Site =    36 /    76 .. Mmpo =  5116 DW = 1.32e-10 Error = 1.15e-05 NNZ =  4456873 SPT = 0.8278 Tsvd = 9.970 T = 21.559
+ Site =    37 /    76 .. Mmpo =  5131 DW = 1.32e-10 Error = 1.15e-05 NNZ =  4528140 SPT = 0.8275 Tsvd = 9.580 T = 21.423
+ Site =    38 /    76 .. Mmpo =  5097 DW = 1.27e-10 Error = 1.13e-05 NNZ =  4513445 SPT = 0.8274 Tsvd = 9.922 T = 21.942
+ Site =    39 /    76 .. Mmpo =  5010 DW = 1.21e-10 Error = 1.10e-05 NNZ =  4348342 SPT = 0.8297 Tsvd = 9.555 T = 21.568
+ Site =    40 /    76 .. Mmpo =  4876 DW = 1.00e-10 Error = 1.00e-05 NNZ =  4150444 SPT = 0.8301 Tsvd = 8.098 T = 20.046
+ Site =    41 /    76 .. Mmpo =  4682 DW = 8.49e-11 Error = 9.22e-06 NNZ =  3908029 SPT = 0.8288 Tsvd = 7.258 T = 18.806
+ Site =    42 /    76 .. Mmpo =  4502 DW = 5.81e-11 Error = 7.62e-06 NNZ =  3586409 SPT = 0.8299 Tsvd = 6.318 T = 16.994
+ Site =    43 /    76 .. Mmpo =  4306 DW = 3.47e-11 Error = 5.89e-06 NNZ =  3311361 SPT = 0.8292 Tsvd = 9.133 T = 19.222
+ Site =    44 /    76 .. Mmpo =  4093 DW = 1.53e-11 Error = 3.91e-06 NNZ =  2983485 SPT = 0.8307 Tsvd = 4.713 T = 14.081
+ Site =    45 /    76 .. Mmpo =  3862 DW = 7.67e-12 Error = 2.77e-06 NNZ =  2652862 SPT = 0.8322 Tsvd = 3.807 T = 12.363
+ Site =    46 /    76 .. Mmpo =  3630 DW = 1.49e-12 Error = 1.22e-06 NNZ =  2353277 SPT = 0.8321 Tsvd = 3.166 T = 11.026
+ Site =    47 /    76 .. Mmpo =  3400 DW = 1.60e-12 Error = 1.26e-06 NNZ =  2065298 SPT = 0.8327 Tsvd = 2.947 T = 10.084
+ Site =    48 /    76 .. Mmpo =  3178 DW = 0.00e+00 Error = 3.08e-14 NNZ =  1810140 SPT = 0.8325 Tsvd = 2.159 T = 8.560
+ Site =    49 /    76 .. Mmpo =  2962 DW = 0.00e+00 Error = 3.93e-14 NNZ =  1582069 SPT = 0.8319 Tsvd = 1.767 T = 7.452
+ Site =    50 /    76 .. Mmpo =  2754 DW = 0.00e+00 Error = 2.73e-14 NNZ =  1372853 SPT = 0.8317 Tsvd = 1.464 T = 6.478
+ Site =    51 /    76 .. Mmpo =  2554 DW = 0.00e+00 Error = 3.11e-14 NNZ =  1188265 SPT = 0.8311 Tsvd = 1.295 T = 5.689
+ Site =    52 /    76 .. Mmpo =  2362 DW = 0.00e+00 Error = 6.83e-14 NNZ =  1022711 SPT = 0.8305 Tsvd = 0.954 T = 4.754
+ Site =    53 /    76 .. Mmpo =  2178 DW = 0.00e+00 Error = 4.21e-14 NNZ =   876623 SPT = 0.8296 Tsvd = 0.723 T = 4.000
+ Site =    54 /    76 .. Mmpo =  2002 DW = 0.00e+00 Error = 4.23e-14 NNZ =   751042 SPT = 0.8278 Tsvd = 0.595 T = 3.399
+ Site =    55 /    76 .. Mmpo =  1834 DW = 0.00e+00 Error = 3.99e-14 NNZ =   638469 SPT = 0.8261 Tsvd = 0.521 T = 2.894
+ Site =    56 /    76 .. Mmpo =  1674 DW = 0.00e+00 Error = 3.90e-14 NNZ =   538396 SPT = 0.8246 Tsvd = 0.354 T = 2.369
+ Site =    57 /    76 .. Mmpo =  1522 DW = 0.00e+00 Error = 8.62e-14 NNZ =   451027 SPT = 0.8230 Tsvd = 0.267 T = 1.966
+ Site =    58 /    76 .. Mmpo =  1378 DW = 0.00e+00 Error = 5.95e-14 NNZ =   374372 SPT = 0.8215 Tsvd = 0.206 T = 1.611
+ Site =    59 /    76 .. Mmpo =  1242 DW = 0.00e+00 Error = 2.64e-14 NNZ =   311278 SPT = 0.8181 Tsvd = 0.206 T = 1.393
+ Site =    60 /    76 .. Mmpo =  1114 DW = 0.00e+00 Error = 3.35e-14 NNZ =   255811 SPT = 0.8151 Tsvd = 0.101 T = 1.065
+ Site =    61 /    76 .. Mmpo =   994 DW = 0.00e+00 Error = 6.05e-14 NNZ =   209168 SPT = 0.8111 Tsvd = 0.073 T = 0.857
+ Site =    62 /    76 .. Mmpo =   882 DW = 3.26e-29 Error = 6.47e-14 NNZ =   169432 SPT = 0.8067 Tsvd = 0.053 T = 0.677
+ Site =    63 /    76 .. Mmpo =   778 DW = 0.00e+00 Error = 3.30e-14 NNZ =   136861 SPT = 0.8006 Tsvd = 0.038 T = 0.529
+ Site =    64 /    76 .. Mmpo =   682 DW = 3.20e-29 Error = 6.40e-14 NNZ =   108567 SPT = 0.7954 Tsvd = 0.028 T = 0.407
+ Site =    65 /    76 .. Mmpo =   594 DW = 0.00e+00 Error = 3.26e-14 NNZ =    86379 SPT = 0.7868 Tsvd = 0.019 T = 0.304
+ Site =    66 /    76 .. Mmpo =   514 DW = 0.00e+00 Error = 6.21e-14 NNZ =    68411 SPT = 0.7759 Tsvd = 0.014 T = 0.218
+ Site =    67 /    76 .. Mmpo =   442 DW = 0.00e+00 Error = 6.12e-14 NNZ =    53776 SPT = 0.7633 Tsvd = 0.009 T = 0.151
+ Site =    68 /    76 .. Mmpo =   378 DW = 0.00e+00 Error = 6.25e-14 NNZ =    41974 SPT = 0.7488 Tsvd = 0.007 T = 0.102
+ Site =    69 /    76 .. Mmpo =   316 DW = 3.50e-12 Error = 1.87e-06 NNZ =    32323 SPT = 0.7294 Tsvd = 0.005 T = 0.072
+ Site =    70 /    76 .. Mmpo =   244 DW = 4.36e-12 Error = 2.09e-06 NNZ =    22597 SPT = 0.7069 Tsvd = 0.003 T = 0.048
+ Site =    71 /    76 .. Mmpo =   168 DW = 1.28e-12 Error = 1.13e-06 NNZ =    12565 SPT = 0.6935 Tsvd = 0.001 T = 0.026
+ Site =    72 /    76 .. Mmpo =    92 DW = 2.66e-34 Error = 2.58e-14 NNZ =     4863 SPT = 0.6854 Tsvd = 0.000 T = 0.010
+ Site =    73 /    76 .. Mmpo =    42 DW = 4.02e-34 Error = 2.89e-14 NNZ =     1127 SPT = 0.7083 Tsvd = 0.000 T = 0.003
+ Site =    74 /    76 .. Mmpo =    14 DW = 2.93e-34 Error = 5.85e-14 NNZ =      165 SPT = 0.7194 Tsvd = 0.000 T = 0.001
+ Site =    75 /    76 .. Mmpo =     1 DW = 0.00e+00 Error = 3.78e-14 NNZ =       14 SPT = 0.0000 Tsvd = 0.000 T = 0.000
+Ttotal =    524.024 Tsvd-total = 167.880 MPO bond dimension =  5131 MaxDW = 1.32e-10 Total error = 3.36e-05
+NNZ =     92429585 SIZE =    542059264 SPT = 0.8295
+
+Rank =     0 Ttotal =    524.370 MPO method = FastBlockedSVD bond dimension =    5131 NNZ =     92429585 SIZE =    542059264 SPT = 0.8295
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem =   384 B Rmem =   384 B T = 0.00
+ INIT-L --> Site =    2 ..  Bmem = 12.8 KB Rmem = 12.8 KB T = 0.15
+ INIT-L --> Site =    3 ..  Bmem =  365 KB Rmem =  318 KB T = 0.45
+ INIT-L --> Site =    4 ..  Bmem = 7.59 MB Rmem = 5.54 MB T = 0.08
+ INIT-L --> Site =    5 ..  Bmem =  104 MB Rmem = 65.6 MB T = 0.17
+ INIT-L --> Site =    6 ..  Bmem = 1.04 GB Rmem =  271 MB T = 0.69
+ INIT-L --> Site =    7 ..  Bmem = 4.11 GB Rmem =  699 MB T = 2.71
+ INIT-L --> Site =    8 ..  Bmem = 10.4 GB Rmem = 1.52 GB T = 6.64
+ INIT-L --> Site =    9 ..  Bmem = 23.0 GB Rmem = 1.80 GB T = 12.45
+ INIT-L --> Site =   10 ..  Bmem = 27.1 GB Rmem = 2.00 GB T = 15.99
+ INIT-L --> Site =   11 ..  Bmem = 30.4 GB Rmem = 2.25 GB T = 18.69
+ INIT-L --> Site =   12 ..  Bmem = 34.1 GB Rmem = 2.54 GB T = 22.71
+ INIT-L --> Site =   13 ..  Bmem = 38.4 GB Rmem = 2.90 GB T = 27.81
+ INIT-L --> Site =   14 ..  Bmem = 43.6 GB Rmem = 3.29 GB T = 34.26
+ INIT-L --> Site =   15 ..  Bmem = 49.2 GB Rmem = 3.75 GB T = 42.19
+ INIT-L --> Site =   16 ..  Bmem = 55.9 GB Rmem = 4.19 GB T = 53.19
+ INIT-L --> Site =   17 ..  Bmem = 62.0 GB Rmem = 4.61 GB T = 64.65
+ INIT-L --> Site =   18 ..  Bmem = 67.9 GB Rmem = 5.02 GB T = 75.60
+ INIT-L --> Site =   19 ..  Bmem = 74.8 GB Rmem = 5.52 GB T = 87.88
+ INIT-L --> Site =   20 ..  Bmem = 82.1 GB Rmem = 6.18 GB T = 103.65
+ INIT-L --> Site =   21 ..  Bmem = 90.7 GB Rmem = 6.83 GB T = 124.92
+ INIT-L --> Site =   22 ..  Bmem = 99.9 GB Rmem = 7.09 GB T = 148.81
+ INIT-L --> Site =   23 ..  Bmem =  104 GB Rmem = 7.71 GB T = 166.95
+ INIT-L --> Site =   24 ..  Bmem =  113 GB Rmem = 8.34 GB T = 195.69
+ INIT-L --> Site =   25 ..  Bmem =  122 GB Rmem = 9.21 GB T = 232.83
+ INIT-L --> Site =   26 ..  Bmem =  134 GB Rmem = 9.75 GB T = 277.27
+ INIT-L --> Site =   27 ..  Bmem =  142 GB Rmem = 9.53 GB T = 309.91
+ INIT-L --> Site =   28 ..  Bmem =  140 GB Rmem = 9.64 GB T = 344.10
+ INIT-L --> Site =   29 ..  Bmem =  143 GB Rmem = 10.2 GB T = 361.99
+ INIT-L --> Site =   30 ..  Bmem =  151 GB Rmem = 11.3 GB T = 413.83
+ INIT-L --> Site =   31 ..  Bmem =  167 GB Rmem = 13.1 GB T = 491.50
+ INIT-L --> Site =   32 ..  Bmem =  190 GB Rmem = 13.9 GB T = 593.63
+ INIT-L --> Site =   33 ..  Bmem =  201 GB Rmem = 14.5 GB T = 666.46
+ INIT-L --> Site =   34 ..  Bmem =  208 GB Rmem = 15.0 GB T = 756.04
+ INIT-L --> Site =   35 ..  Bmem =  213 GB Rmem = 15.3 GB T = 786.63
+ INIT-L --> Site =   36 ..  Bmem =  217 GB Rmem = 15.6 GB T = 876.44
+ INIT-L --> Site =   37 ..  Bmem =  218 GB Rmem = 15.9 GB T = 919.02
+ INIT-L --> Site =   38 ..  Bmem =  219 GB Rmem = 16.5 GB T = 938.15
+ INIT-L --> Site =   39 ..  Bmem =  223 GB Rmem = 16.7 GB T = 980.04
+ INIT-L --> Site =   40 ..  Bmem =  224 GB Rmem = 16.7 GB T = 970.05
+ INIT-L --> Site =   41 ..  Bmem =  221 GB Rmem = 16.8 GB T = 945.54
+ INIT-L --> Site =   42 ..  Bmem =  217 GB Rmem = 16.7 GB T = 940.83
+ INIT-L --> Site =   43 ..  Bmem =  214 GB Rmem = 16.6 GB T = 892.62
+ INIT-L --> Site =   44 ..  Bmem =  210 GB Rmem = 16.7 GB T = 853.23
+ INIT-L --> Site =   45 ..  Bmem =  208 GB Rmem = 15.3 GB T = 801.54
+ INIT-L --> Site =   46 ..  Bmem =  190 GB Rmem = 14.1 GB T = 700.00
+ INIT-L --> Site =   47 ..  Bmem =  174 GB Rmem = 13.5 GB T = 610.32
+ INIT-L --> Site =   48 ..  Bmem =  165 GB Rmem = 12.3 GB T = 544.60
+ INIT-L --> Site =   49 ..  Bmem =  151 GB Rmem = 11.5 GB T = 463.05
+ INIT-L --> Site =   50 ..  Bmem =  141 GB Rmem = 10.6 GB T = 407.14
+ INIT-L --> Site =   51 ..  Bmem =  129 GB Rmem = 9.72 GB T = 350.33
+ INIT-L --> Site =   52 ..  Bmem =  119 GB Rmem = 8.91 GB T = 301.34
+ INIT-L --> Site =   53 ..  Bmem =  109 GB Rmem = 8.23 GB T = 252.29
+ INIT-L --> Site =   54 ..  Bmem =  100 GB Rmem = 7.71 GB T = 222.79
+ INIT-L --> Site =   55 ..  Bmem = 93.4 GB Rmem = 6.87 GB T = 196.38
+ INIT-L --> Site =   56 ..  Bmem = 83.4 GB Rmem = 6.21 GB T = 161.46
+ INIT-L --> Site =   57 ..  Bmem = 75.2 GB Rmem = 5.62 GB T = 134.43
+ INIT-L --> Site =   58 ..  Bmem = 67.9 GB Rmem = 4.94 GB T = 113.72
+ INIT-L --> Site =   59 ..  Bmem = 60.1 GB Rmem = 4.47 GB T = 90.82
+ INIT-L --> Site =   60 ..  Bmem = 54.2 GB Rmem = 3.92 GB T = 76.54
+ INIT-L --> Site =   61 ..  Bmem = 47.6 GB Rmem = 3.46 GB T = 62.18
+ INIT-L --> Site =   62 ..  Bmem = 42.0 GB Rmem = 3.08 GB T = 49.70
+ INIT-L --> Site =   63 ..  Bmem = 37.2 GB Rmem = 2.70 GB T = 40.93
+ INIT-L --> Site =   64 ..  Bmem = 32.5 GB Rmem = 2.31 GB T = 32.48
+ INIT-L --> Site =   65 ..  Bmem = 27.8 GB Rmem = 2.05 GB T = 26.09
+ INIT-L --> Site =   66 ..  Bmem = 24.5 GB Rmem = 1.81 GB T = 20.83
+ INIT-L --> Site =   67 ..  Bmem = 21.3 GB Rmem = 1.54 GB T = 16.75
+ INIT-L --> Site =   68 ..  Bmem = 18.1 GB Rmem = 1.32 GB T = 13.58
+ INIT-L --> Site =   69 ..  Bmem = 15.4 GB Rmem = 1.26 GB T = 11.38
+ INIT-L --> Site =   70 ..  Bmem = 13.9 GB Rmem = 0.98 GB T = 9.58
+ INIT-L --> Site =   71 ..  Bmem = 9.93 GB Rmem =  186 MB T = 5.96
+ INIT-L --> Site =   72 ..  Bmem = 1.55 GB Rmem = 24.6 MB T = 0.59
+ INIT-L --> Site =   73 ..  Bmem =  162 MB Rmem = 2.69 MB T = 0.06
+ INIT-L --> Site =   74 ..  Bmem = 13.9 MB Rmem =  443 KB T = 0.01
+ INIT-L --> Site =   75 ..  Bmem = 1.55 MB Rmem = 44.1 KB T = 0.00
+Time init sweep =    20473.663 | MaxBmem =  224 GB | MaxRmem = 16.7 GB
+ | Tread = 0.000 | Twrite = 639.349 | Tfpread = 0.000 | Tfpwrite = 638.785 | data = 521 GB | cpsd = 404 GB | Tasync = 0.000
+
+1e-12         -22140.111911388925364
+integral symmetrize error =  0.0
+integral cutoff error =  0.0
+Rank =     0 Ttotal =      0.792 MPO method = Conventional bond dimension =    8818 NNZ =     13726966 SIZE =   1217091040 SPT = 0.9887
+Environment initialization | Nsites =    76 | Center =    75
+ INIT-L --> Site =    1 ..  Bmem = 2.52 KB Rmem = 2.52 KB T = 0.00
+ INIT-L --> Site =    2 ..  Bmem = 32.1 KB Rmem = 32.1 KB T = 0.14
+ INIT-L --> Site =    3 ..  Bmem =  442 KB Rmem =  387 KB T = 0.54
+ INIT-L --> Site =    4 ..  Bmem = 5.45 MB Rmem = 4.00 MB T = 0.24
+ INIT-L --> Site =    5 ..  Bmem = 58.9 MB Rmem = 37.3 MB T = 0.83
+ INIT-L --> Site =    6 ..  Bmem =  555 MB Rmem =  142 MB T = 2.56
+ INIT-L --> Site =    7 ..  Bmem = 2.09 GB Rmem =  356 MB T = 5.43
+ INIT-L --> Site =    8 ..  Bmem = 5.24 GB Rmem =  785 MB T = 10.87
+ INIT-L --> Site =    9 ..  Bmem = 11.5 GB Rmem =  927 MB T = 16.13
+ INIT-L --> Site =   10 ..  Bmem = 13.6 GB Rmem = 1.01 GB T = 17.22
+ INIT-L --> Site =   11 ..  Bmem = 15.2 GB Rmem = 1.13 GB T = 18.56
+ INIT-L --> Site =   12 ..  Bmem = 17.1 GB Rmem = 1.27 GB T = 20.85
+ INIT-L --> Site =   13 ..  Bmem = 19.2 GB Rmem = 1.45 GB T = 22.22
+ INIT-L --> Site =   14 ..  Bmem = 21.9 GB Rmem = 1.65 GB T = 23.53
+ INIT-L --> Site =   15 ..  Bmem = 24.7 GB Rmem = 1.89 GB T = 24.03
+ INIT-L --> Site =   16 ..  Bmem = 28.0 GB Rmem = 2.11 GB T = 27.56
+ INIT-L --> Site =   17 ..  Bmem = 31.1 GB Rmem = 2.31 GB T = 29.48
+ INIT-L --> Site =   18 ..  Bmem = 34.0 GB Rmem = 2.52 GB T = 31.02
+ INIT-L --> Site =   19 ..  Bmem = 37.0 GB Rmem = 2.74 GB T = 31.85
+ INIT-L --> Site =   20 ..  Bmem = 40.2 GB Rmem = 3.04 GB T = 31.96
+ INIT-L --> Site =   21 ..  Bmem = 44.4 GB Rmem = 3.36 GB T = 36.32
+ INIT-L --> Site =   22 ..  Bmem = 49.0 GB Rmem = 3.49 GB T = 36.45
+ INIT-L --> Site =   23 ..  Bmem = 51.0 GB Rmem = 3.79 GB T = 38.58
+ INIT-L --> Site =   24 ..  Bmem = 55.3 GB Rmem = 4.10 GB T = 40.22
+ INIT-L --> Site =   25 ..  Bmem = 59.7 GB Rmem = 4.53 GB T = 43.94
+ INIT-L --> Site =   26 ..  Bmem = 65.7 GB Rmem = 4.80 GB T = 43.32
+ INIT-L --> Site =   27 ..  Bmem = 69.9 GB Rmem = 4.69 GB T = 46.47
+ INIT-L --> Site =   28 ..  Bmem = 69.1 GB Rmem = 4.75 GB T = 48.25
+ INIT-L --> Site =   29 ..  Bmem = 70.2 GB Rmem = 5.02 GB T = 50.85
+ INIT-L --> Site =   30 ..  Bmem = 74.4 GB Rmem = 5.58 GB T = 51.88
+ INIT-L --> Site =   31 ..  Bmem = 82.2 GB Rmem = 6.46 GB T = 56.88
+ INIT-L --> Site =   32 ..  Bmem = 93.9 GB Rmem = 6.90 GB T = 60.62
+ INIT-L --> Site =   33 ..  Bmem =  100 GB Rmem = 7.24 GB T = 60.84
+ INIT-L --> Site =   34 ..  Bmem =  105 GB Rmem = 7.55 GB T = 62.75
+ INIT-L --> Site =   35 ..  Bmem =  110 GB Rmem = 7.89 GB T = 64.72
+ INIT-L --> Site =   36 ..  Bmem =  115 GB Rmem = 8.29 GB T = 69.22
+ INIT-L --> Site =   37 ..  Bmem =  120 GB Rmem = 8.76 GB T = 72.80
+ INIT-L --> Site =   38 ..  Bmem =  127 GB Rmem = 18.9 GB T = 1893.39
+ INIT-L --> Site =   39 ..  Bmem =  124 GB Rmem = 9.28 GB T = 37.96
+ INIT-L --> Site =   40 ..  Bmem =  120 GB Rmem = 8.96 GB T = 38.14
+ INIT-L --> Site =   41 ..  Bmem =  115 GB Rmem = 8.77 GB T = 38.39
+ INIT-L --> Site =   42 ..  Bmem =  111 GB Rmem = 8.60 GB T = 36.77
+ INIT-L --> Site =   43 ..  Bmem =  108 GB Rmem = 8.41 GB T = 37.16
+ INIT-L --> Site =   44 ..  Bmem =  105 GB Rmem = 8.35 GB T = 35.72
+ INIT-L --> Site =   45 ..  Bmem =  103 GB Rmem = 7.61 GB T = 32.88
+ INIT-L --> Site =   46 ..  Bmem = 93.7 GB Rmem = 6.99 GB T = 31.24
+ INIT-L --> Site =   47 ..  Bmem = 85.9 GB Rmem = 6.67 GB T = 31.52
+ INIT-L --> Site =   48 ..  Bmem = 81.4 GB Rmem = 6.05 GB T = 28.41
+ INIT-L --> Site =   49 ..  Bmem = 74.1 GB Rmem = 5.68 GB T = 28.51
+ INIT-L --> Site =   50 ..  Bmem = 69.3 GB Rmem = 5.21 GB T = 24.63
+ INIT-L --> Site =   51 ..  Bmem = 63.6 GB Rmem = 4.79 GB T = 25.05
+ INIT-L --> Site =   52 ..  Bmem = 58.3 GB Rmem = 4.39 GB T = 23.36
+ INIT-L --> Site =   53 ..  Bmem = 53.3 GB Rmem = 4.05 GB T = 21.50
+ INIT-L --> Site =   54 ..  Bmem = 49.0 GB Rmem = 3.79 GB T = 19.78
+ INIT-L --> Site =   55 ..  Bmem = 45.7 GB Rmem = 3.37 GB T = 18.44
+ INIT-L --> Site =   56 ..  Bmem = 40.8 GB Rmem = 3.04 GB T = 17.38
+ INIT-L --> Site =   57 ..  Bmem = 36.7 GB Rmem = 2.76 GB T = 15.54
+ INIT-L --> Site =   58 ..  Bmem = 33.1 GB Rmem = 2.42 GB T = 15.41
+ INIT-L --> Site =   59 ..  Bmem = 29.3 GB Rmem = 2.19 GB T = 13.87
+ INIT-L --> Site =   60 ..  Bmem = 26.4 GB Rmem = 1.91 GB T = 12.44
+ INIT-L --> Site =   61 ..  Bmem = 23.1 GB Rmem = 1.69 GB T = 11.78
+ INIT-L --> Site =   62 ..  Bmem = 20.4 GB Rmem = 1.50 GB T = 11.32
+ INIT-L --> Site =   63 ..  Bmem = 18.0 GB Rmem = 1.32 GB T = 10.87
+ INIT-L --> Site =   64 ..  Bmem = 15.8 GB Rmem = 1.12 GB T = 9.73
+ INIT-L --> Site =   65 ..  Bmem = 13.4 GB Rmem = 0.99 GB T = 8.24
+ INIT-L --> Site =   66 ..  Bmem = 11.8 GB Rmem =  895 MB T = 6.94
+ INIT-L --> Site =   67 ..  Bmem = 10.3 GB Rmem =  764 MB T = 7.36
+ INIT-L --> Site =   68 ..  Bmem = 8.71 GB Rmem =  653 MB T = 5.34
+ INIT-L --> Site =   69 ..  Bmem = 7.38 GB Rmem =  621 MB T = 4.67
+ INIT-L --> Site =   70 ..  Bmem = 6.83 GB Rmem =  495 MB T = 3.87
+ INIT-L --> Site =   71 ..  Bmem = 5.44 GB Rmem =  103 MB T = 2.80
+ INIT-L --> Site =   72 ..  Bmem = 1.12 GB Rmem = 17.9 MB T = 1.04
+ INIT-L --> Site =   73 ..  Bmem =  197 MB Rmem = 3.28 MB T = 0.47
+ INIT-L --> Site =   74 ..  Bmem = 35.1 MB Rmem = 1.09 MB T = 0.07
+ INIT-L --> Site =   75 ..  Bmem = 11.2 MB Rmem =  256 KB T = 0.03
+Time init sweep =     3761.170 | MaxBmem =  127 GB | MaxRmem = 18.9 GB
+ | Tread = 0.000 | Twrite = 344.654 | Tfpread = 0.000 | Tfpwrite = 344.506 | data = 294 GB | cpsd = 205 GB | Tasync = 0.000
+
+0         -22140.111911366620916
